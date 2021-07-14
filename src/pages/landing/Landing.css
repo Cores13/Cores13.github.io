@@ -47,6 +47,7 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
     width: 200px;
     margin: 20px;
     margin-right: 3rem;
+    margin-left: 3rem;
 }
 .titleName {
     margin-bottom: 10px;
