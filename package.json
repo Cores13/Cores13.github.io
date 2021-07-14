@@ -1,7 +1,8 @@
 {
   "name": "cores13.github.io",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "http://cores13.github.io",
+  "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-regular-svg-icons": "^5.15.3",
@@ -50,6 +51,7 @@
   "devDependencies": {
     "@types/react-mdl": "^1.7.28",
     "@types/react-router-dom": "^5.1.8",
+    "gh-pages": "^3.2.3",
     "react-router-dom": "^5.2.0"
   }
 }
