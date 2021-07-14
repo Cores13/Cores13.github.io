@@ -1,0 +1,108 @@
+/* ServQuick */
+/* background: #485563; 
+background: -webkit-linear-gradient(to right, #29323c, #485563); 
+background: linear-gradient(to right, #29323c, #485563);  */
+
+/* Royal */
+/* background: #141E30; 
+background: -webkit-linear-gradient(to right, #243B55, #141E30); 
+background: linear-gradient(to right, #243B55, #141E30); */
+
+/* Moonlit Asteroid */
+/* background: #0F2027; 
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
+.wrapper {
+    display: flex;
+    padding-top: 7rem;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.landing {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background:rgba(40,44,52, 1);
+    border-radius: 15px;
+    margin: 0 auto;
+    border: 1px solid rgb(63, 63, 63);
+    /* padding: 10px; */
+}
+.landingTop {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background:linear-gradient(rgba(40,44,52, 0.7), rgba(40,44,52, 1)), url('../../images/bg.png');
+    background-repeat: repeat;
+    background-size:contain;
+    border-radius: 15px;
+    align-items: flex-start;
+}
+.avatar {
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    margin-right: 3rem;
+}
+.titleName {
+    margin-bottom: 10px;
+}
+.titleDev {
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 1.3rem;
+}
+.skillsWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.skillsWrapper hr {
+    width: 50%;
+}
+.skillsTitle {
+    margin-bottom: 5px;
+}
+.landingBottom {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.skillsIconWrapper {
+    font-size: 3rem;
+}
+.fa-html5, .fa-js-square, .fa-react, .fa-node-js, .fa-bootstrap, .fa-database {
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.fa-html5{
+    color: orangered;
+}
+.fa-js-square{
+    color: rgb(255, 238, 0);
+}
+.fa-react {
+    color: rgb(54, 171, 243);
+}
+.fa-node-js{
+    color: rgb(77, 189, 77);
+}
+.fa-bootstrap{
+    color: rgb(206, 12, 206);
+}
+.fa-database{
+    color: lightgrey;
+}
+.socialWrapper {
+    font-size: 4rem;
+}
+.fa-github-square, .fa-linkedin, .fa-free-code-camp {
+    padding: 25px;
+    /* font-size: 4rem; */
+}
