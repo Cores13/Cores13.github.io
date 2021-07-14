@@ -74,9 +74,35 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
     flex-direction: column;
     padding: 15px;
 }
+.skillsIconWrapper {
+    font-size: 3rem;
+}
+.fa-html5, .fa-js-square, .fa-react, .fa-node-js, .fa-bootstrap, .fa-database {
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.fa-html5{
+    color: orangered;
+}
+.fa-js-square{
+    color: rgb(255, 238, 0);
+}
+.fa-react {
+    color: rgb(54, 171, 243);
+}
+.fa-node-js{
+    color: rgb(77, 189, 77);
+}
+.fa-bootstrap{
+    color: rgb(206, 12, 206);
+}
+.fa-database{
+    color: lightgrey;
+}
 .socialWrapper {
+    font-size: 4rem;
 }
 .fa-github-square, .fa-linkedin, .fa-free-code-camp {
     padding: 25px;
-    font-size: 4rem;
+    /* font-size: 4rem; */
 }
