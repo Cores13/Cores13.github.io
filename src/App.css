@@ -6,16 +6,21 @@
 * {
   color: white;
 }
+::-webkit-scrollbar {
+  width: 0; 
+  display: none;
+  background: transparent;
+}
 body {
   height: 100%;
-  /* background: #0F2027;
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
-  background: #2C3E50;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background: #2C3E50; 
+  background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50); 
+  background: linear-gradient(to right, #4CA1AF, #2C3E50); 
   overflow-y: scroll;
   overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 html {
   overflow-y: scroll;

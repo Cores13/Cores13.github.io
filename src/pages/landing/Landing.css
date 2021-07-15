@@ -148,27 +148,24 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
 .fa-github, .fa-linkedin, .fa-free-code-camp {
     color: darkgrey;
     margin: 25px;
-}
-.fa-github:hover, .fa-linkedin:hover, .fa-free-code-camp:hover {
-    color: #211F1F;
-    transform: scale(1.07);
-    transition: all 0.7s;
-}
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
 
+}
 .fa-github:hover {
     color: white;
     transform: scale(1.07);
-    transition: all 0.7s;
 }
 .fa-linkedin:hover {
     color: #0e76a8;
     transform: scale(1.07);
-    transition: all 0.7s;
 }
 .fa-free-code-camp:hover {
     color: #3949ab;
     transform: scale(1.07);
-    transition: all 0.7s;
 }
 
 @media (max-width: 1030px){
@@ -268,7 +265,7 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
     }
     .landingTop {
         flex-direction: column;
-        background:linear-gradient(rgba(40,44,52, 0.4), rgb(39,43,51, 1)), url('../../images/bg.jpg');
+        background:linear-gradient(rgba(40,44,52, 0.4), rgba(38,41,49, 1)), url('../../images/bg.jpg');
         background-repeat: no-repeat;
     }
     .avatar {
