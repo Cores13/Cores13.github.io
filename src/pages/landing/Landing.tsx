@@ -51,7 +51,6 @@ export const Landing: React.FC = () =>{
                             <h3 className="skillsTitle">Full Stack Junior Web Developer</h3>
                             <hr/>
                             <div className="skillsIconWrapper">
-                                {/* TODO: SIZE */}
                                 <i className="fab fa-html5" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-delay="700"></i>
                                 <i className="fab fa-js-square" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-delay="800"></i>
                                 <i className="fab fa-react" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-delay="900"></i>

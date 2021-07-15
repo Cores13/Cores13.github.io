@@ -27,9 +27,10 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    background:linear-gradient(rgba(40,44,52, 0.4), rgba(40,44,52, 1)), url('../../images/bg.jpg');
-    background-repeat: repeat;
-    background-size:contain;
+    background:linear-gradient(rgba(40,44,52, 0.4), rgba(40,44,52, 1)), url('../../images/bg.gif');
+    background-repeat: no-repeat;
+    background-size:fill;
+    background-position: center;
     border-radius: 15px;
     align-items: center;
     justify-content: flex-start;
