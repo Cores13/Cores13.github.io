@@ -3,8 +3,22 @@ import './Resume.css'
 
 export const Resume: React.FC = () =>{
     return (
-        <div>
-            <h1>Resume</h1>
-        </div>
+        <>
+            <div className='bg-color' >
+                <div className='wrapper'>
+                    <div className="myInfo">
+                        
+                    </div>
+                    <div className="resume">
+                        <div className="resumeTop">
+                            <h1 className='resumeTitle'>Resume</h1>
+                        </div>
+                        <div className="resumeBottom">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     )
 }
