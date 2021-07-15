@@ -6,9 +6,6 @@ export const Resume: React.FC = () =>{
         <>
             <div className='bg-color' >
                 <div className='wrapper'>
-                    <div className="myInfo">
-                        
-                    </div>
                     <div className="resume">
                         <div className="resumeTop">
                             <h1 className='resumeTitle'>Resume</h1>
