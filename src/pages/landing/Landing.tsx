@@ -1,11 +1,7 @@
 import React from 'react'
 import './Landing.css'
-// import { Grid, Cell } from 'react-mdl';
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { fas } from '@fortawesome/free-solid-svg-icons'
-// import { far } from '@fortawesome/free-regular-svg-icons'
-// import { fab } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import {Link, Redirect} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 
 export const Landing: React.FC = () =>{
     return (
@@ -38,9 +34,9 @@ export const Landing: React.FC = () =>{
                             </div>
                             <p className="skills">HTML/CSS | Javascript | Typescript | React | Redux | NodeJS | Express | Bootstrap | MongoDB | MySQL</p>
                             <div className="socialWrapper">
-                                <i className="fab fa-github-square"></i>
-                                <i className="fab fa-linkedin"></i>
-                                <i className="fab fa-free-code-camp"></i>
+                                <a href="https://github.com/Cores13" target="_blank"><i className="fab fa-github-square"></i></a>
+                                <a href="https://ba.linkedin.com/in/amir-kasumovic-b02507163" target="_blank"><i className="fab fa-linkedin"></i></a>
+                                <a href="https://www.freecodecamp.org/fcc32976c45-726f-4a6f-a4e3-fc7756ea44c6" target="_blank"><i className="fab fa-free-code-camp"></i></a>
                             </div>
                         </div>
                     </div>
