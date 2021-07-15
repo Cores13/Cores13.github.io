@@ -12,11 +12,15 @@ background: linear-gradient(to right, #243B55, #141E30); */
 /* background: #0F2027; 
 background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
 background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
+.bg-color {
+    overflow-y: scroll;
+}
 .wrapper {
     display: flex;
     padding-top: 7rem;
     flex-direction: column;
     margin: 0 auto;
+    width: 60%;
 }
 .landing {
     display: flex;
@@ -27,20 +31,37 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
     border-radius: 15px;
     margin: 0 auto;
     border: 1px solid rgb(63, 63, 63);
-    /* padding: 10px; */
-    /* background: rgba(40,44,52, 1); */
-    background: -webkit-linear-gradient(0deg,  #414345 0%,  rgba(40,44,52, 1)50%);
-    background: linear-gradient(0deg,  #414345 0%, rgba(40,44,52, 1)50%); 
+    padding: 5px;
+    background: rgba(40,44,52, 1);
+    background: -webkit-linear-gradient(0deg,  #1a1a22 0%,  rgba(40,44,52, 1)50%);
+    background: linear-gradient(0deg,  #1a1a22 0%, rgba(40,44,52, 1)50%); 
+    -webkit-box-shadow: inset -1px 3px 3px 3px rgb(63, 63, 63), 2px 5px 16px 0px #0B325E, 0px 4px 15px 5px rgba(0,0,0,0); 
+    box-shadow: inset -1px 3px 3px 3px rgb(63, 63, 63), 2px 5px 16px 0px #0B325E, 0px 4px 15px 5px rgba(0,0,0,0);
 }
 .landingTop {
     display: flex;
     flex-direction: row;
     width: 100%;
-    background:linear-gradient(rgba(40,44,52, 0.7), rgba(40,44,52, 1)), url('../../images/bg.png');
+    background:linear-gradient(rgba(40,44,52, 0.4), rgba(40,44,52, 1)), url('../../images/bg.jpg');
     background-repeat: repeat;
     background-size:contain;
     border-radius: 15px;
+    align-items: center;
+    justify-content: flex-start;
+    border: none;
+}
+.landingTopLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landingTopRight {
+    display: flex;
+    flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    /* margin: 0 auto; */
 }
 .avatar {
     border-radius: 50%;
@@ -51,12 +72,15 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
     margin: 20px;
     margin-right: 3rem;
     margin-left: 3rem;
+    border: 1px solid grey;
 }
 .titleName {
     margin-bottom: 10px;
+    margin-top: 8px;
 }
 .titleDev {
-    margin: 10px;
+    /* margin: 10px; */
+    justify-self:flex-start;
     margin-left: 0;
     margin-right: 0;
     font-size: 1.3rem;
@@ -72,8 +96,6 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
 }
 .socialWrapper > a {
     text-decoration: none;
-    width: 50px;
-    height: 50px;
 }
 .skillsWrapper hr {
     width: 50%;
@@ -85,13 +107,22 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
     display: flex;
     flex-direction: column;
     padding: 15px;
+    border: none;
 }
 .skillsIconWrapper {
     font-size: 3rem;
 }
+.fa-database {
+    font-size: 2.8rem;
+}
 .fa-html5, .fa-js-square, .fa-react, .fa-node-js, .fa-bootstrap, .fa-database {
-    padding-left: 36px;
-    padding-right: 36px;
+    margin-left: 34px;
+    margin-right: 34px;
+}
+.fa-university, .fa-map-marker-alt, .fa-envelope, .fa-phone-alt {
+    font-size: 15px;
+    margin-right: 15px;
+    margin-left: 0;
 }
 .fa-html5{
     color: orangered;
@@ -114,6 +145,212 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
 .socialWrapper {
     font-size: 4rem;
 }
-.fa-github-square, .fa-linkedin, .fa-free-code-camp {
-    padding: 25px;
+.fa-github, .fa-linkedin, .fa-free-code-camp {
+    color: darkgrey;
+    margin: 25px;
+}
+.fa-github:hover, .fa-linkedin:hover, .fa-free-code-camp:hover {
+    color: #211F1F;
+    transform: scale(1.07);
+    transition: all 0.7s;
+}
+
+.fa-github:hover {
+    color: white;
+    transform: scale(1.07);
+    transition: all 0.7s;
+}
+.fa-linkedin:hover {
+    color: #0e76a8;
+    transform: scale(1.07);
+    transition: all 0.7s;
+}
+.fa-free-code-camp:hover {
+    color: #3949ab;
+    transform: scale(1.07);
+    transition: all 0.7s;
+}
+
+@media (max-width: 1030px){
+    .wrapper {
+        width: 70%;
+    }
+}
+@media (max-width: 770px){
+    .wrapper {
+        padding-top: 50px;
+        margin-right: 40px;
+        width: 80%;
+        margin-bottom: 70px;
+    }
+    .titleName {
+        font-size: 2.5rem;
+    }
+    .titleDev {
+        font-size: 1rem;
+    }
+    .skillsIconWrapper {
+        font-size: 2rem;
+    }
+    .fa-database {
+        font-size: 2rem;
+    }
+    .skills {
+        font-size: 0.75rem;
+    }
+    .fa-html5, .fa-js-square, .fa-react, .fa-node-js, .fa-bootstrap, .fa-database {
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+    .socialWrapper {
+        font-size: 3rem;
+    }
+    .avatar {
+        width: 150px;
+        height: 150px;
+    }
+}
+@media (max-width: 430px){
+    .wrapper {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+    .avatar {
+        margin-left: 1rem;
+        margin-right: 1.5rem;
+        width: 100px;
+        height: 100px;
+    }
+    .titleName {
+        font-size: 1.7rem;
+        margin-bottom: 5px;
+    }
+    .titleDev {
+        font-size: 0.7rem;
+        margin-bottom: 5px;
+    }
+    .skillsIconWrapper {
+        font-size: 1rem;
+    }
+    .fa-database {
+        font-size: 1rem;
+    }
+    .skillsTitle {
+        font-size: 1.5rem;
+    }
+    .skills {
+        font-size: 0.47rem;
+    }
+    .fa-html5, .fa-js-square, .fa-react, .fa-node-js, .fa-bootstrap, .fa-database {
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+    .socialWrapper {
+        font-size: 2rem;
+    }
+    .fa-university, .fa-map-marker-alt, .fa-envelope, .fa-phone-alt {
+        font-size: 12px;
+        margin-right: 15px;
+        margin-left: 0;
+    }
+    .fa-github, .fa-linkedin, .fa-free-code-camp {
+        margin: 25px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 380px){
+    .wrapper {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+    .landingTop {
+        flex-direction: column;
+        background:linear-gradient(rgba(40,44,52, 0.4), rgb(39,43,51, 1)), url('../../images/bg.jpg');
+        background-repeat: no-repeat;
+    }
+    .avatar {
+        margin-left: 1rem;
+        margin-right: 1.5rem;
+        margin-bottom: 10px;
+        width: 130px;
+        height: 130px;
+    }
+    .titleName {
+        font-size: 1.7rem;
+        margin-bottom: 5px;
+    }
+    .titleDev {
+        font-size: 0.7rem;
+        margin-bottom: 5px;
+    }
+    .landingBottom {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .skillsIconWrapper {
+        font-size: 1rem;
+    }
+    .fa-database {
+        font-size: 0.9rem;
+    }
+    .skillsTitle {
+        font-size: 1.3rem;
+    }
+    .skills {
+        font-size: 0.415rem;
+    }
+    .fa-html5, .fa-js-square, .fa-react, .fa-node-js, .fa-bootstrap, .fa-database {
+        margin-left: 18.5px;
+        margin-right: 18.5px;
+    }
+    .socialWrapper {
+        font-size: 2rem;
+    }
+    .fa-university, .fa-map-marker-alt, .fa-envelope, .fa-phone-alt {
+        font-size: 12px;
+        margin-right: 15px;
+        margin-left: 0;
+    }
+    .fa-github, .fa-linkedin, .fa-free-code-camp {
+        margin: 25px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 325px){
+    .skillsIconWrapper {
+        font-size: 1.3rem;
+    }
+    .fa-database {
+        font-size: 1.2rem;
+    }
+    .skillsTitle {
+        margin-top: 10px;
+        font-size: 1.1rem;
+    }
+    .skills {
+        font-size: 0.6rem;
+    }
+    .fa-html5, .fa-js-square, .fa-react, .fa-node-js, .fa-bootstrap, .fa-database {
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 8px;
+    }
+    .socialWrapper {
+        font-size: 2rem;
+    }
+    .fa-university, .fa-map-marker-alt, .fa-envelope, .fa-phone-alt {
+        font-size: 12px;
+        margin-right: 15px;
+        margin-left: 0;
+    }
+    .fa-github, .fa-linkedin, .fa-free-code-camp {
+        margin: 25px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
 }
