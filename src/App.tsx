@@ -13,6 +13,7 @@ function App() {
   return (
     <>
       <ParticlesBG />
+      {/* <Particles height="100vh" width="100vw" params={{particlesConfig}} className="particles"></Particles> */}
       <div className="App">
         <Router>
           <Navbar />
