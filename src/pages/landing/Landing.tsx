@@ -3,27 +3,8 @@ import './Landing.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import {useEffect} from 'react'
-// import { useDencrypt } from "use-dencrypt-effect";
-
-// const values = ["Full Stack Junior Web Developer"];
 
 export const Landing: React.FC = () =>{
-
-    // const { result, dencrypt } = useDencrypt();
-
-    // React.useEffect(() => {
-    //   let i = 0;
-  
-    //   const action = setInterval(() => {
-    //     dencrypt(values[i]);
-  
-    //     i = i === values.length - 1 ? 0 : i + 1;
-    //   }, 800);
-  
-    //   return () => clearInterval(action);
-    // }, []);
-
-
 
     useEffect (() => {
         Aos.init({})
