@@ -12,10 +12,10 @@ import {ParticlesBG} from './components/particles/ParticlesBG'
 function App() {
   return (
     <>
+      <ParticlesBG />
       <div className="App">
         <Router>
-          
-        <Navbar />
+          <Navbar />
           <Switch>
             <Route exact path="/">
               <Landing />
@@ -33,9 +33,8 @@ function App() {
               <ContactMe />
             </Route>
           </Switch>
-          <ParticlesBG /> 
-      </Router>
-    </div>
+        </Router>
+      </div>
     </>
   );
 }
