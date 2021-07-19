@@ -16,6 +16,8 @@ export const Resume: React.FC = () =>{
                             <p className="resumeInfo"><i className="fas fa-map-marker-alt"></i>Tuzla, Bosnia and Herzegovina</p>
                             <p className="resumeInfo"><i className="far fa-envelope"></i>amir.kasumovic@live.com</p>
                             <p className="resumeInfo"><i className="fas fa-phone-alt"></i>+387 61-248/126</p>
+                            <a className="resumeInfo" href="https://ba.linkedin.com/in/amir-kasumovic-b02507163" target="_blank" rel="noopener noreferrer"><i style={{color: "rgb(17, 190, 190)", margin: '0', marginRight: '15px'}} className="fab fa-linkedin"></i>LinkedIn</a>
+                            <a className="resumeInfo" href="https://github.com/Cores13" target="_blank" rel="noopener noreferrer"><i style={{color: "rgb(17, 190, 190)", margin: '0', marginRight: '15px'}} className="fab fa-github"></i>Github</a>
                         </div>
                         <div className="resumeRight">
                             <Timeline />

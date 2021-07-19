@@ -39,11 +39,9 @@
     justify-content: flex-start;
     align-items: flex-start;
     text-align: left;
-    /* margin: 0 auto; */
     padding-left: 25px;
     padding-right: 25px;
-    /* margin-right: 35px; */
-    /* margin-top: 6px; */
+    min-width: 285px;
     border-radius: 10px;
     background: rgba(40,44,52, 1);
     background: -webkit-linear-gradient(0deg,  #1a1a22 0%,rgba(40,44,52, 0.8)50%,  rgba(13, 131, 131, 0.2)100%);
@@ -62,10 +60,13 @@
     align-self: left;
 }
 .resumeInfo {
-    font-size: 1rem;
+    font-size: 1rem !important;
+    margin-bottom: 25px;
+    height: 24px;
 }
-.fas, .far {
+.fas, .far, .fab {
     color: rgb(17, 190, 190);
+    /* font-size: 1rem; */
 }
 .resumeRight {
     /* margin: 0 auto; */
