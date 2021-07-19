@@ -21,7 +21,7 @@ export const Landing: React.FC = () =>{
                         </div>
                         <div className="landingTopRight">
                             <h1 className="titleName">Amir Kasumović</h1>
-                            <p className="titleDev"><i className="fas fa-university"></i>Bachelor of Information Technology</p>
+                            <p className="titleDev"><i className="fas fa-university"></i>Engineer of Information Technology</p>
                             <p className="titleDev"><i className="fas fa-map-marker-alt"></i>Tuzla, Bosnia and Herzegovina</p>
                             <p className="titleDev"><i className="far fa-envelope"></i>amir.kasumovic@live.com</p>
                             <p className="titleDev"><i className="fas fa-phone-alt"></i>+387 61-248/126</p>

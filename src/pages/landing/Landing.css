@@ -7,6 +7,7 @@
     flex-direction: column;
     margin: 0 auto;
     width: 60%;
+    margin-bottom: 100px;
 }
 .landing {
     display: flex;
@@ -27,7 +28,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    background:linear-gradient(rgba(40,44,52, 0.4), rgba(40,44,52, 1)), url('../../images/bg.gif');
+    background:linear-gradient(rgba(40,44,52, 0.5), rgba(40,44,52, 1)), url('../../images/bg.gif');
     background-repeat: no-repeat;
     background-size:fill;
     background-position: center;

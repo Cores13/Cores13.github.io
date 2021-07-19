@@ -7,33 +7,48 @@
     flex-direction: column;
     margin: 0 auto;
     width: 60%;
+    margin-bottom: 100px;
 }
 .resume {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 100%;
     width: 100%;
     border-radius: 15px;
     margin: 0 auto;
     border: 1px solid rgb(63, 63, 63);
-    padding: 5px;
+    padding: 25px;
     background: rgba(40,44,52, 1);
     background: -webkit-linear-gradient(0deg,  #1a1a22 0%,  rgba(40,44,52, 1)50%);
     background: linear-gradient(0deg,  #1a1a22 0%, rgba(40,44,52, 1)50%); 
     -webkit-box-shadow: inset -1px 3px 3px 3px rgb(63, 63, 63), 2px 5px 16px 0px #0B325E, 0px 4px 15px 5px rgba(0,0,0,0); 
     box-shadow: inset -1px 3px 3px 3px rgb(63, 63, 63), 2px 5px 16px 0px #0B325E, 0px 4px 15px 5px rgba(0,0,0,0);
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    justify-content: space-between;
 }
-.resumeTop {
+.resumeLeft {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
-    width: 95%;
+    align-items: flex-start;
+    margin-left: 10px;
+    text-align: left;
 }
 .resumeTitle {
     justify-content: flex-start;
     align-items: left;
     text-align: left;
+    color: aqua;
 }
+.resumeInfoName {
+    align-self: left;
+}
+.resumeInfo {
+    font-size: 1rem;
+}
+.fas, .far {
+    color: rgb(17, 190, 190);
+}
+/* .resumeRight {
+
+} */

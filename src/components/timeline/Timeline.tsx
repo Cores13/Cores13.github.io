@@ -10,8 +10,7 @@ import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import SchoolIcon from '@material-ui/icons/School';
 import LaptopMacIcon from '@material-ui/icons/LaptopMac';
-import HotelIcon from '@material-ui/icons/Hotel';
-import RepeatIcon from '@material-ui/icons/Repeat';
+import CodeIcon from '@material-ui/icons/Code';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
@@ -38,7 +37,7 @@ export default function CustomTimeline() {
         </TimelineOppositeContent>
 
         <TimelineSeparator>
-          <TimelineDot>
+          <TimelineDot color="primary" variant="outlined">
             <SchoolIcon />
           </TimelineDot>
           <TimelineConnector />
@@ -64,7 +63,7 @@ export default function CustomTimeline() {
         </TimelineOppositeContent>
 
         <TimelineSeparator>
-          <TimelineDot color="primary">
+          <TimelineDot color="primary" variant="outlined">
             <SchoolIcon />
           </TimelineDot>
           <TimelineConnector />
@@ -75,7 +74,8 @@ export default function CustomTimeline() {
             <Typography variant="h6" component="h1">
               Engineer of Information Technology
             </Typography>
-            <Typography>American University in Bosnia and Herzegovina</Typography>
+            <Typography><strong>American University in Bosnia and Herzegovina</strong><br/>
+            Tuzla, Bosnia and Herzegovina</Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>
@@ -85,13 +85,13 @@ export default function CustomTimeline() {
       <TimelineItem>
         <TimelineOppositeContent>
           <Typography variant="body2" color="textSecondary">
-            Oct 2017 - Jul 2020
+            Oct 2018 - Jan 2019
           </Typography>
         </TimelineOppositeContent>
 
         <TimelineSeparator>
           <TimelineDot color="primary" variant="outlined">
-            <HotelIcon />
+            <LaptopMacIcon />
           </TimelineDot>
           <TimelineConnector className={classes.secondaryTail} />
         </TimelineSeparator>
@@ -99,9 +99,10 @@ export default function CustomTimeline() {
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h6" component="h1">
-              Comversum d.o.o.
+            Help Desk
             </Typography>
-            <Typography>Because you need rest</Typography>
+            <Typography><strong>American University in Bosnia and Herzegovina</strong><br/>
+            Tuzla, Bosnia and Herzegovina</Typography>
           </Paper>
         </TimelineContent>
 
@@ -112,22 +113,79 @@ export default function CustomTimeline() {
       <TimelineItem>
         <TimelineOppositeContent>
           <Typography variant="body2" color="textSecondary">
-            Oct 2017 - Jul 2020
+            Oct 2019 - Jul 2020
+          </Typography>
+        </TimelineOppositeContent>
+
+        <TimelineSeparator>
+          <TimelineDot color="primary" variant="outlined">
+            <LaptopMacIcon />
+          </TimelineDot>
+          <TimelineConnector className={classes.secondaryTail} />
+        </TimelineSeparator>
+
+        <TimelineContent>
+          <Paper elevation={3} className={classes.paper}>
+            <Typography variant="h6" component="h1">
+            System Administrator
+            </Typography>
+            <Typography><strong>Comversum</strong><br/>
+            Tuzla, Bosnia and Herzegovina</Typography>
+          </Paper>
+        </TimelineContent>
+
+      </TimelineItem>
+
+
+
+      <TimelineItem>
+        <TimelineOppositeContent>
+          <Typography variant="body2" color="textSecondary">
+            Aug 2020 - Nov 2020
+          </Typography>
+        </TimelineOppositeContent>
+
+        <TimelineSeparator>
+          <TimelineDot color="primary" variant="outlined">
+            <CodeIcon />
+          </TimelineDot>
+          <TimelineConnector className={classes.secondaryTail} />
+        </TimelineSeparator>
+
+        <TimelineContent>
+          <Paper elevation={3} className={classes.paper}>
+            <Typography variant="h6" component="h1">
+            Web Developer
+            </Typography>
+            <Typography><strong>Leftor</strong><br/>
+            Tuzla, Bosnia and Herzegovina</Typography>
+          </Paper>
+        </TimelineContent>
+
+      </TimelineItem>
+
+
+
+      <TimelineItem>
+        <TimelineOppositeContent>
+          <Typography variant="body2" color="textSecondary">
+            May 2021 - Now
           </Typography>
         </TimelineOppositeContent>
 
         <TimelineSeparator>
           <TimelineDot color="secondary">
-            <RepeatIcon />
+            <CodeIcon />
           </TimelineDot>
         </TimelineSeparator>
 
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h6" component="h1">
-              Repeat
+              Web Developer
             </Typography>
-            <Typography>Because this is the life you love!</Typography>
+            <Typography><strong>Ideaology</strong><br/>
+            Lukavac, Bosnia and Herzegovina</Typography>
           </Paper>
         </TimelineContent>
 
