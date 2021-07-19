@@ -23,8 +23,9 @@ export const HighSchool: React.FC<IProps> = ({page, setPage}) => {
                 <div><h4 className="schoolTitle">Mechanical High School</h4>
                     <h6 className="schoolTitle">Mixed High School, Banovići, Bosnia and Herzegovina</h6>
                     <p className="schoolInfo">As a child, I was good at math, phisycs and drawing, so I decided to apply for Mechanical High School.<br/>
-                    Finishing high school 
-                    This high school helped me learn math even better, which I can apply in programming today.</p>
+                    Finishing high school as a best student in the class is somethin I can brag about. <br/>
+                    This high school helped me learn math even better, which I can apply in programming today.<br/>
+                    However, I didn't find myself in mechanical engineering, so I decided to start a career in IT.</p>
                 </div>
             </div>
         </div>

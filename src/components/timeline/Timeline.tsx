@@ -77,7 +77,7 @@ export function CustomTimeline() {
               <Typography variant="h6" component="h1">
                 Mechanical High School
               </Typography>
-              <Typography>Mixed High School, Banovići, Bosnia and Herzegovina</Typography>
+              <Typography><strong>Mixed High School Banovići</strong><br/> Banovići, Bosnia and Herzegovina</Typography>
             </Paper>
             </button>
           </TimelineContent>
