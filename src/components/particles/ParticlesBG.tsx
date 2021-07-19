@@ -99,7 +99,7 @@ export const ParticlesBG: React.FC = () => {
 
               },
               repulse: {
-                distance: 200,
+                distance: 140,
                 duration: 0.4
               },
               push: {

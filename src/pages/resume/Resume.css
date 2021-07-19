@@ -22,4 +22,18 @@
     background: linear-gradient(0deg,  #1a1a22 0%, rgba(40,44,52, 1)50%); 
     -webkit-box-shadow: inset -1px 3px 3px 3px rgb(63, 63, 63), 2px 5px 16px 0px #0B325E, 0px 4px 15px 5px rgba(0,0,0,0); 
     box-shadow: inset -1px 3px 3px 3px rgb(63, 63, 63), 2px 5px 16px 0px #0B325E, 0px 4px 15px 5px rgba(0,0,0,0);
+    align-items: center;
+    justify-content: center;
+}
+.resumeTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 95%;
+}
+.resumeTitle {
+    justify-content: flex-start;
+    align-items: left;
+    text-align: left;
 }
