@@ -14,12 +14,14 @@ import LaptopMacIcon from '@material-ui/icons/LaptopMac';
 import CodeIcon from '@material-ui/icons/Code';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import HighSchool from '../highSchool/HighSchool';
+import {HighSchool} from '../highSchool/HighSchool';
 import University from '../university/University';
 import HelpDesk from '../helpDesk/HelpDesk';
 import Comversum from '../comversum/Comversum';
 import Leftor from '../leftor/Leftor';
 import Ideaology from '../ideaology/Ideaology';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -30,16 +32,26 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function CustomTimeline() {
-  const [page, setPage] = useState<String>();
-  const classes = useStyles();
+export interface IState {
+  page: string | undefined;
+}
 
+export function CustomTimeline() {
+  const [page, setPage] = useState<IState['page']>('home');
+  const classes = useStyles();
 
   useEffect(() => {
     setPage('home');
   }, []);
-
-
+  
+  useEffect (() => {
+    Aos.init({
+      startEvent: 'load',
+      once: false,
+    });
+    Aos.refresh();
+  }, [page]);
+  
   const project = () => {
     switch(page) {
 
@@ -220,7 +232,7 @@ export default function CustomTimeline() {
         </TimelineItem>
       </Timeline>
       </>);
-      case "highSchool":   return <HighSchool />;
+      case "highSchool":   return <HighSchool page={page} setPage={setPage}/>;
       case "university": return <University />;
       case "helpDesk":  return <HelpDesk />;
       case "comversum":  return <Comversum />;
@@ -237,6 +249,6 @@ export default function CustomTimeline() {
   }
 
   return (
-    <div>{ project() }</div>
+    <div data-aos='flip-left' data-aos-duration="700" data-aos-easing="linear">{ project() }</div>
   );
 }

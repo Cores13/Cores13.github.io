@@ -1,11 +1,12 @@
 import React from 'react'
 import './Resume.css'
-import {default as Timeline} from '../../components/timeline/Timeline'
+import {CustomTimeline as Timeline} from '../../components/timeline/Timeline'
 
 export const Resume: React.FC = () =>{
     return (
         <>
             <div className='bg-color' >
+                {/* Width: 1177 Height: 805 */}
                 <div className='wrapper'>
                     <div className="resume">
                         <div className="resumeLeft">

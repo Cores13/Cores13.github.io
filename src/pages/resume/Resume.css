@@ -7,11 +7,15 @@
     flex-direction: column;
     margin: 0 auto;
     width: 60%;
+    min-width: 1177px;
+    min-height: 805px;
     margin-bottom: 100px;
 }
 .resume {
     display: flex;
     flex-direction: row;
+    min-width: 1177px;
+    min-height: 805px;
     height: 100%;
     width: 100%;
     border-radius: 15px;
@@ -27,7 +31,7 @@
     -webkit-box-shadow: inset -1px 3px 3px 3px rgb(63, 63, 63), 2px 5px 16px 0px #0B325E, 0px 4px 15px 5px rgba(0,0,0,0); 
     box-shadow: inset -1px 3px 3px 3px rgb(63, 63, 63), 2px 5px 16px 0px #0B325E, 0px 4px 15px 5px rgba(0,0,0,0);
     /* align-items: center; */
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 .resumeLeft {
     display: flex;
@@ -35,9 +39,10 @@
     justify-content: flex-start;
     align-items: flex-start;
     text-align: left;
+    /* margin: 0 auto; */
     padding-left: 25px;
     padding-right: 25px;
-    /* margin-left: 2px; */
+    /* margin-right: 35px; */
     /* margin-top: 6px; */
     border-radius: 10px;
     background: rgba(40,44,52, 1);
@@ -63,7 +68,10 @@
     color: rgb(17, 190, 190);
 }
 .resumeRight {
+    /* margin: 0 auto; */
+    margin-left: 25px;
     margin-top: 25px;
+    width: 100%;
 }
 .resumeTab {
     background: none;

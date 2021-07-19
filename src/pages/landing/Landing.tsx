@@ -1,8 +1,7 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './Landing.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import {useEffect} from 'react'
 
 export const Landing: React.FC = () =>{
 
@@ -12,8 +11,7 @@ export const Landing: React.FC = () =>{
 
     return (
         <div className='bg-color' >
-            <div className='wrapper' data-aos='zoom-in' data-aos-duration="700" data-aos-easing="linear"
->
+            <div className='wrapper' data-aos='zoom-in' data-aos-duration="700" data-aos-easing="linear">
                 <div className="landing">
                     <div className="landingTop">
                         <div className="landingTopLeft">
