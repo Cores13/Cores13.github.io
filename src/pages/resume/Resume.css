@@ -41,14 +41,16 @@
     /* margin-top: 6px; */
     border-radius: 10px;
     background: rgba(40,44,52, 1);
-    background: -webkit-linear-gradient(0deg,  #1a1a22 0%,rgba(40,44,52, 1)50%,  rgba(13, 131, 131, 0.2)100%);
-    background: linear-gradient(0deg,  #1a1a22 0%,rgba(40,44,52, 1)50%, rgba(17, 190, 190, 0.2)100%); 
+    background: -webkit-linear-gradient(0deg,  #1a1a22 0%,rgba(40,44,52, 0.8)50%,  rgba(13, 131, 131, 0.2)100%);
+    background-image: linear-gradient(0deg,  #1a1a22 0%,rgba(40,44,52, 0.7)50%,rgba(40,44,52, 0.8)80%, rgba(17, 190, 190, 0.1)100%), url('../../images/resumeBg.jpg'); 
+    background-size: cover;
+    background-position: center top;
 }
 .resumeTitle {
     justify-content: flex-start;
     align-items: left;
     text-align: left;
-    color: aqua;
+    color: white;
 }
 .resumeInfoName {
     align-self: left;
