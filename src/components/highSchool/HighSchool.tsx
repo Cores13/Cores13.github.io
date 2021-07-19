@@ -1,6 +1,7 @@
-import React, { ReactElement } from 'react';
+import React from 'react';
 import './HighSchool.css';
 import {IState as Props} from '../timeline/Timeline';
+import KeyboardBackspaceIcon from '@material-ui/icons/KeyboardBackspace';
 
 interface IProps {
     page: Props['page'];
@@ -14,14 +15,16 @@ export const HighSchool: React.FC<IProps> = ({page, setPage}) => {
     }
     return (
         <div className="highSchool">
-            <div className="hightSchoolTop">
-                <h1 className="highSchoolTitle">HighSchool</h1>
-                <button className="back" onClick={handleClick}>BACK</button>
+            <div className="highSchoolTop">
+                <h1 className="highSchoolTitle">High School</h1>
+                <button className="back" onClick={handleClick}><KeyboardBackspaceIcon className='backIco' fontSize="large" /></button>
             </div>
             <div className="highSchoolBottom">
-                <div><h4 className="schoolTitle">Mechanical Hight School</h4>
-                    <h6 className="schoolTitle">Mixed Hight School, Banovići, Bosnia and Herzegovina</h6>
-                    <p className="schoolInfo">As a child, I was good at math, phisycs and drawing, so I decided to finish Mechanical Hight School.</p>
+                <div><h4 className="schoolTitle">Mechanical High School</h4>
+                    <h6 className="schoolTitle">Mixed High School, Banovići, Bosnia and Herzegovina</h6>
+                    <p className="schoolInfo">As a child, I was good at math, phisycs and drawing, so I decided to apply for Mechanical High School.<br/>
+                    Finishing high school 
+                    This high school helped me learn math even better, which I can apply in programming today.</p>
                 </div>
             </div>
         </div>

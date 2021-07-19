@@ -11,7 +11,7 @@ export const Resume: React.FC = () =>{
                     <div className="resume">
                         <div className="resumeLeft">
                             <h1 className='resumeTitle'>Resume</h1><br></br>
-                            <h4 className='resumeInfoName'>Amir Kasumović</h4>
+                            <h3 className='resumeInfoName'>Amir Kasumović</h3>
                             <p className="resumeInfo"><i className="fas fa-university"></i>Engineer of Information Technology</p>
                             <p className="resumeInfo"><i className="fas fa-map-marker-alt"></i>Tuzla, Bosnia and Herzegovina</p>
                             <p className="resumeInfo"><i className="far fa-envelope"></i>amir.kasumovic@live.com</p>

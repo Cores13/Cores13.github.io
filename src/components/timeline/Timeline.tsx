@@ -15,11 +15,11 @@ import CodeIcon from '@material-ui/icons/Code';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import {HighSchool} from '../highSchool/HighSchool';
-import University from '../university/University';
-import HelpDesk from '../helpDesk/HelpDesk';
-import Comversum from '../comversum/Comversum';
-import Leftor from '../leftor/Leftor';
-import Ideaology from '../ideaology/Ideaology';
+import {University} from '../university/University';
+import {HelpDesk} from '../helpDesk/HelpDesk';
+import {Comversum} from '../comversum/Comversum';
+import {Leftor} from '../leftor/Leftor';
+import {Ideaology} from '../ideaology/Ideaology';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
@@ -75,9 +75,9 @@ export function CustomTimeline() {
             <button className="resumeTab" name="highSchool" onClick={(e) => handlePage(e)}>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" component="h1">
-                Mechanical Hight School
+                Mechanical High School
               </Typography>
-              <Typography>Mixed Hight School, Banovići, Bosnia and Herzegovina</Typography>
+              <Typography>Mixed High School, Banovići, Bosnia and Herzegovina</Typography>
             </Paper>
             </button>
           </TimelineContent>
@@ -233,11 +233,11 @@ export function CustomTimeline() {
       </Timeline>
       </>);
       case "highSchool":   return <HighSchool page={page} setPage={setPage}/>;
-      case "university": return <University />;
-      case "helpDesk":  return <HelpDesk />;
-      case "comversum":  return <Comversum />;
-      case "leftor":  return <Leftor />;
-      case "ideaology":  return <Ideaology />;
+      case "university": return <University page={page} setPage={setPage}/>;
+      case "helpDesk":  return <HelpDesk page={page} setPage={setPage}/>;
+      case "comversum":  return <Comversum page={page} setPage={setPage}/>;
+      case "leftor":  return <Leftor page={page} setPage={setPage}/>;
+      case "ideaology":  return <Ideaology page={page} setPage={setPage}/>;
       default:      
         return <h1>No project match</h1>
     }
