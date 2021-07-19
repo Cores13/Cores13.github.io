@@ -51,6 +51,7 @@
     align-items: left;
     text-align: left;
     color: white;
+    text-shadow: 2px 2px #F10D73;
 }
 .resumeInfoName {
     align-self: left;
@@ -63,4 +64,10 @@
 }
 .resumeRight {
     margin-top: 25px;
+}
+.resumeTab {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
