@@ -22,7 +22,7 @@ import {Leftor} from '../leftor/Leftor';
 import {Ideaology} from '../ideaology/Ideaology';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import ReactDOM from "react-dom";
+import ReactCardFlip from 'react-card-flip'
 
 const useStyles = makeStyles((theme) => ({
   
@@ -34,15 +34,23 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+
+
 export interface IState {
   page: string | undefined;
+  isFlipped: boolean;
 }
 
 export function CustomTimeline() {
   const [page, setPage] = useState<IState['page']>('home');
+  const [isFlipped, setIsFlipped] = useState<IState['isFlipped']>(false);
 
   const classes = useStyles();  
   
+  const handleClick = (e: React.MouseEvent<HTMLButtonElement | HTMLAnchorElement>) => {
+    setIsFlipped(!isFlipped);
+  }
+
   useEffect(() => {
     setPage('home');
   }, []);
@@ -52,7 +60,7 @@ export function CustomTimeline() {
       startEvent: 'load',
       once: false,
     });
-    Aos.refresh();
+    // Aos.refresh();
     
   }, [page]);
   
@@ -61,7 +69,9 @@ export function CustomTimeline() {
   const project = () => {
     switch(page) {
 
-      case "home":   return (<>
+      case "home":
+       return (
+      <>
         <Timeline align="alternate">
       
         <TimelineItem >
@@ -238,12 +248,12 @@ export function CustomTimeline() {
         </TimelineItem>
       </Timeline>
       </>);
-      case "highSchool":   return <HighSchool page={page} setPage={setPage}/>;
-      case "university": return <University page={page} setPage={setPage}/>;
-      case "helpDesk":  return <HelpDesk page={page} setPage={setPage}/>;
-      case "comversum":  return <Comversum page={page} setPage={setPage}/>;
-      case "leftor":  return <Leftor page={page} setPage={setPage}/>;
-      case "ideaology":  return <Ideaology page={page} setPage={setPage}/>;
+      case "highSchool":   return <HighSchool page={page} setPage={setPage}  isFlipped={isFlipped} setIsFlipped={setIsFlipped}/>;
+      case "university": return <University page={page} setPage={setPage} isFlipped={isFlipped} setIsFlipped={setIsFlipped}/>;
+      case "helpDesk":  return <HelpDesk page={page} setPage={setPage} isFlipped={isFlipped} setIsFlipped={setIsFlipped}/>;
+      case "comversum":  return <Comversum page={page} setPage={setPage} isFlipped={isFlipped} setIsFlipped={setIsFlipped}/>;
+      case "leftor":  return <Leftor page={page} setPage={setPage} isFlipped={isFlipped} setIsFlipped={setIsFlipped}/>;
+      case "ideaology":  return <Ideaology page={page} setPage={setPage} isFlipped={isFlipped} setIsFlipped={setIsFlipped}/>;
       default:      
         return <h1>No project match</h1>
     }
@@ -251,10 +261,27 @@ export function CustomTimeline() {
 
 
   const handlePage = (e: React.MouseEvent<HTMLButtonElement | HTMLAnchorElement>) => {
-    setPage(e.currentTarget.name);
+    setIsFlipped(!isFlipped);
+    const pagename: string = e.currentTarget.name;
+    setTimeout(function() {
+      setPage(pagename);
+    }, 200);
   }
 
   return (
-    <div data-aos='flip-left' data-aos-duration="700" data-aos-easing="linear" className="animatedDiv">{ project() }</div>
+    <>
+    <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
+        <div>
+        { project() }
+          
+        </div>
+
+        <div>
+        { project() }
+    
+        </div>
+    </ReactCardFlip>
+    {/* <div data-aos='flip-left' data-aos-duration="700" data-aos-easing="linear" className="animatedDiv">{ project() }</div> */}
+    </>
     );
 }

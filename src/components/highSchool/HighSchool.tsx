@@ -6,12 +6,17 @@ import KeyboardBackspaceIcon from '@material-ui/icons/KeyboardBackspace';
 interface IProps {
     page: Props['page'];
     setPage: React.Dispatch<React.SetStateAction<Props['page']>>;
+    isFlipped: Props['isFlipped'];
+    setIsFlipped: React.Dispatch<React.SetStateAction<Props['isFlipped']>>;
 }
 
-export const HighSchool: React.FC<IProps> = ({page, setPage}) => {
+export const HighSchool: React.FC<IProps> = ({page, setPage, isFlipped, setIsFlipped}) => {
 
     const handleClick = ():void => {
-        setPage('home');
+        setIsFlipped(!isFlipped);
+        setTimeout(function() {
+            setPage('home');
+          }, 150);
     }
     return (
         <div className="highSchool">
