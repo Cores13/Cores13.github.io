@@ -40,6 +40,9 @@
     text-align: left;
 }
 .comversumInfo {
-    color: lightgrey;
+    color: white;
     margin-top: 20px;
+}
+.comversumTasks > li {
+    color: lightgrey;
 }

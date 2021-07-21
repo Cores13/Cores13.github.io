@@ -22,15 +22,28 @@ export const Leftor: React.FC<IProps> = ({page, setPage, isFlipped, setIsFlipped
     return (
         <div className="leftor">
             <div className="leftorTop">
-                <h1 className="leftorTitle">Leftor</h1>
+                <h1 className="leftorTitle">Web Developer</h1>
                 <button className="back" onClick={handleClick}><KeyboardBackspaceIcon className='backIco' fontSize="large" /></button>
             </div>
             <div className="leftorBottom">
-                <div><h4 className="leftorTitle">Mechanical Hight leftor</h4>
-                    <h6 className="leftorTitle">Mixed Hight leftor, Banovići, Bosnia and Herzegovina</h6>
-                    <p className="leftorInfo">As a child, I was good at math, phisycs and drawing, so I decided to apply for Mechanical High School.<br/>
-                    Finishing high school 
-                    This high school helped me learn math even better, which I can apply in programming today.</p>
+                <div><h3 className="leftorTitle">Leftor, Tuzla, Bosnia and Herzegovina</h3>
+                    <h6 className="leftorTitle">Leftor is one of the biggest web hosting and web development companyes in Bosnia and Herzegovina.</h6>
+                    <h6 className="leftorInfo">Role:</h6>
+                    <p className="leftorTasks">&emsp;&emsp;Front-end development (mostly). Built practice apps in JavaScript</p>
+                    <h6 className="leftorInfo">Technical environment:</h6>
+                    <ul className="leftorTasks">
+                        <li>JavaScript ES6</li>
+                        <li>TypeScript</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>NodeJS</li>
+                        <li>Express</li>
+                        <li>React</li>
+                        <li>Redux</li>
+                        <li>Bootstrap</li>
+                        <li>MongoDB</li>
+                        <li>MySQL</li>
+                    </ul>
                 </div>
             </div>
         </div>

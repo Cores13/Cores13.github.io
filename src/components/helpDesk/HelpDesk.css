@@ -40,6 +40,9 @@
     text-align: left;
 }
 .helpDeskInfo {
-    color: lightgrey;
+    color: white;
     margin-top: 20px;
+}
+.helpDeskTasks > li {
+    color: lightgrey;
 }

@@ -40,6 +40,9 @@
     text-align: left;
 }
 .ideaologyInfo {
-    color: lightgrey;
+    color: white;
     margin-top: 20px;
+}
+.ideaologyTasks > li, .ideaologyTasks {
+    color: lightgrey;
 }

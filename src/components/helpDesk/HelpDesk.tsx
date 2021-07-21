@@ -22,15 +22,18 @@ export const HelpDesk: React.FC<IProps> = ({page, setPage, isFlipped, setIsFlipp
     return (
         <div className="helpDesk">
             <div className="helpDeskTop">
-                <h1 className="helpDeskTitle">HelpDesk</h1>
+                <h1 className="helpDeskTitle">Internship</h1>
                 <button className="back" onClick={handleClick}><KeyboardBackspaceIcon className='backIco' fontSize="large" /></button>
             </div>
             <div className="helpDeskBottom">
-                <div><h4 className="helpDeskTitle">Mechanical Hight helpDesk</h4>
-                    <h6 className="helpDeskTitle">Mixed Hight helpDesk, Banovići, Bosnia and Herzegovina</h6>
-                    <p className="helpDeskInfo">As a child, I was good at math, phisycs and drawing, so I decided to apply for Mechanical High School.<br/>
-                    Finishing high school 
-                    This high school helped me learn math even better, which I can apply in programming today.</p>
+                <div><h3 className="helpDeskTitle">Help Desk</h3>
+                    <h6 className="helpDeskTitle">American University in Bosnia and Herzegovina, Tuzla, Bosnia and Herzegovina</h6>
+                    <h6 className="helpDeskInfo">Tasks:</h6>
+                    <ul className="helpDeskTasks">
+                        <li>IT Technical and Ticketing Support</li>
+                        <li>Maintainance of technology devices like PC's, Laptops, Smart boards and projectors</li>
+                        <li>Network configuration and administration</li>
+                    </ul>
                 </div>
             </div>
         </div>
