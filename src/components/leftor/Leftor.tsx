@@ -14,15 +14,15 @@ export const Leftor: React.FC<IProps> = ({page, setPage}) => {
         setPage('home');
     }
     return (
-        <div className="Leftor">
-            <div className="hightSchoolTop">
-                <h1 className="LeftorTitle">Leftor</h1>
+        <div className="leftor">
+            <div className="leftorTop">
+                <h1 className="leftorTitle">Leftor</h1>
                 <button className="back" onClick={handleClick}><KeyboardBackspaceIcon className='backIco' fontSize="large" /></button>
             </div>
-            <div className="highSchoolBottom">
-                <div><h4 className="schoolTitle">Mechanical Hight School</h4>
-                    <h6 className="schoolTitle">Mixed Hight School, Banovići, Bosnia and Herzegovina</h6>
-                    <p className="schoolInfo">As a child, I was good at math, phisycs and drawing, so I decided to apply for Mechanical High School.<br/>
+            <div className="leftorBottom">
+                <div><h4 className="leftorTitle">Mechanical Hight leftor</h4>
+                    <h6 className="leftorTitle">Mixed Hight leftor, Banovići, Bosnia and Herzegovina</h6>
+                    <p className="leftorInfo">As a child, I was good at math, phisycs and drawing, so I decided to apply for Mechanical High School.<br/>
                     Finishing high school 
                     This high school helped me learn math even better, which I can apply in programming today.</p>
                 </div>

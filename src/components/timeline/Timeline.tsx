@@ -22,8 +22,10 @@ import {Leftor} from '../leftor/Leftor';
 import {Ideaology} from '../ideaology/Ideaology';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import ReactDOM from "react-dom";
 
 const useStyles = makeStyles((theme) => ({
+  
   paper: {
     padding: '6px 16px',
   },
@@ -38,8 +40,9 @@ export interface IState {
 
 export function CustomTimeline() {
   const [page, setPage] = useState<IState['page']>('home');
-  const classes = useStyles();
 
+  const classes = useStyles();  
+  
   useEffect(() => {
     setPage('home');
   }, []);
@@ -50,7 +53,10 @@ export function CustomTimeline() {
       once: false,
     });
     Aos.refresh();
+    
   }, [page]);
+  
+  
   
   const project = () => {
     switch(page) {
@@ -249,6 +255,6 @@ export function CustomTimeline() {
   }
 
   return (
-    <div data-aos='flip-left' data-aos-duration="700" data-aos-easing="linear">{ project() }</div>
-  );
+    <div data-aos='flip-left' data-aos-duration="700" data-aos-easing="linear" className="animatedDiv">{ project() }</div>
+    );
 }
