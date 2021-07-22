@@ -6,8 +6,7 @@ export const Resume: React.FC = () =>{
     return (
         <>
             <div className='bg-color' >
-                {/* Width: 1177 Height: 805 */}
-                <div className='resumeWrapper'>
+                <div className='resumeWrapper' data-aos='zoom-in' data-aos-duration="600" data-aos-easing="linear">
                     <div className="resume">
                         <div className="resumeLeft">
                             <h1 className='resumeTitle'>Resume</h1><br></br>

@@ -204,7 +204,7 @@ export function CustomTimeline() {
             <TimelineConnector className={classes.secondaryTail} />
           </TimelineSeparator>
     
-          <TimelineContent>
+          <TimelineContent className="resumeTab">
             <button className="resumeTab" name="leftor" onClick={(e) => handlePage(e)}>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" component="h1">

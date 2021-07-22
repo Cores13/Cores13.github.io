@@ -11,7 +11,7 @@ export const Landing: React.FC = () =>{
 
     return (
         <div className='bg-color' >
-            <div className='landingWrapper' data-aos='zoom-in' data-aos-duration="700" data-aos-easing="linear">
+            <div className='landingWrapper' data-aos='zoom-in' data-aos-duration="500" data-aos-easing="linear">
                 <div className="landing">
                     <div className="landingTop">
                         <div className="landingTopLeft">
@@ -30,14 +30,14 @@ export const Landing: React.FC = () =>{
                             <h3 className="skillsTitle">Full Stack Junior Web Developer</h3>
                             <hr/>
                             <div className="skillsIconWrapper">
-                                <i className="fab fa-html5" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-delay="700"></i>
-                                <i className="fab fa-js-square" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-delay="800"></i>
-                                <i className="fab fa-react" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-delay="900"></i>
-                                <i className="fab fa-node-js" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-delay="1000"></i>
-                                <i className="fab fa-bootstrap" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-delay="1100"></i>
-                                <i className="fas fa-database" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-delay="1200"></i>
+                                <i className="fab fa-html5" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-delay="600"></i>
+                                <i className="fab fa-js-square" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-delay="700"></i>
+                                <i className="fab fa-react" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-delay="800"></i>
+                                <i className="fab fa-node-js" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-delay="900"></i>
+                                <i className="fab fa-bootstrap" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-delay="1000"></i>
+                                <i className="fas fa-database" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-delay="1100"></i>
                             </div>
-                            <p className="skills">HTML/CSS | Javascript | Typescript | React | Redux | NodeJS | Express | Bootstrap | MongoDB | MySQL</p>
+                            <p className="skills">HTML/CSS | JavaScript | TypeScript | React | Redux | NodeJS | Express | Bootstrap | MongoDB | MySQL</p>
                             <div className="socialWrapper">
                                 <a href="https://github.com/Cores13" target="_blank" rel="noreferrer noopener"><i className="fab fa-github"></i></a>
                                 <a href="https://ba.linkedin.com/in/amir-kasumovic-b02507163" target="_blank" rel="noreferrer noopener"><i className="fab fa-linkedin"></i></a>
