@@ -7,7 +7,7 @@ export const Resume: React.FC = () =>{
         <>
             <div className='bg-color' >
                 {/* Width: 1177 Height: 805 */}
-                <div className='wrapper'>
+                <div className='resumeWrapper'>
                     <div className="resume">
                         <div className="resumeLeft">
                             <h1 className='resumeTitle'>Resume</h1><br></br>
