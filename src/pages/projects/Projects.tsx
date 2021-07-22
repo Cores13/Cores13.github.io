@@ -27,15 +27,15 @@ export const Projects: React.FC = () =>{
                         <h1 className="projectsTitle">Projects</h1>
                     </div>
                     <div className="projectsBottom">
-                        <InteractiveCard img={''} projectName={'Todo list'} projectDesc={'erhusertuaserhtydetrherhusertua serhtydetrherhusertuaserhtydetrh'} projectGithub={''} projectCodepen={'erhsedhr'}/>
-                        <InteractiveCard img={''} projectName={'Quizzie'} projectDesc={'erhusertuaserhtydetrherhusertuas erhtydetrherhusertuaserhtydetrh'} projectGithub={''} projectCodepen={''}/>
-                        <InteractiveCard img={''} projectName={'Stranger'} projectDesc={'erhusertuaserhtydetrherhusertua serhtydetrherhusertuaserhtydetrh'} projectGithub={''} projectCodepen={''}/>
-                        <InteractiveCard img={''} projectName={'eCommerce'} projectDesc={'erhusertuaserhtydetrherhusertu aserhtydetrherhusertuaserhtydetrh'} projectGithub={''} projectCodepen={''}/>
-                        {/* <InteractiveCard img={''} projectName={'VueJS Practice site'} projectDesc={''} projectGithub={''} projectCodepen={''}/> */}
-                        <InteractiveCard img={''} projectName={'IdeaVerse'} projectDesc={'erhusertuaserhtydetrherhuser tuaserhtydetrherhusertuaserhtydetrh'} projectGithub={''} projectCodepen={'hesrh'}/>
-                        <InteractiveCard img={''} projectName={'IdeaMaze'} projectDesc={'erhusertuaserhtydetrhe rhusertuaserhtydetrh erhusertuaserhtydetrh'} projectGithub={''} projectCodepen={''}/>
+                        <InteractiveCard img={'ideaverse.png'} projectName={'IdeaVerse'} projectDesc={'erhusertuaserhtydetrherhuser tuaserhtydetrherhusertuaserhtydetrh'} projectGithub={''} projectCodepen={'hesrh'}/>
+                        <InteractiveCard img={'ideamaze.png'} projectName={'IdeaMaze'} projectDesc={'erhusertuaserhtydetrhe rhusertuaserhtydetrh erhusertuaserhtydetrh'} projectGithub={''} projectCodepen={''}/>
                         <InteractiveCard img={''} projectName={'IdeaDifferences'} projectDesc={'erhusertuaserhtydetrherhusert uaserhtydetrherhusertuaserhtydetrh'} projectGithub={''} projectCodepen={''}/>
-                        <InteractiveCard img={''} projectName={'Idea SpaceDefenter'} projectDesc={'erhusertuaserhtyde trherhusertuaserhtydetr herhusertuaserhtydetrh'} projectGithub={''} projectCodepen={''}/>
+                        <InteractiveCard img={'ideaspace.png'} projectName={'Idea SpaceDefender'} projectDesc={'erhusertuaserhtyde trherhusertuaserhtydetr herhusertuaserhtydetrh'} projectGithub={''} projectCodepen={''}/>
+                        <InteractiveCard img={'quizie.png'} projectName={'Quizzie'} projectDesc={'erhusertuaserhtydetrherhusertuas erhtydetrherhusertuaserhtydetrh'} projectGithub={''} projectCodepen={''}/>
+                        <InteractiveCard img={'stranger.png'} projectName={'Stranger'} projectDesc={'erhusertuaserhtydetrherhusertua serhtydetrherhusertuaserhtydetrh'} projectGithub={''} projectCodepen={''}/>
+                        <InteractiveCard img={'todos.png'} projectName={'Todo list'} projectDesc={'erhusertuaserhtydetrherhusertua serhtydetrherhusertuaserhtydetrh'} projectGithub={''} projectCodepen={'erhsedhr'}/>
+                        <InteractiveCard img={'cart.png'} projectName={'eCommerce'} projectDesc={'erhusertuaserhtydetrherhusertu aserhtydetrherhusertuaserhtydetrh'} projectGithub={''} projectCodepen={''}/>
+                        {/* <InteractiveCard img={''} projectName={'VueJS Practice site'} projectDesc={''} projectGithub={''} projectCodepen={''}/> */}
                     </div>
                 </div>
             </div>
