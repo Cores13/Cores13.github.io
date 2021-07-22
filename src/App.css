@@ -39,7 +39,7 @@ html {
   left: 0;
   z-index: 1; */
 }
-.wrapper {
+.landingWrapper {
   z-index: 1;
   margin-bottom: 100px;
 }
@@ -48,6 +48,8 @@ html {
   top: 0;
   left: 0;
   z-index: 0;
+  height:100%;
+  width: auto;
 }
 .App-logo {
   height: 40vmin;
