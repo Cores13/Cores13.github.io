@@ -27,7 +27,7 @@ export const Leftor: React.FC<IProps> = ({page, setPage, isFlipped, setIsFlipped
             </div>
             <div className="leftorBottom">
                 <div><h3 className="leftorTitle">Leftor, Tuzla, Bosnia and Herzegovina</h3>
-                    <h6 className="leftorTitle">Leftor is one of the biggest web hosting and web development companyes in Bosnia and Herzegovina.</h6>
+                    <h6 className="leftorTitle">Leftor is one of the biggest web hosting and web development companies in Bosnia and Herzegovina.</h6>
                     <h6 className="leftorInfo">Role:</h6>
                     <p className="leftorTasks">&emsp;&emsp;Front-end development (mostly). Built practice apps in JavaScript</p>
                     <h6 className="leftorInfo">Technical environment:</h6>
