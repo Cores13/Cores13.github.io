@@ -25,7 +25,7 @@ export const InteractiveCard: React.FC<IProps>= ({img, projectName, projectDesc,
                     <div className="cardBottom">
                         <h4 className='cardTitle'>{projectName}</h4>
                         <p className='cardDesc'>{projectDesc}</p>
-                        <a className='cardGithub' href={`${projectGithub}`}><i className="fab fa-github"></i></a>
+                        <a className='cardGithub' href={`https://github.com/Cores13/${projectGithub}`}><i className="fab fa-github"></i></a>
                         {projectCodepen? <><a className='cardCodepen' href={`${projectCodepen}`}><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#000000" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M3.06 41.732L32 60.932l28.94-19.2V22.268L32 3.068l-28.94 19.2zm57.878 0L32 22.268 3.06 41.732m0-19.463L32 41.47l28.94-19.2M32 3.068v19.2m0 19.463v19.2" stroke-width="6.05"/></svg></a></>: null}
                     </div>
                 </div>
