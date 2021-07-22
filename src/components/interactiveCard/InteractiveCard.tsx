@@ -17,7 +17,7 @@ export const InteractiveCard: React.FC<IProps>= ({img, projectName, projectDesc,
       return (
         <>
             <div className="cardWrapper">
-                <Tilt>
+                <Tilt scale={1.07} glareEnable={true} glareMaxOpacity={0.1} glareColor={'rgb(17,190,190), rgb(241,13,115) '} glarePosition={'all'}>
                 <div className="card">
                     <div className="cardTop">
                         <img className='cardImg' src={`${img}`} alt="" />
