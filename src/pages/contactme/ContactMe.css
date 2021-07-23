@@ -38,23 +38,34 @@
     color: white;
     text-shadow: 2px 2px #F10D73;
 }
+@media (max-width: 1030px){
+    .contactmeWrapper {
+        width:80%;
+    }
+}
 @media (max-width: 770px){
     .contactmeWrapper {
-      margin-right: 60px;
+        width:75%;
     }
 }
 @media (max-width: 430px){
     .contactmeWrapper {
-      margin-left: 20px;
+        margin-left: 20px;
+        padding-top: 40px;
+    }
+    .contactmeTitle {
+        font-size: 46px;
     }
 }
 @media (max-width: 380px){
     .contactmeWrapper {
-      margin-left: 13px;
+        margin-left: 13px;
+        padding-top: 40px;
     }
 }
 @media (max-width: 325px){
     .contactmeWrapper {
-      margin-left: 6px;
+        padding-top: 40px;
+        margin-left: 10px;
     }
 }

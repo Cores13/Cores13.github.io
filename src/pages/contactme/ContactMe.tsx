@@ -15,7 +15,7 @@ export const ContactMe: React.FC = () =>{
         <div className='bg-color' >
             <div className='contactmeWrapper' data-aos='zoom-in' data-aos-duration="500" data-aos-easing="linear">
                 <div className="contactme">
-                <h1 className='resumeTitle'>Contact Me</h1><br></br>
+                <h1 className='contactmeTitle'>Contact Me</h1><br></br>
                     <ContactForm />
                 </div>
             </div>
