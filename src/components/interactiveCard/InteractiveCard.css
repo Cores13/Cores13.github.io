@@ -66,3 +66,8 @@
   font-size: 2rem;
   cursor: pointer;
 }
+@media (max-width: 770px){
+  .cardWrapper {
+    margin: 25px;
+  }
+}
