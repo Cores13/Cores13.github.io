@@ -27,15 +27,14 @@ export const Projects: React.FC = () =>{
                         <h1 className="projectsTitle">Projects</h1>
                     </div>
                     <div className="projectsBottom">
-                        <InteractiveCard img={'ideaverse.png'} projectName={'IdeaVerse'} projectDesc={'erhusertuaserhtydetrherhuser tuaserhtydetrherhusertuaserhtydetrh'} projectGithub={'flappy_bird'} projectCodepen={'hesrh'}/>
-                        <InteractiveCard img={'ideamaze.png'} projectName={'IdeaMaze'} projectDesc={'erhusertuaserhtydetrhe rhusertuaserhtydetrh erhusertuaserhtydetrh'} projectGithub={'maze_game'} projectCodepen={''}/>
-                        <InteractiveCard img={''} projectName={'IdeaDifferences'} projectDesc={'erhusertuaserhtydetrherhusert uaserhtydetrherhusertuaserhtydetrh'} projectGithub={'difference_game'} projectCodepen={''}/>
-                        <InteractiveCard img={'ideaspace.png'} projectName={'Idea SpaceDefender'} projectDesc={'erhusertuaserhtyde trherhusertuaserhtydetr herhusertuaserhtydetrh'} projectGithub={'space_invaders'} projectCodepen={''}/>
-                        <InteractiveCard img={'quizie.png'} projectName={'Quizzie'} projectDesc={'erhusertuaserhtydetrherhusertuas erhtydetrherhusertuaserhtydetrh'} projectGithub={'quiz_app'} projectCodepen={''}/>
-                        <InteractiveCard img={'stranger.png'} projectName={'Stranger'} projectDesc={'erhusertuaserhtydetrherhusertua serhtydetrherhusertuaserhtydetrh'} projectGithub={'social_media'} projectCodepen={''}/>
-                        <InteractiveCard img={'todos.png'} projectName={'Todo list'} projectDesc={'erhusertuaserhtydetrherhusertua serhtydetrherhusertuaserhtydetrh'} projectGithub={'to_do_list_app'} projectCodepen={'erhsedhr'}/>
-                        <InteractiveCard img={'cart.png'} projectName={'eCommerce'} projectDesc={'erhusertuaserhtydetrherhusertu aserhtydetrherhusertuaserhtydetrh'} projectGithub={'e_commerce_site'} projectCodepen={''}/>
-                        {/* <InteractiveCard img={''} projectName={'VueJS Practice site'} projectDesc={''} projectGithub={''} projectCodepen={''}/> */}
+                        <InteractiveCard img={'ideaverse.png'} projectName={'IdeaVerse'} projectDesc={'A flappy bird clone made using JavaScript, HTML and CSS.'} projectGithub={'flappy_bird'} projectCodepen={''}/>
+                        <InteractiveCard img={'ideamaze.png'} projectName={'Idea Maze'} projectDesc={'Maze game with a timer, made using JavaScript, HTML and CSS.'} projectGithub={'maze_game'} projectCodepen={''}/>
+                        <InteractiveCard img={'differences.jpg'} projectName={'Idea Differences'} projectDesc={'Find the difference game made using JavaScript, HTML and CSS.'} projectGithub={'difference_game'} projectCodepen={''}/>
+                        <InteractiveCard img={'ideaspace.png'} projectName={'Idea SpaceDefender'} projectDesc={'Space Invaders clone made using JavaScript, HTML and CSS.'} projectGithub={'space_invaders'} projectCodepen={''}/>
+                        <InteractiveCard img={'quizie.png'} projectName={'Quizzie'} projectDesc={'General knowledge quiz made using React, Redux, Typescript, HTML and CSS.'} projectGithub={'quiz_app'} projectCodepen={''}/>
+                        <InteractiveCard img={'stranger.png'} projectName={'Stranger'} projectDesc={'Social media made using JavaScript, React, Redux, NodeJS, MongoDB and SocketIO.'} projectGithub={'social_media'} projectCodepen={''}/>
+                        <InteractiveCard img={'todos.png'} projectName={'TODO list'} projectDesc={'TODO list with MVC structure, made using NodeJS, MongoDB and EJS. This is my first project.'} projectGithub={'to_do_list_app'} projectCodepen={''}/>
+                        <InteractiveCard img={'cart.png'} projectName={'eCommerce'} projectDesc={'eCommerce shopping cart made using React, Redux, NodeJS and MongoDB.'} projectGithub={'e_commerce_site'} projectCodepen={''}/>
                     </div>
                 </div>
             </div>
