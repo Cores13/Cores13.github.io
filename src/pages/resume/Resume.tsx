@@ -1,8 +1,14 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './Resume.css'
 import {CustomTimeline as Timeline} from '../../components/timeline/Timeline'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 export const Resume: React.FC = () =>{
+
+    useEffect (() => {
+        Aos.init({})
+    }, []);
     return (
         <>
             <div className='bg-color' >
