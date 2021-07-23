@@ -63,12 +63,12 @@ export const AboutMe: React.FC = () =>{
                             </div>
                             <div className="aboutmeRightBottom">
                                 <div className="aboutmeRightBottomTop">
-                                    <h3 className="aboutmeDescTitle">{isFlipped ? 'System administration skills' : 'Programming skills'}</h3>
+                                    <h3 className="aboutmeSkillsTitle">{isFlipped ? 'System administration skills' : 'Programming skills'}</h3>
                                     <button className="back" onClick={handleClick}><CachedIcon className="backIcon"/>Flip</button>
                                 </div>
 
                                 <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-                                    <div data-aos='flip-right' data-aos-delay="500" data-aos-duration="430" data-aos-easing="ease-out" className="animatedDiv">
+                                    <div className="animatedDiv">
                                         <div className="aboutmeRightBottomSkills">
                                             <div className="progress">
                                                 <div className="progress-done" style={{width: '90%'}}>
@@ -120,32 +120,32 @@ export const AboutMe: React.FC = () =>{
                                     <div>
                                         <div className="aboutmeRightBottomSkills">
                                             <div className="progress">
-                                                <div className="progress-done" style={{width: '90%'}}>
+                                                <div className="progress-done" style={{width: '80%'}}>
                                                 &emsp;&emsp;Network Security
                                                 </div>
                                             </div>
                                         
                                             <div className="progress">
-                                                <div className="progress-done" style={{width: '60%'}}>
-                                                &emsp;&emsp;VoIP
-                                                </div>
-                                            </div>
-                                        
-                                            <div className="progress">
-                                                <div className="progress-done" style={{width: '95%'}}>
+                                                <div className="progress-done" style={{width: '90%'}}>
                                                 &emsp;&emsp;TCP/IP
                                                 </div>
                                             </div>
                                         
                                             <div className="progress">
-                                                <div className="progress-done" style={{width: '65%'}}>
-                                                &emsp;&emsp;Backup and Restore
+                                                <div className="progress-done" style={{width: '70%'}}>
+                                                &emsp;&emsp;Virtualization
+                                                </div>
+                                            </div>
+
+                                            <div className="progress">
+                                                <div className="progress-done" style={{width: '50%'}}>
+                                                &emsp;&emsp;VoIP
                                                 </div>
                                             </div>
                                         
                                             <div className="progress">
-                                                <div className="progress-done" style={{width: '80%'}}>
-                                                &emsp;&emsp;Virtualization
+                                                <div className="progress-done" style={{width: '60%'}}>
+                                                &emsp;&emsp;Backup and Restore
                                                 </div>
                                             </div>
                                         

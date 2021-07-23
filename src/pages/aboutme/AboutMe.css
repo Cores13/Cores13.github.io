@@ -115,7 +115,7 @@
     height: 30px;
     width: 80%;
     border-radius: 25px;
-    background: linear-gradient(360deg,#119c9c 0%,  #11bebe 25%,  #11bebe 75%,#119c9c 100%);
+    background: linear-gradient(360deg,#0e7e7e 0%,  #11bebe 25%,  #11bebe 75%,#0e7e7e 100%);
     color: white;
     align-items: center;
 }
@@ -157,6 +157,9 @@
     .aboutmeTitle {
         margin-bottom: 0;
     }
+    .back {
+        margin-right: 40px;
+    }
 }
 @media (max-width: 430px){
     .aboutmeWrapper {
@@ -171,12 +174,23 @@
     .aboutmeRight {
         width: 90%;
     }
+    .aboutmeSkillsTitle {
+        font-size: 26px;
+    }
 }
 @media (max-width: 380px){
     .aboutmeInfo, .aboutmeInfoName {
         padding-left: 0px;
     }
+    .aboutmeSkillsTitle {
+        font-size: 23px;
+    }
 }
 @media (max-width: 325px){
-   
+    .aboutmeSkillsTitle {
+        font-size: 20px;
+    }
+    .progress-done {
+        font-size: 12px;
+    }
 }
