@@ -8,7 +8,7 @@ export const Navbar: React.FC = () => {
         <nav className="navbar">
     <ul className="navbar-nav">
       <li className="logo">
-        <Link to="/" className="nav-link">
+        <Link to="#" className="nav-link">
           <span className="link-text logo-text" style={{fontSize: '1px !important'}}><Link to="/">Portfolio</Link></span>
           <svg
             aria-hidden="true"
