@@ -33,7 +33,7 @@ export const Projects: React.FC = () =>{
                         <InteractiveCard img={'ideaspace.png'} projectName={'Idea SpaceDefender'} projectDesc={'Space Invaders clone made using JavaScript, HTML and CSS.'} projectGithub={'space_invaders'} projectCodepen={''}/>
                         <InteractiveCard img={'quizie.png'} projectName={'Quizzie'} projectDesc={'General knowledge quiz made using React, Redux, Typescript, HTML and CSS.'} projectGithub={'quiz_app'} projectCodepen={''}/>
                         <InteractiveCard img={'stranger.png'} projectName={'Stranger'} projectDesc={'Social media made using JavaScript, React, Redux, NodeJS, MongoDB and SocketIO.'} projectGithub={'social_media'} projectCodepen={''}/>
-                        <InteractiveCard img={'todos.png'} projectName={'TODO list'} projectDesc={'TODO list with MVC structure, made using NodeJS, MongoDB and EJS. This is my first project.'} projectGithub={'to_do_list_app'} projectCodepen={''}/>
+                        <InteractiveCard img={'todos.png'} projectName={'TODO list'} projectDesc={'TODO list with MVC structure, made using NodeJS, JavaScript, MongoDB and EJS.'} projectGithub={'to_do_list_app'} projectCodepen={''}/>
                         <InteractiveCard img={'cart.png'} projectName={'eCommerce'} projectDesc={'eCommerce shopping cart made using React, Redux, NodeJS and MongoDB.'} projectGithub={'e_commerce_site'} projectCodepen={''}/>
                     </div>
                 </div>
