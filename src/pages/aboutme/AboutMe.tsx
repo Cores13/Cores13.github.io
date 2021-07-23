@@ -62,7 +62,7 @@ export const AboutMe: React.FC = () =>{
                             </div>
                             <div className="aboutmeRightBottom">
                                 <div className="aboutmeRightBottomTop">
-                                    <h3 className="aboutmeDescTitle">{isFlipped ? 'Programming skills' : 'System administration skills'}</h3>
+                                    <h3 className="aboutmeDescTitle">{isFlipped ? 'System administration skills' : 'Programming skills'}</h3>
                                     <button className="back" onClick={handleClick}>Flip</button>
                                 </div>
 
@@ -120,37 +120,37 @@ export const AboutMe: React.FC = () =>{
                                         <div className="aboutmeRightBottomSkills">
                                             <div className="progress">
                                                 <div className="progress-done" style={{width: '95%'}}>
-                                                &emsp;&emsp;JavaScript
+                                                &emsp;&emsp;Sophos
                                                 </div>
                                             </div>
                                         
                                             <div className="progress">
                                                 <div className="progress-done" style={{width: '60%'}}>
-                                                &emsp;&emsp;TypeScript
+                                                &emsp;&emsp;3CX
                                                 </div>
                                             </div>
                                         
                                             <div className="progress">
                                                 <div className="progress-done" style={{width: '70%'}}>
-                                                &emsp;&emsp;React
+                                                &emsp;&emsp;Ruckus
                                                 </div>
                                             </div>
                                         
                                             <div className="progress">
                                                 <div className="progress-done" style={{width: '65%'}}>
-                                                &emsp;&emsp;Redux
+                                                &emsp;&emsp;Veeam
                                                 </div>
                                             </div>
                                         
                                             <div className="progress">
                                                 <div className="progress-done" style={{width: '80%'}}>
-                                                &emsp;&emsp;NodeJS
+                                                &emsp;&emsp;VMWare
                                                 </div>
                                             </div>
                                         
                                             <div className="progress">
                                                 <div className="progress-done" style={{width: '100%'}}>
-                                                &emsp;&emsp;HTML
+                                                &emsp;&emsp;SolarWinds
                                                 </div>
                                             </div>
 
