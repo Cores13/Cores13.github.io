@@ -271,7 +271,7 @@ export function CustomTimeline() {
   return (
     <>
     <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-        <div data-aos='flip-left' data-aos-delay="500" data-aos-duration="700" data-aos-easing="linear" className="animatedDiv">
+        <div data-aos='flip-left' data-aos-delay="500" data-aos-duration="500" data-aos-easing="linear" className="animatedDiv">
         { project() }
           
         </div>
@@ -281,7 +281,6 @@ export function CustomTimeline() {
     
         </div>
     </ReactCardFlip>
-    {/* <div data-aos='flip-left' data-aos-duration="700" data-aos-easing="linear" className="animatedDiv">{ project() }</div> */}
     </>
     );
 }
