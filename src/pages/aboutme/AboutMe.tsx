@@ -4,6 +4,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import ReactCardFlip from 'react-card-flip'
 import {makeStyles} from '@material-ui/core/styles';
+import CachedIcon from '@material-ui/icons/Cached';
 
 const useStyles = makeStyles((theme) => ({
   
@@ -63,14 +64,14 @@ export const AboutMe: React.FC = () =>{
                             <div className="aboutmeRightBottom">
                                 <div className="aboutmeRightBottomTop">
                                     <h3 className="aboutmeDescTitle">{isFlipped ? 'System administration skills' : 'Programming skills'}</h3>
-                                    <button className="back" onClick={handleClick}>Flip</button>
+                                    <button className="back" onClick={handleClick}><CachedIcon className="backIcon"/>Flip</button>
                                 </div>
 
                                 <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-                                    <div data-aos='flip-left' data-aos-delay="500" data-aos-duration="700" data-aos-easing="linear" className="animatedDiv">
+                                    <div data-aos='flip-right' data-aos-delay="500" data-aos-duration="430" data-aos-easing="ease-out" className="animatedDiv">
                                         <div className="aboutmeRightBottomSkills">
                                             <div className="progress">
-                                                <div className="progress-done" style={{width: '95%'}}>
+                                                <div className="progress-done" style={{width: '90%'}}>
                                                 &emsp;&emsp;JavaScript
                                                 </div>
                                             </div>
@@ -82,7 +83,7 @@ export const AboutMe: React.FC = () =>{
                                             </div>
                                         
                                             <div className="progress">
-                                                <div className="progress-done" style={{width: '70%'}}>
+                                                <div className="progress-done" style={{width: '85%'}}>
                                                 &emsp;&emsp;React
                                                 </div>
                                             </div>
@@ -106,7 +107,7 @@ export const AboutMe: React.FC = () =>{
                                             </div>
 
                                             <div className="progress">
-                                                <div className="progress-done" style={{width: '100%'}}>
+                                                <div className="progress-done" style={{width: '95%'}}>
                                                 &emsp;&emsp;CSS
                                                 </div>
                                             </div>
@@ -119,44 +120,44 @@ export const AboutMe: React.FC = () =>{
                                     <div>
                                         <div className="aboutmeRightBottomSkills">
                                             <div className="progress">
-                                                <div className="progress-done" style={{width: '95%'}}>
-                                                &emsp;&emsp;Sophos
+                                                <div className="progress-done" style={{width: '90%'}}>
+                                                &emsp;&emsp;Network Security
                                                 </div>
                                             </div>
                                         
                                             <div className="progress">
                                                 <div className="progress-done" style={{width: '60%'}}>
-                                                &emsp;&emsp;3CX
+                                                &emsp;&emsp;VoIP
                                                 </div>
                                             </div>
                                         
                                             <div className="progress">
-                                                <div className="progress-done" style={{width: '70%'}}>
-                                                &emsp;&emsp;Ruckus
+                                                <div className="progress-done" style={{width: '95%'}}>
+                                                &emsp;&emsp;TCP/IP
                                                 </div>
                                             </div>
                                         
                                             <div className="progress">
                                                 <div className="progress-done" style={{width: '65%'}}>
-                                                &emsp;&emsp;Veeam
+                                                &emsp;&emsp;Backup and Restore
                                                 </div>
                                             </div>
                                         
                                             <div className="progress">
                                                 <div className="progress-done" style={{width: '80%'}}>
-                                                &emsp;&emsp;VMWare
+                                                &emsp;&emsp;Virtualization
                                                 </div>
                                             </div>
                                         
                                             <div className="progress">
                                                 <div className="progress-done" style={{width: '100%'}}>
-                                                &emsp;&emsp;SolarWinds
+                                                &emsp;&emsp;Monitoring
                                                 </div>
                                             </div>
 
                                             <div className="progress">
                                                 <div className="progress-done" style={{width: '100%'}}>
-                                                &emsp;&emsp;CSS
+                                                &emsp;&emsp;Troubleshooting
                                                 </div>
                                             </div>
                                         </div>

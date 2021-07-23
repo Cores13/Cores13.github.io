@@ -10,13 +10,14 @@ interface IProps {
     projectDesc: Props['projectDesc'];
     projectGithub: Props['projectGithub'];
     projectCodepen: Props['projectCodepen'];
+    delay: Props['delay'];
 }
 
-export const InteractiveCard: React.FC<IProps>= ({img, projectName, projectDesc, projectGithub, projectCodepen}) => {
+export const InteractiveCard: React.FC<IProps>= ({delay, img, projectName, projectDesc, projectGithub, projectCodepen}) => {
     
       return (
         <>
-            <div className="cardWrapper">
+            <div className="cardWrapper" data-aos="zoom-out" data-aos-delay={`${delay}`} data-aos-duration="430" data-aos-easing="ease-out">
                 <Tilt perspective={3000} scale={1.07} glareEnable={true} tiltMaxAngleX={11} tiltMaxAngleY={11} glareMaxOpacity={0.08} glareColor={'rgb(17,190,190), rgb(241,13,115) '} glarePosition={'all'}>
                 <div className="card">
                     <div className="cardTop">

@@ -92,8 +92,13 @@
     justify-content: space-between;
 }
 .back {
+    display: flex;
+    align-items: center;
     justify-self: flex-end;
-    margin-right: 20px;
+    margin-right: 30px;
+}
+.backIcon {
+    fill: rgb(17, 190, 190) !important;
 }
 .progress {
     width: 450px;
@@ -110,7 +115,7 @@
     height: 30px;
     width: 80%;
     border-radius: 25px;
-    background: linear-gradient(2deg,aqua 0%,  #119c9c 25%,  #11bebe 50%);
+    background: linear-gradient(360deg,#119c9c 0%,  #11bebe 25%,  #11bebe 75%,#119c9c 100%);
     color: white;
     align-items: center;
 }
