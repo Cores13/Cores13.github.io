@@ -7,7 +7,8 @@ import 'aos/dist/aos.css'
 export const ContactMe: React.FC = () =>{
 
     useEffect (() => {
-        Aos.init({})
+        Aos.init({disable: 'mobile'});
+        Aos.refresh();
     }, []);
 
     return (

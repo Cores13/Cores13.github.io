@@ -27,8 +27,9 @@ export const AboutMe: React.FC = () =>{
       }
 
 
-    useEffect (() => {
-        Aos.init({})
+      useEffect (() => {
+        Aos.init({disable: 'mobile'});
+        Aos.refresh();
     }, []);
 
 
@@ -42,8 +43,8 @@ export const AboutMe: React.FC = () =>{
                             <h3 className='aboutmeInfoName'>Amir Kasumović</h3>
                             <p className="aboutmeInfo"><i className="fas fa-university"></i>Engineer of Information Technology</p>
                             <p className="aboutmeInfo"><i className="fas fa-map-marker-alt"></i>Tuzla, Bosnia and Herzegovina</p>
-                            <p className="aboutmeInfo"><i className="far fa-envelope"></i>amir.kasumovic@live.com</p>
-                            <p className="aboutmeInfo"><i className="fas fa-phone-alt"></i>+387 61-248/126</p>
+                            {/* <p className="aboutmeInfo"><i className="far fa-envelope"></i>amir.kasumovic@live.com</p>
+                            <p className="aboutmeInfo"><i className="fas fa-phone-alt"></i>+387 61-248/126</p> */}
                             <a className="aboutmeInfo" href="https://ba.linkedin.com/in/amir-kasumovic-b02507163" target="_blank" rel="noopener noreferrer"><i style={{color: "rgb(17, 190, 190)", margin: '0', marginRight: '15px'}} className="fab fa-linkedin"></i>LinkedIn</a>
                             <a className="aboutmeInfo" href="https://github.com/Cores13" target="_blank" rel="noopener noreferrer"><i style={{color: "rgb(17, 190, 190)", margin: '0', marginRight: '15px'}} className="fab fa-github"></i>Github</a>
                         </div>

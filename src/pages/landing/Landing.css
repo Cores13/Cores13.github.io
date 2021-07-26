@@ -69,6 +69,10 @@
     margin-left: 0;
     margin-right: 0;
     font-size: 1.3rem;
+    margin-bottom: 16px;
+}
+.titleDev > i {
+    font-size: 1.3rem;
 }
 .skillsWrapper {
     display: flex;
@@ -171,6 +175,9 @@
     .titleDev {
         font-size: 1rem;
     }
+    .titleDev > i {
+        font-size: 1rem;
+    }
     .skillsIconWrapper {
         font-size: 2rem;
     }
@@ -211,6 +218,9 @@
     .titleDev {
         font-size: 0.7rem;
         margin-bottom: 5px;
+    }
+    .titleDev > i {
+        font-size: 0.7rem;
     }
     .skillsIconWrapper {
         font-size: 1rem;

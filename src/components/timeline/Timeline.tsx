@@ -73,123 +73,37 @@ export function CustomTimeline() {
        return (
       <>
         <Timeline align="alternate">
-      
-        <TimelineItem >
-          <TimelineOppositeContent>
-            <Typography variant="body2" color="textSecondary">
-              Sep 2013 - Jun 2017
-            </Typography>
-          </TimelineOppositeContent>
-    
-          <TimelineSeparator>
-            <TimelineDot color="primary" variant="outlined">
-              <SchoolIcon />
-            </TimelineDot>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent >
-            <button className="resumeTab" name="highSchool" onClick={(e) => handlePage(e)}>
-            <Paper elevation={3} className={classes.paper}>
-              <Typography variant="h6" component="h1">
-                Mechanical High School
-              </Typography>
-              <Typography><strong>Mixed High School Banovići</strong><br/> Banovići, Bosnia and Herzegovina</Typography>
-            </Paper>
-            </button>
-          </TimelineContent>
-        </TimelineItem>
-        
-    
-    
+
         <TimelineItem>
           <TimelineOppositeContent>
             <Typography variant="body2" color="textSecondary">
-              Oct 2017 - Jul 2020
+              May 2021 - Now
             </Typography>
           </TimelineOppositeContent>
     
           <TimelineSeparator>
-            <TimelineDot color="primary" variant="outlined">
-              <SchoolIcon />
-            </TimelineDot>
-            <TimelineConnector />
-          </TimelineSeparator>
-    
-          <TimelineContent>
-          <button className="resumeTab" name="university" onClick={(e) => handlePage(e)}>
-            <Paper elevation={3} className={classes.paper}>
-              <Typography variant="h6" component="h1">
-                Engineer of Information Technology
-              </Typography>
-              <Typography><strong>American University in Bosnia and Herzegovina</strong><br/>
-              Tuzla, Bosnia and Herzegovina</Typography>
-            </Paper>
-            </button>
-          </TimelineContent>
-        </TimelineItem>
-    
-    
-    
-        <TimelineItem>
-          <TimelineOppositeContent>
-            <Typography variant="body2" color="textSecondary">
-              Oct 2018 - Jan 2019
-            </Typography>
-          </TimelineOppositeContent>
-    
-          <TimelineSeparator>
-            <TimelineDot color="primary" variant="outlined">
-              <LaptopMacIcon />
+            <TimelineDot color="secondary">
+              <CodeIcon />
             </TimelineDot>
             <TimelineConnector className={classes.secondaryTail} />
           </TimelineSeparator>
     
           <TimelineContent>
-            <button className="resumeTab" name="helpDesk" onClick={(e) => handlePage(e)}>
+            <button className="resumeTab" name="ideaology" onClick={(e) => handlePage(e)}>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" component="h1">
-              Help Desk
+                Web Developer
               </Typography>
-              <Typography><strong>American University in Bosnia and Herzegovina</strong><br/>
-              Tuzla, Bosnia and Herzegovina</Typography>
+              <Typography><strong>Ideaology</strong><br/>
+              Lukavac, Bosnia and Herzegovina</Typography>
             </Paper>
             </button>
           </TimelineContent>
     
         </TimelineItem>
-    
-    
-    
-        <TimelineItem>
-          <TimelineOppositeContent>
-            <Typography variant="body2" color="textSecondary">
-              Oct 2019 - Jul 2020
-            </Typography>
-          </TimelineOppositeContent>
-    
-          <TimelineSeparator>
-            <TimelineDot color="primary" variant="outlined">
-              <LaptopMacIcon />
-            </TimelineDot>
-            <TimelineConnector className={classes.secondaryTail} />
-          </TimelineSeparator>
-    
-          <TimelineContent>
-            <button className="resumeTab" name="comversum" onClick={(e) => handlePage(e)}>
-            <Paper elevation={3} className={classes.paper}>
-              <Typography variant="h6" component="h1">
-              System Administrator
-              </Typography>
-              <Typography><strong>Comversum</strong><br/>
-              Tuzla, Bosnia and Herzegovina</Typography>
-            </Paper>
-            </button>
-          </TimelineContent>
-    
-        </TimelineItem>
-    
-    
-    
+
+
+
         <TimelineItem>
           <TimelineOppositeContent>
             <Typography variant="body2" color="textSecondary">
@@ -217,35 +131,123 @@ export function CustomTimeline() {
           </TimelineContent>
     
         </TimelineItem>
-    
-    
-    
+
+
+
         <TimelineItem>
           <TimelineOppositeContent>
             <Typography variant="body2" color="textSecondary">
-              May 2021 - Now
+              Oct 2019 - Jul 2020
             </Typography>
           </TimelineOppositeContent>
     
           <TimelineSeparator>
-            <TimelineDot color="secondary">
-              <CodeIcon />
+            <TimelineDot color="primary" variant="outlined">
+              <LaptopMacIcon />
             </TimelineDot>
+            <TimelineConnector className={classes.secondaryTail} />
           </TimelineSeparator>
     
           <TimelineContent>
-            <button className="resumeTab" name="ideaology" onClick={(e) => handlePage(e)}>
+            <button className="resumeTab" name="comversum" onClick={(e) => handlePage(e)}>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" component="h1">
-                Web Developer
+              System Administrator
               </Typography>
-              <Typography><strong>Ideaology</strong><br/>
-              Lukavac, Bosnia and Herzegovina</Typography>
+              <Typography><strong>Comversum</strong><br/>
+              Tuzla, Bosnia and Herzegovina</Typography>
             </Paper>
             </button>
           </TimelineContent>
     
         </TimelineItem>
+
+
+
+        <TimelineItem>
+          <TimelineOppositeContent>
+            <Typography variant="body2" color="textSecondary">
+              Oct 2018 - Jan 2019
+            </Typography>
+          </TimelineOppositeContent>
+    
+          <TimelineSeparator>
+            <TimelineDot color="primary" variant="outlined">
+              <LaptopMacIcon />
+            </TimelineDot>
+            <TimelineConnector className={classes.secondaryTail} />
+          </TimelineSeparator>
+    
+          <TimelineContent>
+            <button className="resumeTab" name="helpDesk" onClick={(e) => handlePage(e)}>
+            <Paper elevation={3} className={classes.paper}>
+              <Typography variant="h6" component="h1">
+              Help Desk
+              </Typography>
+              <Typography><strong>American University in Bosnia and Herzegovina</strong><br/>
+              Tuzla, Bosnia and Herzegovina</Typography>
+            </Paper>
+            </button>
+          </TimelineContent>
+    
+        </TimelineItem>
+
+
+
+        <TimelineItem>
+          <TimelineOppositeContent>
+            <Typography variant="body2" color="textSecondary">
+              Oct 2017 - Jul 2020
+            </Typography>
+          </TimelineOppositeContent>
+    
+          <TimelineSeparator>
+            <TimelineDot color="primary" variant="outlined">
+              <SchoolIcon />
+            </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+    
+          <TimelineContent>
+          <button className="resumeTab" name="university" onClick={(e) => handlePage(e)}>
+            <Paper elevation={3} className={classes.paper}>
+              <Typography variant="h6" component="h1">
+                Engineer of Information Technology
+              </Typography>
+              <Typography><strong>American University in Bosnia and Herzegovina</strong><br/>
+              Tuzla, Bosnia and Herzegovina</Typography>
+            </Paper>
+            </button>
+          </TimelineContent>
+        </TimelineItem>
+
+
+      
+        <TimelineItem >
+          <TimelineOppositeContent>
+            <Typography variant="body2" color="textSecondary">
+              Sep 2013 - Jun 2017
+            </Typography>
+          </TimelineOppositeContent>
+    
+          <TimelineSeparator>
+            <TimelineDot color="primary" variant="outlined">
+              <SchoolIcon />
+            </TimelineDot>
+            {/* <TimelineConnector /> */}
+          </TimelineSeparator>
+          <TimelineContent >
+            <button className="resumeTab" name="highSchool" onClick={(e) => handlePage(e)}>
+            <Paper elevation={3} className={classes.paper}>
+              <Typography variant="h6" component="h1">
+                Mechanical High School
+              </Typography>
+              <Typography><strong>Mixed High School Banovići</strong><br/> Banovići, Bosnia and Herzegovina</Typography>
+            </Paper>
+            </button>
+          </TimelineContent>
+        </TimelineItem>
+  
       </Timeline>
       </>);
       case "highSchool":   return <HighSchool page={page} setPage={setPage}  isFlipped={isFlipped} setIsFlipped={setIsFlipped}/>;

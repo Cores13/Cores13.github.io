@@ -46,3 +46,8 @@
 .comversumTasks > li {
     color: lightgrey;
 }
+@media (max-width: 430px) {
+    .comversumTop > h1 {
+        font-size: 46px;
+    }
+}

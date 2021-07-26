@@ -20,7 +20,7 @@
     border: 1px solid rgb(63, 63, 63);
     background: rgba(40,44,52, 1);
     background: -webkit-linear-gradient(0deg,  #1a1a22 0%,  rgba(40,44,52, 1)50%);
-    background: linear-gradient(0deg,  #1a1a22 0%, rgba(40,44,52, 0.91)50%, rgba(40,44,52, 0.91)75%, rgba(40,44,52, 0.47)100%), url('../../images/contactBg.jpg'); 
+    background: linear-gradient(0deg,  #1a1a22 0%, rgba(40,44,52, 0.91)50%, rgba(40,44,52, 0.91)75%, rgba(40,44,52, 0.47)100%), url('../../images/contactBg.webp'); 
     -webkit-box-shadow: inset -1px 3px 3px 3px rgb(63, 63, 63), 2px 5px 16px 0px #0B325E, 0px 4px 15px 5px rgba(0,0,0,0); 
     box-shadow: inset -1px 3px 3px 3px rgb(63, 63, 63), 2px 5px 16px 0px #0B325E, 0px 4px 15px 5px rgba(0,0,0,0);
     background-repeat: no-repeat;

@@ -41,7 +41,7 @@
     border-radius: 10px;
     background: rgba(40,44,52, 1);
     background: -webkit-linear-gradient(0deg,  #1a1a22 0%,rgba(40,44,52, 0.8)50%,  rgba(13, 131, 131, 0.2)100%);
-    background-image: linear-gradient(0deg,  #1a1a22 0%,rgba(40,44,52, 0.7)50%,rgba(40,44,52, 0.8)80%, rgba(17, 190, 190, 0.1)100%), url('../../images/resumeBg.jpg'); 
+    background-image: linear-gradient(0deg,  #1a1a22 0%,rgba(40,44,52, 0.7)50%,rgba(40,44,52, 0.8)80%, rgba(17, 190, 190, 0.1)100%), url('../../images/resumeBg.webp'); 
     background-size:cover;
     background-position: center top;
 }
@@ -102,7 +102,7 @@
     .resume {
         flex-direction: column;
         padding: 0;
-        background-image: linear-gradient(0deg,  #1a1a22 0%,rgba(40,44,52, 0.95)50%,rgba(19, 21, 24, 0.79)80%, rgba(19, 21, 24, 0.9)100%), url('../../images/resumeBg.jpg'); 
+        background-image: linear-gradient(0deg,  #1a1a22 0%,rgba(40,44,52, 0.95)50%,rgba(19, 21, 24, 0.79)80%, rgba(19, 21, 24, 0.9)100%), url('../../images/resumeBg.webp'); 
         background-size:cover;
         background-position: center top;
     }

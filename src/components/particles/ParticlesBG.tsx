@@ -79,7 +79,7 @@ export const ParticlesBG: React.FC = () => {
                 mode: "repulse"
               },
               onclick: {
-                enable: true,
+                enable: false,
                 mode: "push"
               },
               resize: true

@@ -6,7 +6,8 @@ import 'aos/dist/aos.css'
 export const Landing: React.FC = () =>{
 
     useEffect (() => {
-        Aos.init({})
+        Aos.init({disable: 'mobile'});
+        Aos.refresh();
     }, []);
 
     return (
@@ -21,8 +22,8 @@ export const Landing: React.FC = () =>{
                             <h1 className="titleName">Amir Kasumović</h1>
                             <p className="titleDev"><i className="fas fa-university"></i>Engineer of Information Technology</p>
                             <p className="titleDev"><i className="fas fa-map-marker-alt"></i>Tuzla, Bosnia and Herzegovina</p>
-                            <p className="titleDev"><i className="far fa-envelope"></i>amir.kasumovic@live.com</p>
-                            <p className="titleDev"><i className="fas fa-phone-alt"></i>+387 61-248/126</p>
+                            <a className="titleDev" href="https://ba.linkedin.com/in/amir-kasumovic-b02507163" target="_blank" rel="noopener noreferrer"><i style={{color: "rgb(17, 190, 190)", margin: '0', marginRight: '15px'}} className="fab fa-linkedin"></i>LinkedIn</a>
+                            <a className="titleDev" href="https://github.com/Cores13" target="_blank" rel="noopener noreferrer"><i style={{color: "rgb(17, 190, 190)", margin: '0', marginRight: '15px'}} className="fab fa-github"></i>Github</a>
                         </div>
                     </div>
                     <div className="landingBottom">
