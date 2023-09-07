@@ -19,6 +19,7 @@ export class EmptyTagComponent {
   ngOnInit() {
     this.ngZone.runOutsideAngular(() => {
       const scene = new THREE.Scene();
+      scene.background = new THREE.Color( 0xe8e5de );
       const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 100);
 
       const renderer = new THREE.WebGLRenderer({
@@ -59,7 +60,7 @@ export class EmptyTagComponent {
 
         // Create a standard material with red color and 50% gloss
         const material = new THREE.MeshStandardMaterial({
-          color: '#00db3b',
+          color: 'black',
           roughness: 10,
           wireframe: true,
         });
