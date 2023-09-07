@@ -62,7 +62,7 @@ export class EmptyTagComponent {
         const material = new THREE.MeshStandardMaterial({
           color: 'black',
           roughness: 10,
-          wireframe: true,
+          wireframe: false,
         });
 
         // Geometries are attached to meshes so that they get rendered
@@ -98,9 +98,9 @@ export class EmptyTagComponent {
       // LIGHTING
       const ambientLight = new THREE.AmbientLight(0xaaaaaa);
       scene.add(ambientLight);
-      const directionalLight = new THREE.DirectionalLight(0xaaaaaa, 1);
+      const directionalLight = new THREE.DirectionalLight(0xffffff, 4);
       scene.add(directionalLight);
-      directionalLight.position.set(100, 70, 15);
+      directionalLight.position.set(-22, 0, 0);
 
       camera.position.z = 35;
       camera.position.y = 8;
