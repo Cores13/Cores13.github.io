@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+}
+
+.home-banner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+}
+
+.home-banner-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: auto;
+}
+
+.three-tag {
+  width: auto;
+}
