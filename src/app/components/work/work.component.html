@@ -1,0 +1,23 @@
+<div class="section-container" id="work">
+    <div class="section-left">
+      <h2>Portfolio</h2>
+    </div>
+
+    <div class="section-right">
+      <div class="work-section-wrapper">
+        <div class="work-section-title">
+          <h1>My <span>favorite</span> works</h1>
+        </div>
+        <div class="work-section-content">
+          <div class="work-card" *ngFor="let project of projects">
+            <a [href]="project.link" target="_blank">
+              <img [src]="project.image" alt="Github" class="project-image">
+              <div class="project-title">
+                <h3>{{project.title}}</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,68 @@
+.work-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.work-section-title {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+
+  h1 {
+    margin-top: 0;
+    font-size: 7rem;
+
+    span {
+      color: rgba(0, 0, 0, 0.7);
+    }
+  }
+}
+
+.work-section-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: black;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.work-card {
+  width: 450px;
+  height: 450px;
+  background-color: gray;
+  border-radius: 60px;
+  margin: 25px;
+
+  a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+
+    .project-image {
+      width: 450px;
+      height: 450px;
+      border-radius: 60px;
+      object-fit: cover;
+      filter: grayscale(1);
+    }
+
+    .project-title {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: rgba(100, 100, 100, 0.3);
+      padding: 10px 15px;
+      border-radius: 15px;
+      backdrop-filter: blur(5px);
+      width: 250px;
+      text-align: center;
+
+      h3 {
+        margin: 0;
+      }
+    }
+  }
+}

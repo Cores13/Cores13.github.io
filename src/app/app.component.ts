@@ -6,5 +6,5 @@ import { Component, ElementRef, NgZone, VERSION, ViewChild } from '@angular/core
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-
+  githubLogo = 'assets/github.png';
 }
