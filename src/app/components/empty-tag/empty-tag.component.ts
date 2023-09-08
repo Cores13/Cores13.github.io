@@ -19,14 +19,14 @@ export class EmptyTagComponent {
   ngOnInit() {
     this.ngZone.runOutsideAngular(() => {
       const scene = new THREE.Scene();
-      scene.background = new THREE.Color( 0xe8e5de );
-      const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 100);
+      scene.background = new THREE.Color( 0x000000 );
+      const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 100);
 
       const renderer = new THREE.WebGLRenderer({
         canvas: this.canvasElementRef.nativeElement
       });
 
-      renderer.setSize(window.innerWidth / 2, window.innerHeight / 1.5);
+      renderer.setSize(window.innerWidth / 7, window.innerHeight / 7);
       window.addEventListener('resize', () => {
           camera.aspect = window.innerWidth / window.innerHeight;
           camera.updateProjectionMatrix();
@@ -60,7 +60,7 @@ export class EmptyTagComponent {
 
         // Create a standard material with red color and 50% gloss
         const material = new THREE.MeshStandardMaterial({
-          color: 'black',
+          color: '0xe8e5de',
           roughness: 10,
           wireframe: false,
         });
@@ -98,7 +98,7 @@ export class EmptyTagComponent {
       // LIGHTING
       const ambientLight = new THREE.AmbientLight(0xaaaaaa);
       scene.add(ambientLight);
-      const directionalLight = new THREE.DirectionalLight(0xffffff, 4);
+      const directionalLight = new THREE.DirectionalLight(0xe8e5de, 4);
       scene.add(directionalLight);
       directionalLight.position.set(-22, 0, 0);
 

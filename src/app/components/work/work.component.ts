@@ -28,5 +28,25 @@ export class WorkComponent {
       image: 'assets/projects/stranger.webp',
       link: 'https://github.com/Cores13/react_native_jobs'
     },
+    {
+      title: 'Aventus',
+      image: 'assets/projects/aventus.jpg',
+      link: 'https://aventus.ba/'
+    },
+    {
+      title: 'Offroad BiH',
+      image: 'assets/projects/offroad.jpg',
+      link: 'https://offroad.ba/'
+    },
+    {
+      title: 'Vox Magna',
+      image: 'assets/projects/stranger.webp',
+      link: 'https://github.com/Cores13/vox-magna'
+    },
+    {
+      title: 'Cup of Coffee',
+      image: 'assets/projects/stranger.webp',
+      link: 'https://github.com/Cores13/cup_of_coffee'
+    },
   ];
 }
