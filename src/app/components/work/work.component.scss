@@ -1,3 +1,5 @@
+@import '../../../variables.scss';
+
 .work-section-wrapper {
   display: flex;
   flex-direction: column;
@@ -14,7 +16,8 @@
     font-size: 7rem;
 
     span {
-      color: rgba(0, 0, 0, 0.7);
+      // color: rgba(0, 0, 0, 0.7);
+      color: $accent_color;
     }
   }
 }
@@ -34,6 +37,7 @@
   background-color: gray;
   border-radius: 60px;
   margin: 25px;
+  border-bottom: 3px solid $accent_color;
 
   a {
     position: relative;

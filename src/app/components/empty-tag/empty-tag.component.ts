@@ -60,7 +60,7 @@ export class EmptyTagComponent {
 
         // Create a standard material with red color and 50% gloss
         const material = new THREE.MeshStandardMaterial({
-          color: '0xe8e5de',
+          color: '0x32a883',
           roughness: 10,
           wireframe: false,
         });
@@ -96,9 +96,9 @@ export class EmptyTagComponent {
       // scene.add(sphere);
 
       // LIGHTING
-      const ambientLight = new THREE.AmbientLight(0xaaaaaa);
+      const ambientLight = new THREE.AmbientLight(0x32a883);
       scene.add(ambientLight);
-      const directionalLight = new THREE.DirectionalLight(0xe8e5de, 4);
+      const directionalLight = new THREE.DirectionalLight(0x32a883, 4);
       scene.add(directionalLight);
       directionalLight.position.set(-22, 0, 0);
 
