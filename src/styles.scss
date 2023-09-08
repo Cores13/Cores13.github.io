@@ -1,11 +1,10 @@
+// Banner
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+// Main font
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Stint+Ultra+Expanded&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @import './variables.scss';
-
-/* You can add global styles to this file, and also import other style files */
-// $primary_color: #e8e5de;
-// $secondary_color: black;
 
 body {
   font-family: 'Jost', sans-serif;
@@ -14,23 +13,58 @@ body {
   margin: 0;
 }
 
-.home-banner-container {
+.content-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
   background-color: $primary_color;
-  color: black;
+  color: $secondary_color;
   margin-top: 90vh;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
-  filter: drop-shadow(0px 1px 100px black);
+  filter: drop-shadow(0px 1px 100px $secondary_color);
+  padding: 250px 100px;
 }
 
-.home-banner-left {
+.section-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.section-left {
+  width: 15%;
+
+  h2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+}
+
+.section-right {
+  width: 85%;
+}
+
+.work-section-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  color: black;
+}
+
+.work-section-title {
+  display: flex;
+  flex-direction: column;
   width: auto;
+
+  h1 {
+    margin-top: 0;
+    font-size: 7rem;
+
+    span {
+      color: rgba(0, 0, 0, 0.7);
+    }
+  }
 }
 
 .three-tag {
@@ -38,27 +72,81 @@ body {
 }
 
 .navbar {
-  // position: sticky;
-  // top: 0;
-  // left: 0;
   width: 100%;
 }
-
-
 
 .name-title{
   position: fixed;
   top: 60vh;
-  // left: 50%;
-  // transform: translateX(-50%);
   margin: 0;
-  // padding-top: 40vh;
   z-index: -1;
   width: 100%;
   text-align: center;
   color: $primary_color;
   background-color: black;
-  font-size: 13rem;
+  font-size: 23rem;
   font-family: 'Anton', sans-serif;
-  transform: scaleY(1.5);
+  transform: scaleY(2);
+}
+
+.banner-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+
+  p {
+    width: 33%;
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+
+  .banner-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 33%;
+    margin-top: 20px;
+
+    a {
+      text-decoration: none;
+      color: $primary_color;
+      border: 2px solid $primary_color;
+      border-radius: 30px;
+      background-color: $secondary_color;
+      padding: 15px 25px;
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+
+    button {
+      text-decoration: none;
+      outline: none;
+      color: $secondary_color;
+      border: 2px solid $primary_color;
+      border-radius: 30px;
+      background-color: $primary_color;
+      padding: 15px 25px;
+      font-weight: 600;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 1920px) {
+  .name-title{
+    top: 60vh;
+    font-size: 17rem;
+    font-family: 'Anton', sans-serif;
+    transform: scaleY(2);
+  }
+
+  .content-container {
+    padding: 200px 50px;
+  }
 }

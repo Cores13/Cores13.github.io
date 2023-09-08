@@ -5,8 +5,8 @@ import { Directive, Input, ElementRef, HostListener } from '@angular/core';
 })
 export class ParallaxDirective {
 
-  @Input('ratio') parallaxRatio : number = 1
-  initialTop : number = 400
+  @Input('ratio') parallaxRatio : number = 9
+  initialTop : number = 1
 
   constructor(private eleRef : ElementRef) {
     this.initialTop = this.eleRef.nativeElement.getBoundingClientRect().top
@@ -14,7 +14,7 @@ export class ParallaxDirective {
 
   @HostListener("window:scroll", ["$event"])
   onWindowScroll(){
-    this.eleRef.nativeElement.style.top = (this.initialTop + (window.scrollY * this.parallaxRatio)) + 'px'
+    this.eleRef.nativeElement.style.top = (this.initialTop + ((window.scrollY * this.parallaxRatio) * 2)) + 'px'
   }
 
 }

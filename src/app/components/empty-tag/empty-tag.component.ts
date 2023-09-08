@@ -26,7 +26,7 @@ export class EmptyTagComponent {
         canvas: this.canvasElementRef.nativeElement
       });
 
-      renderer.setSize(window.innerWidth / 1.5, window.innerHeight / 1.5);
+      renderer.setSize(window.innerWidth / 2, window.innerHeight / 1.5);
       window.addEventListener('resize', () => {
           camera.aspect = window.innerWidth / window.innerHeight;
           camera.updateProjectionMatrix();

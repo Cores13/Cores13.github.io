@@ -1,13 +1,54 @@
 <router-outlet></router-outlet>
 <app-navbar class="navbar"></app-navbar>
-<!-- parallax -->
+
+<div class="banner-about">
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Amet qui molestiae labore cupiditate deserunt?
+    Placeat odio, quo nihil fugit saepe, minus recusandae reiciendis
+    totam praesentium ipsa nam soluta cupiditate illo.
+  </p>
+
+  <div class="banner-buttons">
+    <a href="#!">About me</a>
+    <button type="button">Contact me</button>
+  </div>
+</div>
+<!-- PARALLAX -->
 <h1 appParallax [ratio]="-0.2" class="name-title">
 AMIR KASUMOVIĆ
 </h1>
-<div class="home-banner-container">
-  <div class="home-banner-left">
-    <h1 class="test">TEST</h1>
+
+<div class="content-container">
+  <!-- PORTFOLIO -->
+  <div class="section-container">
+    <div class="section-left">
+      <h2>Portfolio</h2>
+    </div>
+
+    <div class="section-right">
+      <div class="work-section-wrapper">
+        <div class="work-section-title">
+          <h1>My <span>favorite</span> works</h1>
+        </div>
+      </div>
+    </div>
   </div>
-  <app-empty-tag class="three-tag"></app-empty-tag>
+
+  <div class="section-container">
+    <div class="section-left">
+      <h2>Skills</h2>
+    </div>
+
+    <div class="section-right">
+      <div class="work-section-wrapper">
+        <div class="work-section-title">
+          <h1 >My favorite works</h1>
+        </div>
+        <app-empty-tag class="three-tag"></app-empty-tag>
+      </div>
+    </div>
+  </div>
 </div>
+
 
