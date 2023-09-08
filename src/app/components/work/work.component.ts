@@ -19,9 +19,14 @@ export class WorkComponent {
       link: 'https://github.com/Cores13/delivery_app'
     },
     {
-      title: 'Social media',
+      title: 'Todo app',
+      image: 'assets/projects/todos.webp',
+      link: 'https://github.com/Cores13/to_do_list_app'
+    },
+    {
+      title: 'Job App',
       image: 'assets/projects/stranger.webp',
-      link: 'https://github.com/Cores13/delivery_app'
+      link: 'https://github.com/Cores13/react_native_jobs'
     },
   ];
 }
