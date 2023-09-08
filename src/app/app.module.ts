@@ -7,6 +7,7 @@ import { EmptyTagComponent } from './components/empty-tag/empty-tag.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ParallaxDirective } from './directives/parallax/parallax.directive';
 import { WorkComponent } from './components/work/work.component';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { WorkComponent } from './components/work/work.component';
     EmptyTagComponent,
     NavbarComponent,
     ParallaxDirective,
-    WorkComponent
+    WorkComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

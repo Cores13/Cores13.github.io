@@ -1,0 +1,30 @@
+.skills-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.skills-section-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.skills-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+
+  img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    // filter: (100%);
+  }
+}
