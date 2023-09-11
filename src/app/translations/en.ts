@@ -19,4 +19,10 @@ export const strings = {
   // Skills section
   "skillsSectionTitle": "<span>Mastered</span> skills",
   "skillsSectionSubtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae molestias illum necessitatibus ab hic quidem at eligendi cum earum alias vel!",
+
+  // Certificates section
+  "certificatesSectionTitle": "My <span>amazing</span> accomplishments",
+  "certificateIssuer": "ISSUER",
+  "certificateTitle": "TITLE",
+  "certificateView": "VIEW",
 }
