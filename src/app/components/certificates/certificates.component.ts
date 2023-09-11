@@ -12,27 +12,27 @@ export class CertificatesComponent {
     {
       issuer: 'Sophos',
       title: 'Firewall Engineer',
-      image: 'assets/certificates/firewall.png'
+      image: 'assets/certificates/sophos.png'
     },
     {
       issuer: 'Udemy',
       title: 'Ethereum & Solidity Programming',
-      image: 'assets/certificates/solidity.jpg'
+      image: 'assets/certificates/udemy.png'
     },
     {
       issuer: 'Veeam',
       title: 'Technical Sales Professional',
-      image: 'assets/certificates/veeam.jpg'
+      image: 'assets/certificates/veeam.png'
     },
     {
       issuer: 'American University',
       title: 'C Programming Language',
-      image: 'assets/certificates/aubih.jpg'
+      image: 'assets/certificates/aubih.png'
     },
     {
       issuer: '3CX',
       title: 'Basic Certification',
-      image: 'assets/certificates/3cx.jpg'
+      image: 'assets/certificates/3cx.png'
     },
   ];
 
