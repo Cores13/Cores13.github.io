@@ -8,6 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { ParallaxDirective } from './directives/parallax/parallax.directive';
 import { WorkComponent } from './components/work/work.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { CertificatesComponent } from './components/certificates/certificates.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SkillsComponent } from './components/skills/skills.component';
     NavbarComponent,
     ParallaxDirective,
     WorkComponent,
-    SkillsComponent
+    SkillsComponent,
+    CertificatesComponent
   ],
   imports: [
     BrowserModule,

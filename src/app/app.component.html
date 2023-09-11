@@ -28,6 +28,18 @@ AMIR KASUMOVIĆ
 
   <!-- SKILLS -->
   <app-skills></app-skills>
+
+  <!-- CERTIFICATES -->
+  <app-certificates (viewCertificateEvent)="showCertificate($event)"></app-certificates>
 </div>
 
 
+<!-- MODALS -->
+<div class="blur"></div>
+
+<div class="modal" id="certificateModal">
+  <button type="button" class="close-btn" (click)="hideCertificate()">X</button>
+  <img class="certificate-image" src="" alt="Certificate image">
+</div>
+
+<div class="contact-me-btn">CONTACT ME</div>

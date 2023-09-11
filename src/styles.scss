@@ -6,6 +6,10 @@
 
 @import './variables.scss';
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Jost', sans-serif;
   background-color: black;
@@ -146,6 +150,7 @@ body {
 
   .content-container {
     padding: 200px 50px;
+    padding-right: 0;
   }
 
   .banner-about {
@@ -156,5 +161,89 @@ body {
     .banner-buttons {
       margin-top: 20px;
     }
+  }
+}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: -100vw;
+  width: 50vw;
+  height: 100vh;
+  background-color: $primary_color;
+  transition: all 0.4s;
+  padding: 15px;
+  border-left: 2px solid $secondary_color;
+  z-index: 10;
+
+  &.active {
+    right: 0vw;
+  }
+
+  .close-btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $secondary_color;
+    background-color: $primary_color;
+    top: 50px;
+    left: -70px;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border: 1px solid $secondary_color;
+  }
+
+  .certificate-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+.blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  height: 100vh;
+  z-index: -9;
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+
+  &.active {
+    z-index: 9;
+    opacity: 1;
+  }
+}
+
+.contact-me-btn {
+  position: fixed;
+  bottom: 3%;
+  right: 2%;
+  text-decoration: none;
+  outline: none;
+  color: $secondary_color;
+  border-radius: 30px;
+  background-color: rgba($color: #ffffff, $alpha: 0.5);
+  padding: 15px 25px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  cursor: pointer;
+  backdrop-filter: blur(5px);
+  display: none;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+
+  &.active {
+    display: block;
+    opacity: 1;
   }
 }

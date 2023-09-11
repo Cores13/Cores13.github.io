@@ -15,6 +15,13 @@ export class ParallaxDirective {
   @HostListener("window:scroll", ["$event"])
   onWindowScroll(){
     this.eleRef.nativeElement.style.top = (this.initialTop + ((window.scrollY * this.parallaxRatio) * 2)) + 'px'
+    var scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop;
+
+    if(scrollTop >= 1300){
+      document.querySelector('.contact-me-btn')?.classList.add("active");
+    }else {
+      document.querySelector('.contact-me-btn')?.classList.remove("active");
+    }
   }
 
 }
