@@ -14,4 +14,9 @@ export const strings = {
 
   // Work section
   "workSectionTitle": "My <span>favorite</span> works",
+  "workSectionSubtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae molestias illum necessitatibus ab hic quidem at eligendi cum earum alias vel!",
+
+  // Skills section
+  "skillsSectionTitle": "<span>Mastered</span> skills",
+  "skillsSectionSubtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae molestias illum necessitatibus ab hic quidem at eligendi cum earum alias vel!",
 }
