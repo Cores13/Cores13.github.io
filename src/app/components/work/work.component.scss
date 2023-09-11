@@ -74,3 +74,22 @@
     }
   }
 }
+
+@media (max-width: 1550px) {
+  .work-card {
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+
+    a {
+      .project-image {
+        width: 250px;
+        height: 250px;
+      }
+
+      .project-title {
+        width: 100px;
+      }
+    }
+  }
+}

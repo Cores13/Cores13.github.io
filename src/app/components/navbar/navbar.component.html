@@ -1,22 +1,16 @@
 <nav>
   <div class="navbar-links-left">
-    <a href="#work" class="navbar-link">Portfolio</a>
-    <a href="#skills" class="navbar-link">Skills</a>
-    <a href="#certificates" class="navbar-link">Certificates</a>
-    <a href="#!" class="navbar-link">&lt; En &gt;</a>
+    <a href="#work" class="navbar-link">{{strings.portfolio}}</a>
+    <a href="#skills" class="navbar-link">{{strings.skills}}</a>
+    <a href="#certificates" class="navbar-link">{{strings.certificates}}</a>
+    <a class="navbar-link" (click)="setTranslation('en')">&lt; En &gt;</a>
   </div>
   <div class="navbar-center">
-    <!-- <p class="navbar-about">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Amet qui molestiae labore cupiditate deserunt?
-      Placeat odio, quo nihil fugit saepe, minus recusandae reiciendis
-      totam praesentium ipsa nam soluta cupiditate illo.
-    </p> -->
   </div>
   <div class="navbar-links-right">
-    <a href="#!" class="navbar-link">&lt; Ba &gt;</a>
-    <a href="#!" class="navbar-link">Education</a>
-    <a href="#!" class="navbar-link">About</a>
-    <a href="#!" class="navbar-link">Experience</a>
+    <a class="navbar-link" (click)="setTranslation('ba')">&lt; Ba &gt;</a>
+    <a href="#Education" class="navbar-link">{{strings.education}}</a>
+    <a href="#About" class="navbar-link">{{strings.about}}</a>
+    <a href="#Experience" class="navbar-link">{{strings.experience}}</a>
   </div>
 </nav>

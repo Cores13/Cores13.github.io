@@ -1,12 +1,15 @@
 <div class="section-container" id="work">
     <div class="section-left">
-      <h2>Portfolio</h2>
+      <h2>{{strings.portfolio}}</h2>
     </div>
 
     <div class="section-right">
       <div class="work-section-wrapper">
         <div class="section-title">
-          <h1>My <span>favorite</span> works</h1>
+          <h1 [innerHTML]="strings.workSectionTitle"></h1>
+          <div class="section-subtitle">
+            <p>{{strings.workSectionSubtitle}}</p>
+          </div>
         </div>
         <div class="work-section-content">
           <div class="work-card" *ngFor="let project of projects">

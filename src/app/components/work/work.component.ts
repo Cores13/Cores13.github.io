@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Project } from 'src/app/interfaces/project';
 
 @Component({
@@ -7,6 +7,8 @@ import { Project } from 'src/app/interfaces/project';
   styleUrls: ['./work.component.scss']
 })
 export class WorkComponent {
+  @Input() strings: any; // decorate the property with @Input()
+
   projects: Project[] = [
     {
       title: 'Social media',

@@ -1,20 +1,15 @@
 <router-outlet></router-outlet>
-<app-navbar class="navbar"></app-navbar>
+<app-navbar class="navbar" (setTranslationEvent)="setTranslation($event)" [strings]="strings"></app-navbar>
 
 <div class="banner-about">
   <app-empty-tag class="three-tag"></app-empty-tag>
   <p>
-    I am a Bachelor of Information Technologies with several years of
-    experience working as a full stack web developer. Until now, I have
-    put a lot of effort in almost each part of IT because I am still
-    craving for knowledge. Now, even more than ever, I want to leave
-    a mark in this industry. I am still learning and collecting knowledge
-    through work and always seeking new ways to implement my knowledge.
+    {{strings.bannerAbout}}
   </p>
 
   <div class="banner-buttons">
-    <a href="#!">About me</a>
-    <button type="button">Contact me</button>
+    <a href="#!">{{strings.aboutMe}}</a>
+    <button type="button">{{strings.contactMe}}</button>
   </div>
 </div>
 <!-- PARALLAX -->
@@ -24,13 +19,13 @@ AMIR KASUMOVIĆ
 
 <div class="content-container">
   <!-- PORTFOLIO -->
-  <app-work></app-work>
+  <app-work [strings]="strings"></app-work>
 
   <!-- SKILLS -->
-  <app-skills></app-skills>
+  <app-skills [strings]="strings"></app-skills>
 
   <!-- CERTIFICATES -->
-  <app-certificates (viewCertificateEvent)="showCertificate($event)"></app-certificates>
+  <app-certificates (viewCertificateEvent)="showCertificate($event)" [strings]="strings"></app-certificates>
 </div>
 
 
@@ -42,4 +37,4 @@ AMIR KASUMOVIĆ
   <img class="certificate-image" src="" alt="Certificate image">
 </div>
 
-<div class="contact-me-btn">CONTACT ME</div>
+<div class="contact-me-btn">{{strings.contactMe}}</div>

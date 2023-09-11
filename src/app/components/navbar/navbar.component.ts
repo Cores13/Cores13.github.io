@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter, Input } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent {
+  @Input() strings: any; // decorate the property with @Input()
+  @Output() setTranslationEvent = new EventEmitter<string>();
 
+  setTranslation(language: string) {
+    console.log(language)
+    this.setTranslationEvent.emit(language);
+  }
 }

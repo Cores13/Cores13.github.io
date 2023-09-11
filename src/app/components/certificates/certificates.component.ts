@@ -1,4 +1,4 @@
-import { Component, Output, EventEmitter } from '@angular/core';
+import { Component, Output, EventEmitter, Input } from '@angular/core';
 import { Certificate } from 'src/app/interfaces/certificate';
 @Component({
   selector: 'app-certificates',
@@ -6,6 +6,7 @@ import { Certificate } from 'src/app/interfaces/certificate';
   styleUrls: ['./certificates.component.scss']
 })
 export class CertificatesComponent {
+  @Input() strings: any; // decorate the property with @Input()
   @Output() viewCertificateEvent = new EventEmitter<Certificate>();
 
   certificates: Certificate[] = [

@@ -9,6 +9,7 @@ import { ParallaxDirective } from './directives/parallax/parallax.directive';
 import { WorkComponent } from './components/work/work.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { CertificatesComponent } from './components/certificates/certificates.component';
+import { EducationComponent } from './components/education/education.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CertificatesComponent } from './components/certificates/certificates.co
     ParallaxDirective,
     WorkComponent,
     SkillsComponent,
-    CertificatesComponent
+    CertificatesComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,

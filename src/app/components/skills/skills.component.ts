@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-skills',
@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./skills.component.scss']
 })
 export class SkillsComponent {
+  @Input() strings: any; // decorate the property with @Input()
 
   ngOnInit() {
     const slider: any = document.querySelector('.skills-section-content');
