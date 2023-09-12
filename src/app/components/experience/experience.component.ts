@@ -12,6 +12,24 @@ export class ExperienceComponent {
 
   experiences: Experience[] = [
     {
+      company: 'Purple Key',
+      title: 'Full Stack Software Developer',
+      from: 'Apr 2023',
+      to: 'Now'
+    },
+    {
+      company: 'Comversum',
+      title: 'Head of IT Department',
+      from: 'Jul 2022',
+      to: 'Apr 2023'
+    },
+    {
+      company: 'Leftor',
+      title: 'Full Stack Software Developer',
+      from: 'Nov 2021',
+      to: 'Jul 2022'
+    },
+    {
       company: 'Ideaology',
       title: 'Full Stack Blockchain Developer',
       from: 'May 2021',

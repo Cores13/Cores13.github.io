@@ -188,6 +188,8 @@ body {
 
   &.experience {
     width: 50vw;
+    height: auto;
+    overflow-y: scroll;
   }
 
   &.active {
