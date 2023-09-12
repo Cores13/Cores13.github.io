@@ -42,6 +42,7 @@ AMIR KASUMOVIĆ
 
 <!-- MODALS -->
 <div class="blur"></div>
+<div class="light-blur"></div>
 
 <!-- EXPERIENCE MODAL -->
 <div class="modal experience" id="experienceModal">
@@ -57,13 +58,17 @@ AMIR KASUMOVIĆ
 <div class="contact-me-btn">{{strings.contactMe}}</div>
 
 <!-- CONTACT -->
-<div class="contact-form">
+<div class="contact-form active">
   <form
     action="https://formspree.io/f/myyldape"
     method="POST">
     <label>
       Your email:
       <input type="email" name="email">
+    </label>
+    <label>
+      Your name:
+      <input type="name" name="text">
     </label>
     <label>
       Your message:

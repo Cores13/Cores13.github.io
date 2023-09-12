@@ -221,11 +221,30 @@ body {
     object-fit: contain;
   }
 }
+
 .blur {
   position: fixed;
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  width: 100vw;
+  height: 100vh;
+  z-index: -9;
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+
+  &.active {
+    z-index: 9;
+    opacity: 1;
+  }
+}
+.light-blur {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   width: 100vw;
@@ -266,6 +285,27 @@ body {
   }
 }
 
+.contact-form {
+  position: fixed;
+  bottom: -50vh;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: $secondary_color;
+  border-radius: 30px;
+  padding: 20px;
+  color: $primary_color;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-evenly;
+  }
+
+  &.active {
+    bottom: 10%;
+  }
+}
 
 @media (max-width: 1920px) {
   .name-title{
