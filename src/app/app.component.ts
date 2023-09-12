@@ -2,6 +2,7 @@ import { Component, ElementRef, NgZone, VERSION, ViewChild } from '@angular/core
 import { Certificate } from './interfaces/certificate';
 import {strings as ba} from './translations/ba';
 import {strings as en} from './translations/en';
+import { Experience } from './interfaces/experience';
 
 @Component({
   selector: 'app-root',
@@ -30,6 +31,16 @@ export class AppComponent {
   hideCertificate () {
     document.querySelector('.blur')?.classList.remove("active");
     document.getElementById('certificateModal')?.classList.remove("active");
+  }
+
+  showExperience(experience: Experience) {
+    document.querySelector('.blur')?.classList.add("active");
+    document.getElementById('experienceModal')?.classList.add("active");
+  }
+
+  hideExperience () {
+    document.querySelector('.blur')?.classList.remove("active");
+    document.getElementById('experienceModal')?.classList.remove("active");
   }
 
   setTranslation(language: string) {

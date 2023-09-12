@@ -186,6 +186,10 @@ body {
   border-left: 1px solid $secondary_color;
   z-index: 10;
 
+  &.experience {
+    width: 50vw;
+  }
+
   &.active {
     right: 0vw;
   }

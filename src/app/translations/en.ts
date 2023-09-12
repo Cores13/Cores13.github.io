@@ -40,4 +40,10 @@ export const strings = {
   "aubihSubtitle": "American University in Bosnia and Herzegovina",
   "mssTitle": "Mechanical High School",
   "mssSubtitle": 'High school "Banovići"',
+
+  // Experience section
+  "experienceSectionTitle": "My <span>amazing</span> accomplishments",
+  "experienceCompany": "COMPANY",
+  "experienceTitle": "TITLE",
+  "experienceDuration": "DURATION",
 }

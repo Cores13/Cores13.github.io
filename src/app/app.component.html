@@ -29,7 +29,7 @@ AMIR KASUMOVIĆ
   <app-skills [strings]="strings"></app-skills>
 
   <!-- EXPERIENCE -->
-  <app-experience [strings]="strings"></app-experience>
+  <app-experience (viewExperienceEvent)="showExperience($event)" [strings]="strings"></app-experience>
 
   <!-- EDUCATION -->
   <app-education [strings]="strings"></app-education>
@@ -43,6 +43,12 @@ AMIR KASUMOVIĆ
 <!-- MODALS -->
 <div class="blur"></div>
 
+<!-- EXPERIENCE MODAL -->
+<div class="modal experience" id="experienceModal">
+  <button type="button" class="close-btn" (click)="hideExperience()">X</button>
+</div>
+
+<!-- CERTIFICATE MODAL -->
 <div class="modal" id="certificateModal">
   <button type="button" class="close-btn" (click)="hideCertificate()">X</button>
   <img class="certificate-image" src="" alt="Certificate image">
