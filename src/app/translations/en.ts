@@ -25,4 +25,9 @@ export const strings = {
   "certificateIssuer": "ISSUER",
   "certificateTitle": "TITLE",
   "certificateView": "VIEW",
+
+  // About section
+  "aboutSectionTitle": "About <span>me</span>",
+  "aboutSectionSubtitle": "My <span>amazing</span> accomplishments",
+  "aboutMeInfo": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio aliquid numquam quae repellendus aperiam, iste debitis, voluptate quaerat rerum saepe, quisquam fugit illo cum tempora quis repellat odit natus voluptatum!",
 }

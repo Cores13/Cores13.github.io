@@ -1,0 +1,47 @@
+@import '../../../variables.scss';
+
+.about-section-wrapper {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  padding-right: 100px;
+  width: 100%;
+
+  .section-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+
+    h1 {
+      width: 100%;
+    }
+  }
+}
+
+.about-section-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: black;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+
+  .about-image {
+    width: 60%;
+    object-fit: contain;
+    height: auto;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: grayscale(1);
+  }
+}
+
+@media (max-width: 1920px) {
+
+}
+
+@media (max-width: 1550px) {
+
+}
