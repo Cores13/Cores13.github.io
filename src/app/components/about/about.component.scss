@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: row;
   color: black;
-  padding-right: 100px;
   width: 100%;
 
   .section-title {
@@ -28,13 +27,37 @@
   justify-content: space-between;
   width: 50%;
 
+  // .about-image {
+  //   width: 60%;
+  //   object-fit: contain;
+  //   height: auto;
+  //   -webkit-transform: scaleX(-1);
+  //   transform: scaleX(-1);
+  //   filter: grayscale(1);
+  //   border-radius: 50%;;
+  // }
+
+
   .about-image {
+    position: relative;
     width: 60%;
-    object-fit: contain;
     height: auto;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: grayscale(1);
+    transform-origin: 50% 50%;
+    transform: translateY(4px) scale(1, 1);
+    transition: transform 0.2s ease-in;
+  }
+
+  .image {
+    position: absolute;
+    transform: scale(0.9, 0.9);
+    transition: transform 0.2s ease-in;
+  }
+  .image:hover {
+    transform: scale(1, 1);
+  }
+
+  .image:hover .image__foreground {
+    transform: translateY(-7px) scale(1.05, 1.05);
   }
 }
 
