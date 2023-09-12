@@ -34,4 +34,8 @@ export const strings = {
   // Education section
   "educationSectionTitle": "Education <span>timeline</span>",
   "educationSectionSubtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae molestias illum necessitatibus ab hic quidem at eligendi cum earum alias vel!",
+  "aubihTitle": "Engineer of Information Technologies",
+  "aubihSubtitle": "American University in Bosnia and Herzegovina",
+  "mssTitle": "Mechanical High School",
+  "mssSubtitle": 'High school "Banovići"',
 }
