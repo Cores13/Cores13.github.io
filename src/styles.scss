@@ -130,6 +130,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   width: auto;
+  padding-right: 50px;
 
   .section-subtitle {
     display: flex;
@@ -182,7 +183,7 @@ body {
   background-color: $primary_color;
   transition: all 0.4s;
   padding: 15px;
-  border-left: 2px solid $secondary_color;
+  border-left: 1px solid $secondary_color;
   z-index: 10;
 
   &.active {

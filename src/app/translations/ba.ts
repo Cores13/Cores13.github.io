@@ -30,4 +30,8 @@ export const strings = {
   "aboutSectionTitle": "About <span>me</span>",
   "aboutSectionSubtitle": "My <span>amazing</span> accomplishments",
   "aboutMeInfo": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio aliquid numquam quae repellendus aperiam, iste debitis, voluptate quaerat rerum saepe, quisquam fugit illo cum tempora quis repellat odit natus voluptatum!",
+
+  // Education section
+  "educationSectionTitle": "Education <span>timeline</span>",
+  "educationSectionSubtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae molestias illum necessitatibus ab hic quidem at eligendi cum earum alias vel!",
 }
