@@ -1,4 +1,6 @@
 export const strings = {
+  "language": "ba",
+
   // Navbar
   "portfolio": "Portfolio",
   "skills": "Vještine",

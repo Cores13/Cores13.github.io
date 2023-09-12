@@ -1,4 +1,6 @@
 export const strings = {
+  "language": "en",
+
   // Navbar
   "portfolio": "Portfolio",
   "skills": "Skills",
