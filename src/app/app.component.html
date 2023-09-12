@@ -18,6 +18,10 @@ AMIR KASUMOVIĆ
 </h1>
 
 <div class="content-container">
+
+  <!-- ABOUT ME -->
+  <app-about [strings]="strings"></app-about>
+
   <!-- PORTFOLIO -->
   <app-work [strings]="strings"></app-work>
 
@@ -27,8 +31,6 @@ AMIR KASUMOVIĆ
   <!-- CERTIFICATES -->
   <app-certificates (viewCertificateEvent)="showCertificate($event)" [strings]="strings"></app-certificates>
 
-  <!-- ABOUT ME -->
-  <app-about [strings]="strings"></app-about>
 </div>
 
 
