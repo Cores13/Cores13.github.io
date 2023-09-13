@@ -20,13 +20,15 @@ export class ExperienceComponent {
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae",
         location: 'Sarajevo (Bosnia and Herzegovina)',
         responsibilities: [
-          "Development of user interface for web applications using Blade, ReactJS, VueJS,TypeScript and JavaScript ES6",
+          "Development of user interface for web applications using Angular, React, Vue, Blade, TypeScript and JavaScript ES6",
           "Backend development using Laravel and .NET",
           "User interface development for mobile applications (Android and iOS) using React Native",
           "Redux state management",
+          "NgRx state management",
+          "JWT Authentication",
           "Bootstrap, Tailwind and MaterialUI",
-          "MySQL, MongoDB",
-          "Deployment on Azure, Ubuntu and shared hosting (cPanel)",
+          "MySQL, Microsoft SQL",
+          "Deployment on Azure, Ubuntu and shared hosting (cPanel, plesk)",
         ],
         link: "https://purplekey.ba/"
       }
