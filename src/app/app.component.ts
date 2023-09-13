@@ -43,6 +43,16 @@ export class AppComponent {
     document.getElementById('experienceModal')?.classList.remove("active");
   }
 
+  showContactForm() {
+    document.querySelector('.light-blur')?.classList.add("active");
+    document.querySelector('.contact-form')?.classList.add("active");
+  }
+
+  hideContactForm() {
+    document.querySelector('.light-blur')?.classList.remove("active");
+    document.querySelector('.contact-form')?.classList.remove("active");
+  }
+
   setTranslation(language: string) {
     if(language == 'en'){
       this.strings = en;

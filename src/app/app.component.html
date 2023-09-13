@@ -55,13 +55,15 @@ AMIR KASUMOVIĆ
   <img class="certificate-image" src="" alt="Certificate image">
 </div>
 
-<div class="contact-me-btn">{{strings.contactMe}}</div>
+<button type="button" class="contact-me-btn" (click)="showContactForm()">{{strings.contactMe}}</button>
 
 <!-- CONTACT -->
-<div class="contact-form active">
+<div class="contact-form">
+  <h1 class="contact-form-close-btn" (click)="hideContactForm()">x</h1>
   <form
     action="https://formspree.io/f/myyldape"
     method="POST">
+    <h1>Contact me</h1>
     <label>
       Your email:
       <input type="email" name="email">
@@ -70,11 +72,11 @@ AMIR KASUMOVIĆ
       Your name:
       <input type="name" name="text">
     </label>
-    <label>
+    <label class="message-label">
       Your message:
       <textarea name="message"></textarea>
     </label>
     <!-- your other form fields go here -->
-    <button type="submit">Send</button>
+    <button type="submit">Send message</button>
   </form>
 </div>
