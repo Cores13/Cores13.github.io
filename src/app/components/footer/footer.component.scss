@@ -60,3 +60,21 @@ footer {
     font-family: 'Anton', sans-serif;
   }
 }
+
+
+@media (max-width: 1024px) {
+  footer {
+    font-size: 0.1rem;
+    .footer-links-left {
+      width: 35%;
+    }
+
+    .footer-links-right {
+      width: 35%;
+    }
+
+    .footer-center {
+      width: 30%;
+    }
+  }
+}

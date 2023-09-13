@@ -6,7 +6,6 @@ nav {
   align-items: flex-start;
   justify-content: space-evenly;
   padding: 40px 20px;
-  background-color: black;
   font-weight: 600;
   font-size: 1.4rem;
 
@@ -42,5 +41,22 @@ nav {
     width: 33%;
     justify-content: center;
     text-align: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  nav {
+    font-size: 1rem;
+    .navbar-links-left {
+      width: 35%;
+    }
+
+    .navbar-links-right {
+      width: 35%;
+    }
+
+    .navbar-center {
+      width: 30%;
+    }
   }
 }

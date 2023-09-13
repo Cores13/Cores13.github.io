@@ -20,6 +20,13 @@ export class EmptyTagComponent {
       const scene = new THREE.Scene();
       scene.background = new THREE.Color( 0x000000 );
       const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 100);
+    //   const camera = new THREE.OrthographicCamera(-1, // left
+    //  1, // right
+    //  1, // top
+    // -1, // bottom
+    // -1000, // near,
+    //  10000, // far
+    //  );
 
       const renderer = new THREE.WebGLRenderer({
         canvas: this.canvasElementRef.nativeElement
@@ -30,7 +37,7 @@ export class EmptyTagComponent {
           camera.aspect = window.innerWidth / window.innerHeight;
           camera.updateProjectionMatrix();
           camera.updateMatrixWorld();
-          renderer.setSize(window.innerWidth, window.innerHeight);
+          renderer.setSize(window.innerWidth/ 7, window.innerHeight/ 7);
       });
 
       // OBJECT
@@ -47,7 +54,7 @@ export class EmptyTagComponent {
           font: font,
           size: 18,
           height: 5,
-          curveSegments: 3200,
+          curveSegments: 32,
           bevelEnabled: false,
           bevelThickness: 0.8,
           bevelSize: 0.8,
@@ -73,6 +80,7 @@ export class EmptyTagComponent {
         textMesh.position.set(-22, 0, 0)
         pivot.position.set(0, 0, 0)
 
+
         const animate = function() {
           requestAnimationFrame(animate);
           pivot.rotation.y += 0.01;
@@ -89,6 +97,9 @@ export class EmptyTagComponent {
       directionalLight.position.set(-22, 0, 0);
 
       camera.position.z = 35;
+      if(window.innerWidth <= 1024){
+        camera.position.z = 55;
+      }
       camera.position.y = 8;
       // orbit.update();
     });
