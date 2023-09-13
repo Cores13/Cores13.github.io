@@ -13,7 +13,7 @@ export class AppComponent {
   language = 'en';
   secondaryColor:string = '0x000000';
   primaryColor: string = '0x32a883';
-  githubLogo = 'assets/github.png';
+  githubLogo = 'assets/github.webp';
   strings: any = en;
   experience: Experience = {
       company: '',

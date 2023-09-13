@@ -32,12 +32,12 @@ export class WorkComponent {
     },
     {
       title: 'Aventus',
-      image: 'assets/projects/aventus.jpg',
+      image: 'assets/projects/aventus.webp',
       link: 'https://aventus.ba/'
     },
     {
       title: 'Offroad BiH',
-      image: 'assets/projects/offroad.jpg',
+      image: 'assets/projects/offroad.webp',
       link: 'https://offroad.ba/'
     },
     {
