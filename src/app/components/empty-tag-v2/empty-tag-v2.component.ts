@@ -1,3 +1,4 @@
+
 import { Component, ElementRef, NgZone, ViewChild } from '@angular/core';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
@@ -6,11 +7,12 @@ import { TTFLoader } from 'three/examples/jsm/loaders/TTFLoader.js'
 import { Font } from 'three/examples/jsm/loaders/FontLoader.js';
 
 @Component({
-  selector: 'app-empty-tag',
-  templateUrl: './empty-tag.component.html',
-  styleUrls: ['./empty-tag.component.scss']
+  selector: 'app-empty-tag-v2',
+  templateUrl: './empty-tag-v2.component.html',
+  styleUrls: ['./empty-tag-v2.component.scss']
 })
-export class EmptyTagComponent {
+
+export class EmptyTagV2Component {
 @ViewChild('canvasElement', {static: true}) canvasElementRef: ElementRef<HTMLCanvasElement>;
 
   constructor(private ngZone: NgZone){}
@@ -18,7 +20,7 @@ export class EmptyTagComponent {
   ngOnInit() {
     this.ngZone.runOutsideAngular(() => {
       const scene = new THREE.Scene();
-      scene.background = new THREE.Color( 0x000000 );
+      scene.background = new THREE.Color( 0xe8e5e0 );
       const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 100);
 
       const renderer = new THREE.WebGLRenderer({

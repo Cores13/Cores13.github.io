@@ -12,6 +12,8 @@ import { CertificatesComponent } from './components/certificates/certificates.co
 import { EducationComponent } from './components/education/education.component';
 import { AboutComponent } from './components/about/about.component';
 import { ExperienceComponent } from './components/experience/experience.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { EmptyTagV2Component } from './components/empty-tag-v2/empty-tag-v2.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ExperienceComponent } from './components/experience/experience.componen
     CertificatesComponent,
     EducationComponent,
     AboutComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    FooterComponent,
+    EmptyTagV2Component
   ],
   imports: [
     BrowserModule,

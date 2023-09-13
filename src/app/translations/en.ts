@@ -46,4 +46,7 @@ export const strings = {
   "experienceCompany": "COMPANY",
   "experienceTitle": "TITLE",
   "experienceDuration": "DURATION",
+
+  // Footer
+  "footerTitle": "Let's <span>build</span> something awesome <span>together</span>",
 }

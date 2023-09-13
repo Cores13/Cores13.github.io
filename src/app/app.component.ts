@@ -11,6 +11,8 @@ import { Experience } from './interfaces/experience';
 })
 export class AppComponent {
   language = 'en';
+  secondaryColor:string = '0x000000';
+  primaryColor: string = '0x32a883';
   githubLogo = 'assets/github.png';
   strings: any = en;
   experience: Experience = {
