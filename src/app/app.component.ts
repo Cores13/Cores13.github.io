@@ -19,8 +19,10 @@ export class AppComponent {
       from: '',
       to: '',
       details: {
+        description: '',
         location: '',
-        responsibilities: []
+        responsibilities: [],
+        link: ""
       }
     };
 
@@ -64,8 +66,10 @@ export class AppComponent {
       from: '',
       to: '',
       details: {
+        description: '',
         location: '',
-        responsibilities: []
+        responsibilities: [],
+        link: ""
       }
     };
   }

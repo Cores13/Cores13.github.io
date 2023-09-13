@@ -189,14 +189,73 @@ body {
   &.experience {
     width: 50vw;
     min-height: 100vh;
+    padding: 25px;
 
     .experience-content-wrapper {
       height: 100%;
       overflow-y: scroll;
+      display: flex;
+      flex-direction: column;
+
+      .experience-company-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 25px;
+
+        .experience-company-title {
+          display: flex;
+          flex-direction: column;
+          align-items: baseline;
+          justify-self: flex-start;
+
+          h1 {
+            font-size: 2.5rem;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 1.3rem;
+          }
+        }
+
+        .experience-view-company {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-evenly;
+          height: 100%;
+
+          a {
+            text-decoration: none;
+            color: $primary_color;
+            border: 2px solid $primary_color;
+            border-radius: 30px;
+            background-color: $secondary_color;
+            padding: 15px 25px;
+            font-weight: 600;
+            font-size: 1.2rem;
+          }
+        }
+      }
+
+      li {
+        margin-bottom: 25px;
+      }
     }
-
-
   }
+
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .experience-content-wrapper::-webkit-scrollbar {
+        display: none;
+      }
+
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .experience-content-wrapper {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+      }
 
   &.active {
     right: 0vw;

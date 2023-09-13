@@ -4,7 +4,9 @@ export interface Experience {
   from: string
   to: string
   details: {
+    description: string
     location: string
     responsibilities: string[]
+    link: string
   }
 }

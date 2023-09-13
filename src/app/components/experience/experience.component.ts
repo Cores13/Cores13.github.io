@@ -17,6 +17,7 @@ export class ExperienceComponent {
       from: 'Apr 2023',
       to: 'Now',
       details: {
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae",
         location: 'Sarajevo (Bosnia and Herzegovina)',
         responsibilities: [
           "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae",
@@ -45,7 +46,8 @@ export class ExperienceComponent {
           "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae",
           "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae",
           "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae",
-        ]
+        ],
+        link: "https://purplekey.ba/"
       }
     },
     {
@@ -54,8 +56,10 @@ export class ExperienceComponent {
       from: 'Jul 2022',
       to: 'Apr 2023',
       details: {
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae",
         location: 'Tuzla (Bosnia and Herzegovina)',
-        responsibilities: ["test"]
+        responsibilities: ["test"],
+        link: "https://comversum.com/"
       }
     },
     {
@@ -64,8 +68,10 @@ export class ExperienceComponent {
       from: 'Nov 2021',
       to: 'Jul 2022',
       details: {
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae",
         location: 'Tuzla (Bosnia and Herzegovina)',
-        responsibilities: ["test"]
+        responsibilities: ["test"],
+        link: "https://leftor.com/"
       }
     },
     {
@@ -74,8 +80,10 @@ export class ExperienceComponent {
       from: 'May 2021',
       to: 'Nov 2021',
       details: {
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae",
         location: 'Lukavac (Bosnia and Herzegovina)',
-        responsibilities: ["test"]
+        responsibilities: ["test"],
+        link: "https://www.ideaology.io/"
       }
     },
   ];

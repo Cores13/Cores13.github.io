@@ -48,9 +48,21 @@ AMIR KASUMOVIĆ
 <div class="modal experience" id="experienceModal">
   <button type="button" class="close-btn" (click)="hideExperience()">X</button>
   <div class="experience-content-wrapper" id="experienceContentWrapper">
-    <h1>{{experience.title}}</h1>
-    <p>{{experience.company}}, {{experience.details.location}}</p>
+    <div class="experience-company-info">
+      <div class="experience-company-title">
+        <h1>{{experience.title}}</h1>
+        <p><strong>{{experience.company}}</strong>, {{experience.details.location}}</p>
+      </div>
+      <div class="experience-view-company">
+        <p>{{experience.from}} - {{experience.to}}</p>
+        <a [href]="experience.details.link" target="_blank">View company</a>
+      </div>
+    </div>
 
+    <h2>Job description</h2>
+    <p class="experience-description">{{experience.details.description}}</p>
+
+    <h2>Responsibilities</h2>
     <ul class="experience-responsibilities">
       <li *ngFor="let responsibility of experience.details.responsibilities">{{responsibility}}</li>
     </ul>
