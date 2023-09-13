@@ -9,7 +9,7 @@
 
   <div class="banner-buttons">
     <a href="#about">{{strings.aboutMe}}</a>
-    <button type="button">{{strings.contactMe}}</button>
+    <button type="button" (click)="showContactForm()">{{strings.contactMe}}</button>
   </div>
 </div>
 <!-- PARALLAX -->
@@ -47,6 +47,15 @@ AMIR KASUMOVIĆ
 <!-- EXPERIENCE MODAL -->
 <div class="modal experience" id="experienceModal">
   <button type="button" class="close-btn" (click)="hideExperience()">X</button>
+  <div class="experience-content-wrapper" id="experienceContentWrapper">
+    <h1>{{experience.title}}</h1>
+    <p>{{experience.company}}, {{experience.details.location}}</p>
+
+    <ul class="experience-responsibilities">
+      <li *ngFor="let responsibility of experience.details.responsibilities">{{responsibility}}</li>
+    </ul>
+  </div>
+
 </div>
 
 <!-- CERTIFICATE MODAL -->

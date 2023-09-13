@@ -188,8 +188,14 @@ body {
 
   &.experience {
     width: 50vw;
-    height: auto;
-    overflow-y: scroll;
+    min-height: 100vh;
+
+    .experience-content-wrapper {
+      height: 100%;
+      overflow-y: scroll;
+    }
+
+
   }
 
   &.active {
