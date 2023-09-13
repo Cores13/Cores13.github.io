@@ -29,16 +29,16 @@ export class EmptyTagV2Component {
       });
 
       renderer.setSize(window.innerWidth / 7, window.innerHeight / 7);
-      if(window.innerWidth <= 500){
-        camera.fov = 120;
+      if(window.innerWidth <= 600){
+        camera.fov = 475;
         camera.updateProjectionMatrix();
-        renderer.setSize(window.innerWidth / 2.5, window.innerHeight / 2.5);
+        renderer.setSize(window.innerWidth / 4.5, window.innerHeight / 4.5);
       }
 
       window.addEventListener('resize', () => {
         camera.aspect = window.innerWidth / window.innerHeight;
         if(window.innerWidth <= 600){
-          renderer.setSize(window.innerWidth / 2.5, window.innerHeight / 2.5);
+          renderer.setSize(window.innerWidth / 4.5, window.innerHeight / 4.5);
         }
         camera.updateProjectionMatrix();
         camera.updateMatrixWorld();

@@ -643,4 +643,13 @@ footer {
       width: 100%;
     }
   }
+
+  .contact-me-btn {
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 15px;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
 }
