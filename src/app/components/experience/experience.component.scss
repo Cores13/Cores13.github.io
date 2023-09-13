@@ -89,3 +89,53 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .section-title {
+    padding-right: 0;
+    h1 {
+      width: 90%;
+    }
+  }
+  .experiences-section-content {
+    padding-right: 50px;
+  }
+
+  .experiences-section-content {
+    .experiences-titles {
+      .experience-company {
+        font-size: 1.5rem;
+      }
+      .experience-title {
+        width: 40%;
+        font-size: 1.5rem;
+      }
+      .experience-duration {
+        width: 30%;
+        font-size: 1.5rem;
+      }
+      .experience-view {
+        font-size: 1.5rem;
+      }
+    }
+
+    .experiences-wrapper {
+      .experience-wrapper {
+        .experience-company {
+          font-size: 1.2rem;
+        }
+        .experience-title {
+          width: 40%;
+          font-size: 1.2rem;
+        }
+        .experience-duration {
+          width: 30%;
+          font-size: 1.2rem;
+        }
+        .experience-view {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}

@@ -7,7 +7,6 @@ footer {
   justify-content: space-evenly;
   padding: 40px 20px;
   font-weight: 600;
-  font-size: 1.4rem;
 
   .footer-navigation {
     display: flex;
@@ -64,17 +63,23 @@ footer {
 
 @media (max-width: 1024px) {
   footer {
-    font-size: 0.1rem;
-    .footer-links-left {
-      width: 35%;
+    h1 {
+      font-size: 5rem;
     }
 
-    .footer-links-right {
-      width: 35%;
-    }
+    .footer-navigation{
+      font-size: 1rem;
+      .footer-links-left {
+        width: 35%;
+      }
 
-    .footer-center {
-      width: 30%;
+      .footer-links-right {
+        width: 35%;
+      }
+
+      .footer-center {
+        width: 30%;
+      }
     }
   }
 }

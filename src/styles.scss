@@ -533,15 +533,28 @@ footer {
     }
   }
 
+
   .banner-about {
     p {
+      font-size: 0.8rem;
       width: 35%;
+      margin: 0;
     }
 
     .banner-buttons {
       justify-content: space-between;
       width: 35%;
-      margin-top: 50px;
+      margin-top: 25px;
+
+      button {
+        font-size: 1rem;
+        padding: 10px 20px;
+      }
+
+      a {
+        font-size: 1rem;
+        padding: 10px 20px;
+      }
     }
   }
 

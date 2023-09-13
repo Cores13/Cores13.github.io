@@ -87,3 +87,19 @@
 @media (max-width: 1550px) {
 
 }
+
+@media (max-width: 1024px) {
+  .about-section-content {
+    .about-image-container {
+      margin: auto 0;
+    }
+  }
+  .about-section-wrapper {
+    .section-title {
+      padding-right: 0;
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

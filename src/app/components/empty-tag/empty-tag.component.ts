@@ -97,9 +97,9 @@ export class EmptyTagComponent {
       directionalLight.position.set(-22, 0, 0);
 
       camera.position.z = 35;
-      if(window.innerWidth <= 1024){
-        camera.position.z = 55;
-      }
+      // if(window.innerWidth <= 1024){
+      //   camera.position.z = 55;
+      // }
       camera.position.y = 8;
       // orbit.update();
     });
