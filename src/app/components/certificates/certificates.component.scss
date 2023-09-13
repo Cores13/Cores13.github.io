@@ -118,3 +118,44 @@
     }
   }
 }
+
+@media (max-width: 425px) {
+    .certificates-section-content {
+    padding-right: 0;
+  }
+
+  .certificates-section-content {
+    .certificates-titles {
+      .certificate-issuer {
+        width: 30%;
+        font-size: 0.65rem;
+      }
+      .certificate-title {
+        width: 50%;
+        font-size: 0.65rem;
+      }
+      .certificate-view {
+        width: 20%;
+        font-size: 0.65rem;
+      }
+    }
+
+    .certificates-wrapper {
+      .certificate-wrapper {
+        .certificate-issuer {
+          width: 30%;
+          font-size: 0.7rem;
+        }
+        .certificate-title {
+          width: 50%;
+          font-size: 0.7rem;
+        }
+        .certificate-view {
+          width: 20%;
+          font-size: 0.7rem;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
