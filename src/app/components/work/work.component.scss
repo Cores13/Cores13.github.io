@@ -93,3 +93,30 @@
     }
   }
 }
+
+@media (max-width: 425px) {
+  .work-section-wrapper {
+    flex-direction: column;
+    .section-title {
+      width: 100%;
+      p{
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .work-section-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    .work-card {
+      margin: 0;
+      margin-bottom: 15px;
+    }
+  }
+}

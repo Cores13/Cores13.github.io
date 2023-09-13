@@ -20,19 +20,28 @@ export class EmptyTagV2Component {
   ngOnInit() {
     this.ngZone.runOutsideAngular(() => {
       const scene = new THREE.Scene();
-      scene.background = new THREE.Color( 0xe8e5e0 );
+      // scene.background = new THREE.Color( 0xe8e5e0 );
       const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 100);
 
       const renderer = new THREE.WebGLRenderer({
-        canvas: this.canvasElementRef.nativeElement
+        canvas: this.canvasElementRef.nativeElement,
+        alpha: true
       });
 
       renderer.setSize(window.innerWidth / 7, window.innerHeight / 7);
+      if(window.innerWidth <= 500){
+        camera.fov = 120;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth / 2.5, window.innerHeight / 2.5);
+      }
+
       window.addEventListener('resize', () => {
-          camera.aspect = window.innerWidth / window.innerHeight;
-          camera.updateProjectionMatrix();
-          camera.updateMatrixWorld();
-          renderer.setSize(window.innerWidth, window.innerHeight);
+        camera.aspect = window.innerWidth / window.innerHeight;
+        if(window.innerWidth <= 600){
+          renderer.setSize(window.innerWidth / 2.5, window.innerHeight / 2.5);
+        }
+        camera.updateProjectionMatrix();
+        camera.updateMatrixWorld();
       });
 
       // OBJECT

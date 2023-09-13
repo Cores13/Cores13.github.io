@@ -18,26 +18,28 @@ export class EmptyTagComponent {
   ngOnInit() {
     this.ngZone.runOutsideAngular(() => {
       const scene = new THREE.Scene();
-      scene.background = new THREE.Color( 0x000000 );
+      // scene.background = new THREE.Color( 0x000000 );
       const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 100);
-    //   const camera = new THREE.OrthographicCamera(-1, // left
-    //  1, // right
-    //  1, // top
-    // -1, // bottom
-    // -1000, // near,
-    //  10000, // far
-    //  );
-
       const renderer = new THREE.WebGLRenderer({
-        canvas: this.canvasElementRef.nativeElement
+        canvas: this.canvasElementRef.nativeElement,
+        alpha: true
       });
 
       renderer.setSize(window.innerWidth / 7, window.innerHeight / 7);
+      if(window.innerWidth <= 600){
+        camera.fov = 120;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth / 2.5, window.innerHeight / 2.5);
+      }
+
       window.addEventListener('resize', () => {
-          camera.aspect = window.innerWidth / window.innerHeight;
-          camera.updateProjectionMatrix();
-          camera.updateMatrixWorld();
-          renderer.setSize(window.innerWidth/ 7, window.innerHeight/ 7);
+        camera.aspect = window.innerWidth / window.innerHeight;
+        if(window.innerWidth <= 600){
+          renderer.setSize(window.innerWidth / 2.5, window.innerHeight / 2.5);
+        }
+        camera.updateProjectionMatrix();
+        camera.updateMatrixWorld();
+        // renderer.setSize(window.innerWidth/ 7, window.innerHeight/ 7);
       });
 
       // OBJECT

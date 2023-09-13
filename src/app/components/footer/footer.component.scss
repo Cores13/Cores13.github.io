@@ -83,3 +83,38 @@ footer {
     }
   }
 }
+
+@media (max-width: 425px) {
+  footer {
+    position: relative;
+    z-index: 3;
+    padding: 10px 10px;
+    font-size: 0.7rem;
+    .footer-links-left {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: stretch;
+      width: 30%;
+      height: 100%;
+      a {
+        margin-bottom: 4px;
+      }
+    }
+
+    .footer-links-right {
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: stretch;
+      width: 30%;
+      height: 100%;
+      a {
+        margin-bottom: 4px;
+      }
+    }
+
+    .footer-center {
+      width: 30%;
+    }
+  }
+}
