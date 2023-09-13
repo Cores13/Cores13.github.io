@@ -31,15 +31,36 @@
     align-items: center;
     justify-content: baseline;
     width: 100%;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+      margin-top: 35px;
+
+      h1 {
+        margin-bottom: 0;
+        font-size: 1.5rem;
+      }
+      p {
+        margin-bottom: 0;
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 1.3rem;
+      }
+    }
+
+    .bulletpoint {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: $secondary_color;
+      margin-right: 25px;
+    }
   }
 
-  .bulletpoint {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: $secondary_color;
-    margin-right: 25px;
-  }
 }
 
 
