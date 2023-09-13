@@ -84,24 +84,38 @@ footer {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
     footer {
     h1 {
       font-size: 2rem;
     }
 
     .footer-navigation{
-      font-size: 0.7rem;
+      height: 100%;
+      align-items: center;
+      font-size: 1rem;
       .footer-links-left {
         flex-direction: column;
         align-items: flex-start;
+        justify-self: center;
+        justify-content: space-evenly;
+        height: 100%;
         width: 30%;
+        a {
+          margin-bottom: 15px;
+        }
       }
 
       .footer-links-right {
         flex-direction: column-reverse;
+        justify-content: space-evenly;
+        justify-self: center;
         align-items: flex-end;
+        height: 100%;
         width: 30%;
+        a {
+          margin-bottom: 15px;
+        }
       }
 
       .footer-center {

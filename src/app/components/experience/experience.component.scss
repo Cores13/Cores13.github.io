@@ -140,7 +140,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
     .experiences-section-content {
     padding-right: 0;
   }
@@ -150,18 +150,22 @@
       .experience-company {
         width: 25%;
         font-size: 0.65rem;
+        font-weight: 400;
       }
       .experience-title {
         width: 40%;
         font-size: 0.65rem;
+        font-weight: 400;
       }
       .experience-duration {
         width: 20%;
         font-size: 0.65rem;
+        font-weight: 400;
       }
       .experience-view {
         width: 10%;
         font-size: 0.65rem;
+        font-weight: 400;
       }
     }
 
@@ -170,14 +174,17 @@
         .experience-company {
           width: 25%;
           font-size: 0.7rem;
+          font-weight: 400;
         }
         .experience-title {
           width: 40%;
           font-size: 0.7rem;
+          font-weight: 400;
         }
         .experience-duration {
           width: 20%;
           font-size: 0.7rem;
+          font-weight: 400;
         }
         .experience-view {
           width: 10%;

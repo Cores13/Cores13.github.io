@@ -63,37 +63,39 @@ nav {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   nav {
     position: relative;
     z-index: 3;
     padding: 10px 10px;
-    font-size: 0.7rem;
+    font-size: 1rem;
+    align-items: center;
     .navbar-links-left {
+      flex-direction: column;
       justify-content: space-between;
-      align-items: stretch;
-      width: 30%;
+      align-items: flex-start;
+      width: 35%;
       height: 100%;
-      gap: 4px;
       a {
-        margin-top: 4px;
+        margin-bottom: 10px;
       }
     }
 
     .navbar-links-right {
+      flex-direction: column-reverse;
       flex-wrap: wrap-reverse;
       justify-content: space-between;
-      align-items: stretch;
-      gap: 4px;
-      width: 40%;
+      align-items: flex-end;
       height: 100%;
       a {
-        margin-top: 4px;
+        width: 100%;
+        text-align: end;
+        margin-bottom: 10px;
       }
     }
 
     .navbar-center {
-      width: 20%;
+      width: 30%;
     }
   }
 }
