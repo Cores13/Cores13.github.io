@@ -41,7 +41,29 @@ export class ExperienceComponent {
       details: {
         description: "Leading network security, system administration and software development operations.",
         location: 'Tuzla (Bosnia and Herzegovina)',
-        responsibilities: ["test"],
+        responsibilities: [
+          "Configuration and maintainence HP, Ruckus and Sophos switches",
+          "Configuration and maintainence HP and Synology servers and storages (NAS)",
+          "Configuration and maintainence Ruckus Access Points",
+          "Installation, configuration, administration and maintainence of VMware",
+          "Configuration and administration of Sophos firewalls, access points and endpoint protection",
+          "Installation, configuration and administration of network equipment in public transportation",
+          "Installation, configuration and administration of 3CX (VoIP)",
+          "Debugging and troubleshooting of Windows XP, Windows 7, Windows 10 and Windows 11 operating systems",
+          "Managing Comversum's and client's network, servers, computers and other IT infrastructure",
+          "Instalation, configuration and maintainence of KONICA MINOLTA, HP and Lexmark multifunctional printers",
+          "Diagnosing problems with servers, computers and other IT equipment (Troubleshooting)",
+          "Making backups with Veeam N-Able and Acronis",
+          "Installation, configuration, and administration of Windows and Linux servers",
+          "Monitoring of IT systems using SolarWinds and N-Able",
+          "Configuration of HaloPSA",
+          "Planning infrastructure",
+          "Planing hardware and software replacements",
+          "Project management",
+          "Teaching new employees programming, networking, hardware, and softwares",
+          "Web development using React, Angular, NodeJS, Laravel, .NET, Javascript, Typescript, HTML and CSS",
+          "Web design using Wordpress and Joomla"
+        ],
         link: "https://comversum.com/"
       }
     },
@@ -53,7 +75,15 @@ export class ExperienceComponent {
       details: {
         description: "Full stack web development of web shops, CRMs, magazines and form based websites using mostly Laravel, ReactJS, Blade, TypeScript and JavaScript.",
         location: 'Tuzla (Bosnia and Herzegovina)',
-        responsibilities: ["test"],
+        responsibilities: [
+          "Frontend development using Blade, ReactJS, NextJS, TypeScript and JavaScript ES6",
+          "Backend development using Laravel 8, Laravel 9, NodeJS",
+          "Wordpress and Joomla custom components",
+          "Redux state management",
+          "Bootstrap and MaterialUI",
+          "MySQL, MongoDB",
+          "Soap Client"
+        ],
         link: "https://leftor.com/"
       }
     },

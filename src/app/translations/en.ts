@@ -10,7 +10,7 @@ export const strings = {
   "experience": "Experience",
 
   // Banner about
-  "bannerAbout": "I am a Bachelor of Information Technologies with several years of experience working as a full stack web developer. Until now, I have put a lot of effort in almost each part of IT because I am still craving for knowledge. Now, even more than ever, I want to leave a mark in this industry. I am still learning and collecting knowledge through work and always seeking new ways to implement my knowledge.",
+  "bannerAbout": "I am a Bachelor of Information Technologies with several years of experience working as a full stack web developer. Until now, I have put a lot of effort in almost each part of IT industry. I am still learning and seeking new ways to implement my knowledge, because I want to leave a mark in this industry.",
   "aboutMe": "About me",
   "contactMe": "Contact me",
 
@@ -19,11 +19,11 @@ export const strings = {
   "workSectionSubtitle": "Explore a curated collection of my web development projects, showcasing a blend of creativity, technical expertise, and user-centric design. Each project reflects my commitment to delivering innovative solutions and exceptional user experiences",
 
   // Skills section
-  "skillsSectionTitle": "<span>Mastered</span> skills",
-  "skillsSectionSubtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae molestias illum necessitatibus ab hic quidem at eligendi cum earum alias vel!",
+  "skillsSectionTitle": "<span>Expertise</span> at a glance",
+  "skillsSectionSubtitle": "Here's a comprehensive overview of my technical competencies and proficiencies in software development. From frontend technologies to backend frameworks, explore the tools and languages I leverage to create seamless, interactive, and secure digital experiences",
 
   // Certificates section
-  "certificatesSectionTitle": "My <span>amazing</span> accomplishments",
+  "certificatesSectionTitle": "Acknowledged <span>expertise</span>",
   "certificateIssuer": "ISSUER",
   "certificateTitle": "TITLE",
   "certificateView": "VIEW",
@@ -39,7 +39,7 @@ export const strings = {
     Feel free to explore my attached resume for a more detailed overview of my professional background. I'm enthusiastic about the opportunity to discuss how I can contribute to your endeavors.`,
 
   // Education section
-  "educationSectionTitle": "Education <span>timeline</span>",
+  "educationSectionTitle": "Academic <span>exploration</span>",
   "educationSectionSubtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae molestias illum necessitatibus ab hic quidem at eligendi cum earum alias vel!",
   "aubihTitle": "Engineer of Information Technologies",
   "aubihSubtitle": "American University in Bosnia and Herzegovina",
@@ -47,7 +47,7 @@ export const strings = {
   "mssSubtitle": 'High school "Banovići"',
 
   // Experience section
-  "experienceSectionTitle": "My <span>amazing</span> accomplishments",
+  "experienceSectionTitle": "Professional <span>symphony</span>",
   "experienceCompany": "COMPANY",
   "experienceTitle": "TITLE",
   "experienceDuration": "DURATION",
