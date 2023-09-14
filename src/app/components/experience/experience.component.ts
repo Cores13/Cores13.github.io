@@ -17,10 +17,10 @@ export class ExperienceComponent {
       from: 'Apr 2023',
       to: 'Now',
       details: {
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae",
+        description: "Full stack software development of mobile applications, web applications, web shops, CRMs, magazines and form based websites using React Native, .NET, Laravel, ReactJS, Angular, Blade, TypeScript and JavaScript.",
         location: 'Sarajevo (Bosnia and Herzegovina)',
         responsibilities: [
-          "Development of user interface for web applications using Angular, React, Vue, Blade, TypeScript and JavaScript ES6",
+          "Development of user interface for web applications using Angular, React, Blade, TypeScript and JavaScript ES6",
           "Backend development using Laravel and .NET",
           "User interface development for mobile applications (Android and iOS) using React Native",
           "Redux state management",
@@ -39,7 +39,7 @@ export class ExperienceComponent {
       from: 'Jul 2022',
       to: 'Apr 2023',
       details: {
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae",
+        description: "Leading network security, system administration and software development operations.",
         location: 'Tuzla (Bosnia and Herzegovina)',
         responsibilities: ["test"],
         link: "https://comversum.com/"
@@ -51,7 +51,7 @@ export class ExperienceComponent {
       from: 'Nov 2021',
       to: 'Jul 2022',
       details: {
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae",
+        description: "Full stack web development of web shops, CRMs, magazines and form based websites using mostly Laravel, ReactJS, Blade, TypeScript and JavaScript.",
         location: 'Tuzla (Bosnia and Herzegovina)',
         responsibilities: ["test"],
         link: "https://leftor.com/"
@@ -63,7 +63,7 @@ export class ExperienceComponent {
       from: 'May 2021',
       to: 'Nov 2021',
       details: {
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae",
+        description: "Web development using mostly Node.js and React and blockchain development using web3 and solidity",
         location: 'Lukavac (Bosnia and Herzegovina)',
         responsibilities: [
           "Frontend development using ReactJS, NextJS, Angular, TypeScript and JavaScript ES6",

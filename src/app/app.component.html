@@ -57,14 +57,14 @@ AMIR KASUMOVIĆ
       </div>
       <div class="experience-view-company">
         <p>{{experience.from}} - {{experience.to}}</p>
-        <a [href]="experience.details.link" target="_blank">View company</a>
+        <a [href]="experience.details.link" target="_blank">{{strings.experienceViewCompanyButton}}</a>
       </div>
     </div>
 
-    <h2>Job description</h2>
+    <h2>{{strings.experienceJobDescription}}</h2>
     <p class="experience-description">{{experience.details.description}}</p>
 
-    <h2>Responsibilities</h2>
+    <h2>{{strings.experienceResponsibilities}}</h2>
     <ul class="experience-responsibilities">
       <li *ngFor="let responsibility of experience.details.responsibilities">{{responsibility}}</li>
     </ul>
@@ -86,20 +86,20 @@ AMIR KASUMOVIĆ
   <form
     action="https://formspree.io/f/myyldape"
     method="POST">
-    <h1>Contact me</h1>
+    <h1>{{strings.contactFormTitle}}</h1>
     <label>
-      Your email:
+      {{strings.contactFormEmail}}
       <input type="email" name="email">
     </label>
     <label>
-      Your name:
+      {{strings.contactFormName}}
       <input type="name" name="text">
     </label>
     <label class="message-label">
-      Your message:
+      {{strings.contactFormMessage}}
       <textarea name="message"></textarea>
     </label>
     <!-- your other form fields go here -->
-    <button type="submit">Send message</button>
+    <button type="submit">{{strings.contactFormSendButton}}</button>
   </form>
 </div>

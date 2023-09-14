@@ -81,7 +81,11 @@
 }
 
 @media (max-width: 1920px) {
-
+  .about-section-content {
+    .about-image-container {
+      margin: auto 0;
+    }
+  }
 }
 
 @media (max-width: 1550px) {

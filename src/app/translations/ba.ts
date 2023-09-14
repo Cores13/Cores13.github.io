@@ -30,7 +30,6 @@ export const strings = {
 
   // About section
   "aboutSectionTitle": "About <span>me</span>",
-  "aboutSectionSubtitle": "My <span>amazing</span> accomplishments",
   "aboutMeInfo": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio aliquid numquam quae repellendus aperiam, iste debitis, voluptate quaerat rerum saepe, quisquam fugit illo cum tempora quis repellat odit natus voluptatum!",
 
   // Education section
@@ -40,4 +39,24 @@ export const strings = {
   "aubihSubtitle": "American University in Bosnia and Herzegovina",
   "mssTitle": "Mechanical High School",
   "mssSubtitle": 'High school "Banovići"',
+
+  // Experience section
+  "experienceSectionTitle": "My <span>amazing</span> accomplishments",
+  "experienceCompany": "COMPANY",
+  "experienceTitle": "TITLE",
+  "experienceDuration": "DURATION",
+  "experienceView": "VIEW",
+  "experienceViewCompanyButton": "View company",
+  "experienceJobDescription": "Job description",
+  "experienceResponsibilities": "Responsibilities",
+
+  // Contact form
+  "contactFormTitle": "Contact me",
+  "contactFormEmail": "Your email:",
+  "contactFormName": "Your name:",
+  "contactFormMessage": "Your message:",
+  "contactFormSendButton": "Send message",
+
+  // Footer
+  "footerTitle": "Let's <span>build</span> something awesome <span>together</span>",
 }
