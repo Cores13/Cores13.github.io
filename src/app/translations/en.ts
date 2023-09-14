@@ -21,6 +21,14 @@ export const strings = {
   // Skills section
   "skillsSectionTitle": "<span>Expertise</span> at a glance",
   "skillsSectionSubtitle": "Here's a comprehensive overview of my technical competencies and proficiencies in software development. From frontend technologies to backend frameworks, explore the tools and languages I leverage to create seamless, interactive, and secure digital experiences",
+  "react": "Proficient in creating dynamic and interactive user interfaces using React, a powerful JavaScript library for building modern web applications. Skilled in managing state, components, and optimizing performance to deliver seamless user experiences",
+  "angular": "Mastering Angular, I excel in creating dynamic applications. With strong command over TypeScript and Angular's powerful features, I develop robust, scalable web solutions with an emphasis on user interactivity and performance",
+  "laravel": "Mastery of Laravel empowers me to architect robust, secure, and scalable backend solutions. With its elegant syntax and ectensive feature set, I deliver web applications optimized for performance and maintainability",
+  "net": "",
+  "reactNative": "",
+  "typescript": "",
+  "php": "",
+  "mysql": "",
 
   // Certificates section
   "certificatesSectionTitle": "Acknowledged <span>expertise</span>",
