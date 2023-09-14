@@ -89,15 +89,15 @@ AMIR KASUMOVIĆ
     <h1>{{strings.contactFormTitle}}</h1>
     <label>
       {{strings.contactFormEmail}}
-      <input type="email" name="email">
+      <input type="email" name="email" required>
     </label>
     <label>
       {{strings.contactFormName}}
-      <input type="name" name="text">
+      <input type="text" name="name" required>
     </label>
     <label class="message-label">
       {{strings.contactFormMessage}}
-      <textarea name="message"></textarea>
+      <textarea name="message" required></textarea>
     </label>
     <!-- your other form fields go here -->
     <button type="submit">{{strings.contactFormSendButton}}</button>
