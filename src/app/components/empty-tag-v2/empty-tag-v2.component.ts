@@ -33,11 +33,19 @@ export class EmptyTagV2Component {
         camera.fov = 475;
         camera.updateProjectionMatrix();
         renderer.setSize(window.innerWidth / 4.5, window.innerHeight / 4.5);
+      }else if(window.innerWidth > 600 && window.innerWidth <= 900) {
+        camera.fov = 110;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth / 4.5, window.innerHeight / 4.5);
       }
 
       window.addEventListener('resize', () => {
         camera.aspect = window.innerWidth / window.innerHeight;
         if(window.innerWidth <= 600){
+          renderer.setSize(window.innerWidth / 4.5, window.innerHeight / 4.5);
+        }else if(window.innerWidth > 600 && window.innerWidth <= 900) {
+          camera.fov = 110;
+          camera.updateProjectionMatrix();
           renderer.setSize(window.innerWidth / 4.5, window.innerHeight / 4.5);
         }
         camera.updateProjectionMatrix();

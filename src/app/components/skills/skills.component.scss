@@ -79,6 +79,32 @@
     font-weight: 400;
   }
 }
+
+@media (max-width: 770px) {
+  .mouse-drag {
+    align-self: center;
+    margin-bottom: 25px;
+  }
+
+  .skills-card {
+    min-width: 260px;
+    height: 340px;
+
+
+  &.margin-top-icon {
+    margin-top: 30px;
+  }
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
 @media (max-width: 426px) {
   .mouse-drag {
     align-self: center;

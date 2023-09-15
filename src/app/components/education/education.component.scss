@@ -81,6 +81,35 @@
   }
 }
 
+@media (max-width: 770px) {
+  .education-section-wrapper {
+    padding-right: 0;
+    flex-direction: row;
+    .section-title {
+      margin-bottom: 50px;
+      .education-card-title-wrapper {
+        h1 {
+          font-size: 1.5rem;
+          font-weight: 400;
+        }
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .education-section-content {
+      justify-content: center;
+      align-items: center;
+      padding-right: 0;
+      width: 100%;
+      img {
+        width: 60%;
+      }
+    }
+  }
+}
+
 @media (max-width: 426px) {
   .education-section-wrapper {
     padding-right: 0;

@@ -98,6 +98,29 @@ footer {
   }
 }
 
+@media (max-width: 770px) {
+  footer {
+    h1 {
+      font-size: 5rem;
+    }
+
+    .footer-navigation{
+      font-size: 1rem;
+      .footer-links-left {
+        width: 40%;
+      }
+
+      .footer-links-right {
+        width: 40%;
+      }
+
+      .footer-center {
+        width: 20%;
+      }
+    }
+  }
+}
+
 @media (max-width: 426px) {
     footer {
     h1 {
