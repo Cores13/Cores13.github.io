@@ -24,7 +24,7 @@ export class AppComponent {
         description: '',
         location: '',
         responsibilities: [],
-        link: ""
+        link: "!#"
       }
     };
 
@@ -71,7 +71,7 @@ export class AppComponent {
         description: '',
         location: '',
         responsibilities: [],
-        link: ""
+        link: "!#"
       }
     };
   }

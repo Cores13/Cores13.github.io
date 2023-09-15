@@ -42,12 +42,12 @@ export class WorkComponent {
     },
     {
       title: 'Vox Magna',
-      image: 'assets/projects/stranger.webp',
+      image: 'assets/projects/vox_magna.webp',
       link: 'https://github.com/Cores13/vox-magna'
     },
     {
       title: 'Cup of Coffee',
-      image: 'assets/projects/stranger.webp',
+      image: 'assets/projects/cup_of_coffee.webp',
       link: 'https://github.com/Cores13/cup_of_coffee'
     },
   ];

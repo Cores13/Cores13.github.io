@@ -13,7 +13,7 @@ html{
 body {
   // font-family: 'Jost', sans-serif;
   font-family: 'Red Hat Display', sans-serif;
-  background-color: black;
+  background-color: $secondary_color;
   height: 200vh;
   margin: 0;
 }
@@ -35,7 +35,7 @@ body {
   width: 100%;
   text-align: center;
   color: $primary_color;
-  background-color: black;
+  background-color: $secondary_color;
   font-size: 23rem;
   font-family: 'Anton', sans-serif;
   transform: scaleY(2);

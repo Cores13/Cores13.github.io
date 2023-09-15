@@ -3,7 +3,7 @@
 .about-section-wrapper {
   display: flex;
   flex-direction: row;
-  color: black;
+  color: $secondary_color;
   width: 100%;
 
   .section-title {
@@ -27,7 +27,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  color: black;
+  color: $secondary_color;
   align-items: center;
   justify-content: space-between;
   width: 50%;
@@ -47,7 +47,7 @@
     }
 
     .image-background {
-      background-color: $accent_color;
+      background-color: $accent_color_light;
       position: absolute;
       inset: auto 0 0;
       border-radius: 90%;
@@ -123,7 +123,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    color: black;
+    color: $secondary_color;
     align-items: center;
     justify-content: space-between;
     width: 100%;
