@@ -10,7 +10,7 @@ export const strings = {
   "experience": "Iskustvo",
 
   // Banner about
-  "bannerAbout": "I am a Bachelor of Information Technologies with several years of experience working as a full stack web developer. Until now, I have put a lot of effort in almost each part of IT industry. I am still learning and seeking new ways to implement my knowledge, because I want to leave a mark in this industry.",
+  "bannerAbout": "Bachelor sam informacionih tehnologija sa višegodišnjim iskustvom rada kao full stack web developer. Do sada sam ulagao mnogo truda u gotovo svaki segment IT sektora. Još uvijek prikupljam znanje kroz stečene radne navike i uvijek tražim nove prilike da svoje znanje implementiram i ostavim trag u ovoj industriji.",
   "aboutMe": "O meni",
   "contactMe": "Kontakt",
 

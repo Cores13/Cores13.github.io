@@ -46,6 +46,7 @@ export class AppComponent {
   hideCertificate () {
     document.querySelector('.blur')?.classList.remove("active");
     document.getElementById('certificateModal')?.classList.remove("active");
+    document.querySelector('.certificate-image')?.setAttribute('src', '');
     document.querySelector('body')!.style.overflowY = "scroll";
   }
 

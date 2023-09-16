@@ -17,7 +17,7 @@ export class WorkComponent {
     },
     {
       title: 'Delivery app',
-      image: 'assets/projects/stranger.webp',
+      image: 'assets/projects/delivery.webp',
       link: 'https://github.com/Cores13/delivery_app'
     },
     {
@@ -27,7 +27,7 @@ export class WorkComponent {
     },
     {
       title: 'Job App',
-      image: 'assets/projects/stranger.webp',
+      image: 'assets/projects/jobs.webp',
       link: 'https://github.com/Cores13/react_native_jobs'
     },
     {
