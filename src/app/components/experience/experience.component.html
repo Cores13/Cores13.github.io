@@ -17,10 +17,10 @@
         </div>
         <div class="experiences-wrapper" *ngFor="let experience of experiences">
           <div class="experience-wrapper">
-            <h1 class="experience-company">{{experience.company}}</h1>
-            <h1 class="experience-title">{{experience.title}}</h1>
-            <h1 class="experience-duration">{{experience.from + " - " + experience.to}}</h1>
-            <button type="button" class="experience-view" (click)="viewExperience(experience)">{{strings.experienceView}}</button>
+            <h1 class="experience-company">{{strings.language == 'en' ? experience.en.company :experience.ba.company}}</h1>
+            <h1 class="experience-title">{{strings.language == 'en' ? experience.en.title : experience.ba.title}}</h1>
+            <h1 class="experience-duration">{{strings.language == 'en' ? experience.en.from + " - " + experience.en.to : experience.ba.from + " - " + experience.ba.to}}</h1>
+            <button type="button" class="experience-view" (click)="viewExperience(experience, strings.language)">{{strings.experienceView}}</button>
           </div>
         </div>
       </div>

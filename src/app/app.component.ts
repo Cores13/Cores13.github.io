@@ -3,6 +3,7 @@ import { Certificate } from './interfaces/certificate';
 import {strings as ba} from './translations/ba';
 import {strings as en} from './translations/en';
 import { Experience } from './interfaces/experience';
+import { ExperienceComponent } from './components/experience/experience.component';
 
 @Component({
   selector: 'app-root',
@@ -10,23 +11,24 @@ import { Experience } from './interfaces/experience';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  @ViewChild(ExperienceComponent) experienceComponent:ExperienceComponent;
   language = 'en';
   secondaryColor:string = '0x000000';
   primaryColor: string = '0x32a883';
   githubLogo = 'assets/github.webp';
   strings: any = en;
   experience: Experience = {
-      company: '',
-      title: '',
-      from: '',
-      to: '',
-      details: {
-        description: '',
-        location: '',
-        responsibilities: [],
-        link: "!#"
-      }
-    };
+    company: '',
+    title: '',
+    from: '',
+    to: '',
+    details: {
+      description: '',
+      location: '',
+      responsibilities: [],
+      link: "!#"
+    }
+  };
 
   onNgInit() {
     if(this.language == 'en'){
