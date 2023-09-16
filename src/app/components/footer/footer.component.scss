@@ -29,6 +29,22 @@ footer {
         color: $secondary_color;
         text-decoration: none;
       }
+
+      button {
+        font-family: 'Red Hat Display', sans-serif;
+        color: $secondary_color;
+        text-decoration: none;
+        border: none;
+        background: none;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 1.4rem;
+        margin: 0;
+        padding: 0;
+        justify-self: flex-end;
+        align-self: flex-end;
+        text-align: end;
+      }
     }
 
     .footer-links-right {
@@ -42,6 +58,22 @@ footer {
       a {
         color: $secondary_color;
         text-decoration: none;
+      }
+
+      button {
+        font-family: 'Red Hat Display', sans-serif;
+        color: $secondary_color;
+        text-decoration: none;
+        border: none;
+        background: none;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 1.4rem;
+        margin: 0;
+        padding: 0;
+        justify-self: flex-end;
+        align-self: flex-end;
+        text-align: end;
       }
     }
 
@@ -85,10 +117,16 @@ footer {
       font-size: 1rem;
       .footer-links-left {
         width: 35%;
+        button {
+          font-size: 1rem;
+        }
       }
 
       .footer-links-right {
         width: 35%;
+        button {
+          font-size: 1rem;
+        }
       }
 
       .footer-center {
@@ -101,21 +139,49 @@ footer {
 @media (max-width: 770px) {
   footer {
     h1 {
+      width: 70%;
       font-size: 3.5rem;
     }
 
     .footer-navigation{
+      height: 100%;
+      align-items: center;
       font-size: 1rem;
       .footer-links-left {
-        width: 42%;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-self: center;
+        justify-content: space-evenly;
+        height: 100%;
+        width: 30%;
+        a {
+          margin-bottom: 15px;
+        }
+        button {
+          width: 100%;
+          text-align: start;
+          font-size: 1rem;
+        }
       }
 
       .footer-links-right {
-        width: 43%;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        justify-self: center;
+        align-items: flex-end;
+        height: 100%;
+        width: 30%;
+        a {
+          margin-bottom: 15px;
+        }
+        button {
+          width: 100%;
+          font-size: 1rem;
+        }
       }
 
       .footer-center {
-        width: 25%;
+        width: 40%;
       }
     }
 
@@ -153,6 +219,11 @@ footer {
         a {
           margin-bottom: 15px;
         }
+        button {
+          width: 100%;
+          text-align: start;
+          font-size: 1rem;
+        }
       }
 
       .footer-links-right {
@@ -164,6 +235,10 @@ footer {
         width: 30%;
         a {
           margin-bottom: 15px;
+        }
+        button {
+          width: 100%;
+          font-size: 1rem;
         }
       }
 

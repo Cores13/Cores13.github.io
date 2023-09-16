@@ -10,7 +10,6 @@ export class NavbarComponent {
   @Output() setTranslationEvent = new EventEmitter<string>();
 
   setTranslation(language: string) {
-    console.log(language)
     this.setTranslationEvent.emit(language);
   }
 }

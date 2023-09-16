@@ -26,7 +26,7 @@ export const strings = {
   "laravel": "Mastery of Laravel empowers me to architect robust, secure, and scalable backend solutions. With its elegant syntax and extensive feature set, I deliver web applications optimized for performance and maintainability",
   "net": "Adept in the .NET ecosystem, I specialize in crafting versatile and high-performance applications. With a strong foundation in C# and ASP.NET, I develop solutions that prioritize in security, scalability, and user experience",
   "reactNative": "Mastery of React Native allows me to craft seamless cross-platform mobile applications. Leveraging JavaScript and React principles, I create intuitive user experience on both Android and iOS platforms, ensuring top-notch performance and native-like functionality",
-  "typescript": "Incorporating TypeScript, I leverage its strong typing system and modern JavaScript features to create robust maintainable applications, ensuring code integrity and developer productivity.",
+  "typescript": "Incorporating TypeScript, I leverage its strong typing system and modern JavaScript features to create robust maintainable applications, ensuring code integrity and developer productivity",
   "php": "With a deep proficiency in PHP, I excel in developing dynamic and scalable web applications. Leveraging PHP's versatility and extensive libraries, I create secure and efficient solutions, ensuring seamless user experience and optimal performance",
   "mysql": "Drawing on a strong command of MySQL, I adeptly design and manage databases bolster dynamic web applications. Proficient in database architecture, optimization, and ensuring data integrity, I facilitate efficient and reliable data handling for software solutions",
 
@@ -48,7 +48,6 @@ export const strings = {
 
   // Education section
   "educationSectionTitle": "Academic <span>exploration</span>",
-  "educationSectionSubtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae molestias illum necessitatibus ab hic quidem at eligendi cum earum alias vel!",
   "aubihTitle": "Engineer of Information Technologies",
   "aubihSubtitle": "American University in Bosnia and Herzegovina",
   "mssTitle": "Mechanical High School",

@@ -15,29 +15,29 @@ export const strings = {
   "contactMe": "Kontakt",
 
   // Work section
-  "workSectionTitle": "Showcase of my <span>journey</span>",
+  "workSectionTitle": "Osvrt na <span>tehničke</span> podvige",
   "workSectionSubtitle": "Istražite odabranu kolekciju mojih projekata za web razvoj, prikazujući spoj kreativnosti, tehničke stručnosti i dizajna usmjerenog na korisnika. Svaki projekat odražava moju posvećenost pružanju inovativnih rješenja i izuzetnih korisničkih iskustava",
 
     // Skills section
-  "skillsSectionTitle": "<span>Expertise</span> at a glance",
-  "skillsSectionSubtitle": "Here's a comprehensive overview of my technical competencies and proficiencies in software development. From frontend technologies to backend frameworks, explore the tools and languages I leverage to create seamless, interactive, and secure digital experiences",
-  "react": "Proficient in creating dynamic and interactive user interfaces using React, a powerful JavaScript library for building modern web applications. Skilled in managing state, components, and optimizing performance to deliver seamless user experiences",
-  "angular": "Mastering Angular, I excel in creating dynamic applications. With strong command over TypeScript and Angular's powerful features, I develop robust, scalable web solutions with an emphasis on user interactivity and performance",
-  "laravel": "Mastery of Laravel empowers me to architect robust, secure, and scalable backend solutions. With its elegant syntax and extensive feature set, I deliver web applications optimized for performance and maintainability",
-  "net": "Adept in the .NET ecosystem, I specialize in crafting versatile and high-performance applications. With a strong foundation in C# and ASP.NET, I develop solutions that prioritize in security, scalability, and user experience",
-  "reactNative": "Mastery of React Native allows me to craft seamless cross-platform mobile applications. Leveraging JavaScript and React principles, I create intuitive user experience on both Android and iOS platforms, ensuring top-notch performance and native-like functionality",
-  "typescript": "Incorporating TypeScript, I leverage its strong typing system and modern JavaScript features to create robust maintainable applications, ensuring code integrity and developer productivity.",
-  "php": "With a deep proficiency in PHP, I excel in developing dynamic and scalable web applications. Leveraging PHP's versatility and extensive libraries, I create secure and efficient solutions, ensuring seamless user experience and optimal performance",
-  "mysql": "Drawing on a strong command of MySQL, I adeptly design and manage databases bolster dynamic web applications. Proficient in database architecture, optimization, and ensuring data integrity, I facilitate efficient and reliable data handling for software solutions",
+  "skillsSectionTitle": "Nit <span>vještina</span> i dostignuća",
+  "skillsSectionSubtitle": "Sveobuhvatni pregled mojih tehničkih kompetencija i vještina u razvoju softvera. Od tehnologija na prednjem kraju do okvira na pozadini, istražite alate i jezike koje koristim kako bih stvorio besprijekorne, interaktivne i sigurne digitalne doživljaje",
+  "react": "Stručan u kreiranju dinamičkih i interaktivnih korisničkih sučelja pomoću React-a, moćne JavaScript biblioteke za izgradnju modernih web aplikacija. Vješt u upravljanju stanjem, komponentama i optimizaciji performansi kako bi se pružila besprijekorna korisnička iskustva",
+  "angular": "Majstor u korištenju Angulara, odlično se snalazim u kreiranju dinamičnih aplikacija. Sa snažnom kontrolom nad TypeScript-om i moćnim mogućnostima Angulara, razvijam izdržljiva i ekspanzivna web rješenja s naglaskom na interaktivnost i performanse",
+  "laravel": "Vještine u radu s Laravelom mi pružaju mogućnost da oblikujem čvrsta, sigurna i proširiva rješenja za backend. Sa njegovom elegantnom sintaksom i obimnim skupom funkcionalnosti, isporučujem web aplikacije optimizirane za performanse i održivost",
+  "net": "Vješt u ekosistemu .NET-a, specijaliziram se za izradu raznovrsnih i visokoperformansnih aplikacija. Sa čvrstim temeljima u C# i ASP.NET-u, razvijam rješenja koja stavljaju naglasak na sigurnost, proširivost i korisničko iskustvo",
+  "reactNative": "Izvrsno poznavanje React Native-a omogućava mi kreiranje visokoperformansnih mobilnih aplikacija na različitim platformama. Kombinirajući JavaScript i principe React-a, stvaram intuitivno korisničko iskustvo na Androidu i iOS-u, osiguravajući funkcionalnosti slične nativnim aplikacijama",
+  "typescript": "Integrirajući TypeScript, koristim njegov snažan sustav tipova i moderne značajke JavaScripta kako bih stvorio robusne i lako održive aplikacije, osiguravajući integritet koda i produktivnost razvoja",
+  "php": "Sa dubokim poznavanjem PHP-a, ističem se u razvoju dinamičnih i skalabilnih web aplikacija. Koristeći svestranost PHP-a i obimne biblioteke, stvaram sigurna i učinkovita rješenja, osiguravajući besprijekorno korisničko iskustvo i optimalne performanse",
+  "mysql": "Iskusno rukovanje MySQL-om omogućava mi dizajn i upravljanje bazama podataka za dinamičke web aplikacije. Stručan sam u arhitekturi baza podataka, optimizaciji i osiguranju integriteta podataka, omogućujući učinkovito i pouzdano rukovanje podacima za softverska rješenja",
 
   // Certificates section
-  "certificatesSectionTitle": "Acknowledged <span>expertise</span>",
-  "certificateIssuer": "IZDAVAOC",
+  "certificatesSectionTitle": "Portfolio <span>valoriziranih</span> dosega",
+  "certificateIssuer": "IZDAVAČ",
   "certificateTitle": "NASLOV",
   "certificateView": "POGLEDAJ",
 
   // About section
-  "aboutSectionTitle": "Bringing <span>digital</span> visions to <span>life</span>",
+  "aboutSectionTitle": "Oživljavanje <span>digitalnih</span> vizija ",
   "aboutMeInfo": `Iskusni Full Stack Web Developer s više od 2 godine praktičnog iskustva. Moje stručnosti obuhvataju širok spektar tehnologija, uključujući <strong>ReactJS, .NET, Laravel, Angular, NodeJS, Blade and TypeScript</strong>.<br /><br />
     U području frontend razvoja, odlično se snalazim u izradi dinamičnih i interaktivnih korisničkih sučelja koja unaprjeđuju ukupno korisničko iskustvo. Moja stručnost u Reactu, Angularu i TypeScriptu omogućava mi kreiranje besprijekornih i korisnički prijateljskih aplikacija.
     Na backendu, prosperiram u izgradnji robustnih i skalabilnih rješenja. Koristeći svoje vještine u Node.js-u, Laravelu i .NET-u, osiguravam da su performanse i sigurnost na prvom mjestu u svakom projektu.
@@ -47,14 +47,14 @@ export const strings = {
     Siguran sam da bi moje stručnosti bile dragocjen doprinos bilo kojem timu, unaprjeđujući kvalitetu projekata. Slobodno istražite moj portfolio za detaljniji pregled mog profesionalnog iskustva. Radujem se prilici da razgovaram o tome kako mogu doprinijeti vašim nastojanjima.`,
 
   // Education section
-  "educationSectionTitle": "Academic <span>exploration</span>",
+  "educationSectionTitle": "Akademski <span>putevi</span>",
   "aubihTitle": "Inžinjer informacionih tehnologija",
   "aubihSubtitle": "Američki Univerzitet u Bosni i Hercegovini",
   "mssTitle": "Mašinski tehničar za kompjutersko projektovanje",
-  "mssSubtitle": 'srednja škola "Banovići"',
+  "mssSubtitle": 'Mješovita srednja škola "Banovići"',
 
   // Experience section
-  "experienceSectionTitle": "Professional <span>symphony</span>",
+  "experienceSectionTitle": "<span>Karijerno</span> putovanje",
   "experienceCompany": "FIRMA",
   "experienceTitle": "NASLOV",
   "experienceDuration": "TRAJANJE",
@@ -71,5 +71,5 @@ export const strings = {
   "contactFormSendButton": "Pošalji",
 
   // Footer
-  "footerTitle": "Hajde da <span>izgradimo</span> nešto sjajno <span>zajedno</span>",
+  "footerTitle": "Izgradimo <span>sjajnu</span> zajedničku <span>priču</span>",
 }
