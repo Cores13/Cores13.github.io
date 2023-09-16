@@ -1,7 +1,6 @@
 import { Component, ElementRef, NgZone, ViewChild } from '@angular/core';
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import { TextGeometry, TextGeometryParameters } from 'three/examples/jsm/geometries/TextGeometry';
+import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry';
 import { TTFLoader } from 'three/examples/jsm/loaders/TTFLoader.js'
 import { Font } from 'three/examples/jsm/loaders/FontLoader.js';
 
@@ -48,9 +47,6 @@ export class EmptyTagComponent {
         // renderer.setSize(window.innerWidth/ 7, window.innerHeight/ 7);
       });
 
-      // OBJECT
-      const textureLoader = new THREE.TextureLoader();
-
       const loader = new TTFLoader();
       // Loading the TTF font file from Fontsource CDN. Can also be the link to font file from Google Fonts
       loader.load('https://api.fontsource.org/v1/fonts/lora/latin-600-italic.ttf', (fontData) => {
@@ -64,18 +60,17 @@ export class EmptyTagComponent {
           height: 5,
           curveSegments: 32,
           bevelEnabled: false,
-          bevelThickness: 0.8,
-          bevelSize: 0.8,
-          bevelSegments: 800,
+          bevelThickness: 0.1,
+          bevelSize: 0.1,
+          bevelSegments: 32,
         });
 
         // Create a standard material with red color and 50% gloss
         const material = new THREE.MeshStandardMaterial({
           color: '0x32a883',
-          roughness: 10,
+          roughness: 1,
           wireframe: false,
         });
-
         // Geometries are attached to meshes so that they get rendered
         const textMesh = new THREE.Mesh(textGeometry, material);
         // Update positioning of the text
@@ -92,6 +87,7 @@ export class EmptyTagComponent {
         const animate = function() {
           requestAnimationFrame(animate);
           pivot.rotation.y += 0.01;
+
           renderer.render(scene, camera);
         }
         animate();

@@ -1,8 +1,7 @@
 
 import { Component, ElementRef, NgZone, ViewChild } from '@angular/core';
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import { TextGeometry, TextGeometryParameters } from 'three/examples/jsm/geometries/TextGeometry';
+import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry';
 import { TTFLoader } from 'three/examples/jsm/loaders/TTFLoader.js'
 import { Font } from 'three/examples/jsm/loaders/FontLoader.js';
 
@@ -51,9 +50,6 @@ export class EmptyTagV2Component {
         camera.updateProjectionMatrix();
         camera.updateMatrixWorld();
       });
-
-      // OBJECT
-      const textureLoader = new THREE.TextureLoader();
 
       const loader = new TTFLoader();
       // Loading the TTF font file from Fontsource CDN. Can also be the link to font file from Google Fonts
