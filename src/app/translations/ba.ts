@@ -32,9 +32,9 @@ export const strings = {
 
   // Certificates section
   "certificatesSectionTitle": "Acknowledged <span>expertise</span>",
-  "certificateIssuer": "ISSUER",
-  "certificateTitle": "TITLE",
-  "certificateView": "VIEW",
+  "certificateIssuer": "IZDAVAOC",
+  "certificateTitle": "NASLOV",
+  "certificateView": "POGLEDAJ",
 
   // About section
   "aboutSectionTitle": "Bringing <span>digital</span> visions to <span>life</span>",
@@ -48,29 +48,28 @@ export const strings = {
 
   // Education section
   "educationSectionTitle": "Academic <span>exploration</span>",
-  "educationSectionSubtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam dolore atque, minus, laboriosam nostrum provident, tempore beatae molestias illum necessitatibus ab hic quidem at eligendi cum earum alias vel!",
-  "aubihTitle": "Engineer of Information Technologies",
-  "aubihSubtitle": "American University in Bosnia and Herzegovina",
-  "mssTitle": "Mechanical High School",
-  "mssSubtitle": 'High school "Banovići"',
+  "aubihTitle": "Inžinjer informacionih tehnologija",
+  "aubihSubtitle": "Američki Univerzitet u Bosni i Hercegovini",
+  "mssTitle": "Mašinski tehničar za kompjutersko projektovanje",
+  "mssSubtitle": 'srednja škola "Banovići"',
 
   // Experience section
   "experienceSectionTitle": "Professional <span>symphony</span>",
-  "experienceCompany": "COMPANY",
-  "experienceTitle": "TITLE",
-  "experienceDuration": "DURATION",
-  "experienceView": "VIEW",
-  "experienceViewCompanyButton": "View company",
-  "experienceJobDescription": "Job description",
-  "experienceResponsibilities": "Responsibilities",
+  "experienceCompany": "FIRMA",
+  "experienceTitle": "NASLOV",
+  "experienceDuration": "TRAJANJE",
+  "experienceView": "VIŠE",
+  "experienceViewCompanyButton": "Više informacija",
+  "experienceJobDescription": "Opis posla",
+  "experienceResponsibilities": "Odgovornosti",
 
   // Contact form
-  "contactFormTitle": "Contact me",
-  "contactFormEmail": "Your email:",
-  "contactFormName": "Your name:",
-  "contactFormMessage": "Your message:",
-  "contactFormSendButton": "Send message",
+  "contactFormTitle": "Kontaktirajte me",
+  "contactFormEmail": "Vaš email:",
+  "contactFormName": "Vaše ime:",
+  "contactFormMessage": "Vaša poruka:",
+  "contactFormSendButton": "Pošalji",
 
   // Footer
-  "footerTitle": "Let's <span>build</span> something awesome <span>together</span>",
+  "footerTitle": "Hajde da <span>izgradimo</span> nešto sjajno <span>zajedno</span>",
 }
