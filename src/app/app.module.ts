@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+// import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EmptyTagComponent } from './components/empty-tag/empty-tag.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -32,7 +32,7 @@ import { EmptyTagV2Component } from './components/empty-tag-v2/empty-tag-v2.comp
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    // AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

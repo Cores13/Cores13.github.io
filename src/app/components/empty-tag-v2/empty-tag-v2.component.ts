@@ -24,7 +24,8 @@ export class EmptyTagV2Component {
 
       const renderer = new THREE.WebGLRenderer({
         canvas: this.canvasElementRef.nativeElement,
-        alpha: true
+        alpha: true,
+        antialias: true
       });
 
       renderer.setSize(window.innerWidth / 7, window.innerHeight / 7);
