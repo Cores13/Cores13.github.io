@@ -54,7 +54,8 @@ export class EmptyTagV2Component {
 
       const loader = new TTFLoader();
       // Loading the TTF font file from Fontsource CDN. Can also be the link to font file from Google Fonts
-      loader.load('https://api.fontsource.org/v1/fonts/lora/latin-600-italic.ttf', (fontData) => {
+      loader.load('assets/fonts/Lora/Lora-Regular.ttf', (fontData) => {
+      // loader.load('https://api.fontsource.org/v1/fonts/lora/latin-600-italic.ttf', (fontData) => {
         // Convert the parsed fontData to the format Three.js understands
         const font = new Font(fontData);
 
@@ -72,7 +73,7 @@ export class EmptyTagV2Component {
 
         // Create a standard material with red color and 50% gloss
         const material = new THREE.MeshStandardMaterial({
-          color: '0x32a883',
+          color: 0x32A883,
           roughness: 10,
           wireframe: false,
         });
@@ -98,9 +99,9 @@ export class EmptyTagV2Component {
       });
 
       // LIGHTING
-      const ambientLight = new THREE.AmbientLight(0x32a883);
+      const ambientLight = new THREE.AmbientLight(0x32A883);
       scene.add(ambientLight);
-      const directionalLight = new THREE.DirectionalLight(0x32a883, 4);
+      const directionalLight = new THREE.DirectionalLight(0x32A883, 4);
       scene.add(directionalLight);
       directionalLight.position.set(-22, 0, 0);
 

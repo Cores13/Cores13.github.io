@@ -1,4 +1,4 @@
-import { Component, ElementRef, NgZone, ViewChild } from '@angular/core';
+import { Component, ElementRef, NgZone, ViewChild, Input } from '@angular/core';
 import * as THREE from 'three';
 import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry';
 import { TTFLoader } from 'three/examples/jsm/loaders/TTFLoader.js'
@@ -39,8 +39,10 @@ export class EmptyTagComponent {
       window.addEventListener('resize', () => {
         camera.aspect = window.innerWidth / window.innerHeight;
         if(window.innerWidth <= 600){
+          camera.fov = 120;
           renderer.setSize(window.innerWidth / 2.5, window.innerHeight / 2.5);
         }else if(window.innerWidth > 600 && window.innerWidth <= 900) {
+          camera.fov = 110;
           renderer.setSize(window.innerWidth / 4.5, window.innerHeight / 4.5);
         }
         camera.updateProjectionMatrix();
@@ -50,7 +52,8 @@ export class EmptyTagComponent {
 
       const loader = new TTFLoader();
       // Loading the TTF font file from Fontsource CDN. Can also be the link to font file from Google Fonts
-      loader.load('https://api.fontsource.org/v1/fonts/lora/latin-600-italic.ttf', (fontData) => {
+      loader.load('assets/fonts/Lora/Lora-Regular.ttf', (fontData) => {
+      // loader.load('https://api.fontsource.org/v1/fonts/lora/latin-600-italic.ttf', (fontData) => {
         // Convert the parsed fontData to the format Three.js understands
         const font = new Font(fontData);
 
@@ -59,16 +62,13 @@ export class EmptyTagComponent {
           font: font,
           size: 18,
           height: 5,
-          curveSegments: 32,
-          bevelEnabled: false,
-          bevelThickness: 0.1,
-          bevelSize: 0.1,
-          bevelSegments: 32,
+          curveSegments: 1,
+          bevelEnabled: false
         });
 
         // Create a standard material with red color and 50% gloss
         const material = new THREE.MeshStandardMaterial({
-          color: '0x32a883',
+          color: 0x32A883,
           roughness: 1,
           wireframe: false,
         });
@@ -95,18 +95,14 @@ export class EmptyTagComponent {
       });
 
       // LIGHTING
-      const ambientLight = new THREE.AmbientLight(0x32a883);
+      const ambientLight = new THREE.AmbientLight(0x32A883);
       scene.add(ambientLight);
-      const directionalLight = new THREE.DirectionalLight(0x32a883, 4);
+      const directionalLight = new THREE.DirectionalLight(0x32A883, 4);
       scene.add(directionalLight);
       directionalLight.position.set(-22, 0, 0);
 
       camera.position.z = 35;
-      // if(window.innerWidth <= 1024){
-      //   camera.position.z = 55;
-      // }
       camera.position.y = 8;
-      // orbit.update();
     });
   }
 }

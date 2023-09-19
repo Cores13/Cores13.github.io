@@ -9,7 +9,7 @@ export class CertificatesComponent {
   @Input() strings: any; // decorate the property with @Input()
   @Output() viewCertificateEvent = new EventEmitter<Certificate>();
 
-  certificates: Certificate[] = [
+  certificates = Object.freeze([
     {
       issuer: 'Sophos',
       title: 'Firewall Engineer',
@@ -35,7 +35,7 @@ export class CertificatesComponent {
       title: 'Basic Certification',
       image: 'assets/certificates/3cx.webp'
     },
-  ];
+  ]);
 
   viewCertificate(certificate: Certificate) {
     this.viewCertificateEvent.emit(certificate);

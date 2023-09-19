@@ -1,4 +1,4 @@
-import { Component, ElementRef, NgZone, VERSION, ViewChild } from '@angular/core';
+import { ChangeDetectionStrategy, Component, ElementRef, NgZone, VERSION, ViewChild } from '@angular/core';
 import { Certificate } from './interfaces/certificate';
 import {strings as ba} from './translations/ba';
 import {strings as en} from './translations/en';
@@ -8,7 +8,8 @@ import { ExperienceComponent } from './components/experience/experience.componen
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AppComponent {
   @ViewChild(ExperienceComponent) experienceComponent:ExperienceComponent;
@@ -18,6 +19,7 @@ export class AppComponent {
   githubLogo = 'assets/github.webp';
   strings: any = en;
   experience: Experience = {
+    id: 0,
     company: '',
     title: '',
     from: '',
@@ -66,6 +68,7 @@ export class AppComponent {
     document.querySelector('body')!.style.overflowY = "scroll";
     document.getElementById('experienceContentWrapper')!.style.overflowY = "hidden";
     this.experience = {
+      id: 0,
       company: '',
       title: '',
       from: '',

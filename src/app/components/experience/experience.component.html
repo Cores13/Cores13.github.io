@@ -15,7 +15,7 @@
           <h1 class="experience-duration">{{strings.experienceDuration}}</h1>
           <h1 class="experience-view"></h1>
         </div>
-        <div class="experiences-wrapper" *ngFor="let experience of strings.language == 'en' ? experiences.en : experiences.ba">
+        <div class="experiences-wrapper" *ngFor="let experience of strings.language == 'en' ? experiences.en : experiences.ba; trackBy: trackByFn">
           <div class="experience-wrapper">
             <h1 class="experience-company">{{experience.company}}</h1>
             <h1 class="experience-title">{{experience.title}}</h1>

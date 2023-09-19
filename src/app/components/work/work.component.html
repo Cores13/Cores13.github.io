@@ -14,7 +14,7 @@
         <div class="work-section-content">
           <div class="work-card" *ngFor="let project of projects">
             <a [href]="project.link" target="_blank">
-              <img [src]="project.image" [alt]="project.title + ' image'" class="project-image">
+              <img [src]="project.image" alt="{{project.title}} image" class="project-image" loading="lazy">
               <div class="project-title">
                 <h2>{{project.title}}</h2>
               </div>
