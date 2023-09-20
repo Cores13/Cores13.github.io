@@ -14,6 +14,29 @@ export class ExperienceComponent {
   experiences: Experiences = Object.freeze({
     en: [
       {
+        id: 0,
+        company: 'Purple Matrix',
+        title: 'Full Stack Software Developer',
+        from: 'Apr 2023',
+        to: 'Now',
+        details: {
+          description: "Full stack software development of mobile applications, web applications, web shops, CRMs, magazines and form based websites using React Native, .NET, Laravel, ReactJS, Angular, Blade, TypeScript and JavaScript.",
+          location: 'London (United Kingdom)',
+          responsibilities: [
+            "Development of user interface for web applications using Angular, React, Blade, TypeScript and JavaScript ES6",
+            "Backend development using Laravel and .NET",
+            "User interface development for mobile applications (Android and iOS) using React Native",
+            "Redux state management",
+            "NgRx state management",
+            "JWT Authentication",
+            "Bootstrap, Tailwind and MaterialUI",
+            "MySQL, Microsoft SQL",
+            "Deployment on Azure, Ubuntu and shared hosting (cPanel, plesk)",
+          ],
+          link: "https://purplematrix.co.uk/"
+        }
+      },
+      {
         id: 1,
         company: 'Purple Key',
         title: 'Full Stack Software Developer',
@@ -118,6 +141,27 @@ export class ExperienceComponent {
     ba: [
       {
         id: 5,
+        company: 'Purple Matrix',
+        title: 'Full Stack Software Developer',
+        from: 'Apr 2023',
+        to: 'Sada',
+        details: {
+          description: "Razvoj mobilnih aplikacija, web aplikacija, web trgovina, CRM sustava, časopisa i web stranica temeljenih na obrascima, koristeći React Native, .NET, Laravel, ReactJS, Angular, Blade, TypeScript i JavaScript.",
+          location: 'London (Ujedinjeno Kraljevstvo)',
+          responsibilities: [
+            "Razvoj korisničkog sučelja za web aplikacije koristeći Blade, ReactJS, VueJS, TypeScript i JavaScript ES6",
+            "Backend razvoj koristeći Laravel i .NET",
+            "Razvoj korisničkog sučelja za mobilne aplikacija (Android i iOS) koristeći React Native",
+            "Redux upravljanje stanjem",
+            "Bootstrap, Tailwind i MaterialUI",
+            "MySQL, MongoDB",
+            "Deployment na Azure, Ubuntu i shared hosting (cPanel)",
+          ],
+          link: "https://purplematrix.co.uk/"
+        }
+      },
+      {
+        id: 6,
         company: 'Purple Key',
         title: 'Full Stack Software Developer',
         from: 'Apr 2023',
@@ -138,7 +182,7 @@ export class ExperienceComponent {
         }
       },
       {
-        id: 6,
+        id: 7,
         company: 'Comversum',
         title: 'Rukovodilac IT sektora',
         from: 'Jul 2022',
@@ -173,7 +217,7 @@ export class ExperienceComponent {
         }
       },
       {
-        id: 7,
+        id: 8,
         company: 'Leftor',
         title: 'Full Stack Software Developer',
         from: 'Nov 2021',
@@ -195,7 +239,7 @@ export class ExperienceComponent {
 
       },
       {
-        id: 8,
+        id: 9,
         company: 'Ideaology',
         title: 'Full Stack Blockchain Developer',
         from: 'Maj 2021',
