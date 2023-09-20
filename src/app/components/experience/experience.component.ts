@@ -20,7 +20,7 @@ export class ExperienceComponent {
         from: 'Apr 2023',
         to: 'Now',
         details: {
-          description: "Full stack software development of mobile applications, web applications, web shops, CRMs, magazines and form based websites using React Native, .NET, Laravel, ReactJS, Angular, Blade, TypeScript and JavaScript.",
+          description: "Full stack software development of web applications, web shops, CRMs, magazines, form based applications and enterprise applications using .NET, Laravel, ReactJS, Angular, Blade, TypeScript and JavaScript.",
           location: 'London (United Kingdom)',
           responsibilities: [
             "Development of user interface for web applications using Angular, React, Blade, TypeScript and JavaScript ES6",
@@ -146,7 +146,7 @@ export class ExperienceComponent {
         from: 'Apr 2023',
         to: 'Sada',
         details: {
-          description: "Razvoj mobilnih aplikacija, web aplikacija, web trgovina, CRM sustava, časopisa i web stranica temeljenih na obrascima, koristeći React Native, .NET, Laravel, ReactJS, Angular, Blade, TypeScript i JavaScript.",
+          description: "Razvoj mobilnih aplikacija, web aplikacija, web trgovina, CRM sustava, časopisa, web aplikacija temeljenih na obrascima i poslovnih aplikacija, koristeći .NET, Laravel, ReactJS, Angular, Blade, TypeScript i JavaScript.",
           location: 'London (Ujedinjeno Kraljevstvo)',
           responsibilities: [
             "Razvoj korisničkog sučelja za web aplikacije koristeći Blade, ReactJS, VueJS, TypeScript i JavaScript ES6",
