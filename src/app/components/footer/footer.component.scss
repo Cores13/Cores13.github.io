@@ -84,10 +84,9 @@ footer {
     }
   }
 
-  h2 {
+  h1 {
     margin: 0;
     font-size: 4rem;
-    font-weight: 400;
     font-family: 'Anton', sans-serif;
   }
 
@@ -109,7 +108,7 @@ footer {
 
 @media (max-width: 1024px) {
   footer {
-    h1 {
+    h2 {
       font-size: 5rem;
     }
 
@@ -138,7 +137,7 @@ footer {
 
 @media (max-width: 770px) {
   footer {
-    h1 {
+    h2 {
       width: 70%;
       font-size: 3.5rem;
     }
@@ -185,7 +184,7 @@ footer {
       }
     }
 
-    h2 {
+    h1 {
       font-size: 2.5rem;
     }
 
@@ -201,7 +200,7 @@ footer {
 
 @media (max-width: 426px) {
     footer {
-    h1 {
+    h2 {
       font-size: 2rem;
     }
 
@@ -247,7 +246,7 @@ footer {
       }
     }
 
-    h2 {
+    h1 {
       font-size: 1.5rem;
     }
 

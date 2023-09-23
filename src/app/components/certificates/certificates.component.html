@@ -6,18 +6,18 @@
   <div class="section-right">
     <div class="certificates-section-wrapper">
       <div class="section-title">
-        <h1 [innerHTML]="strings.certificatesSectionTitle"></h1>
+        <h2 [innerHTML]="strings.certificatesSectionTitle"></h2>
       </div>
       <div class="certificates-section-content">
         <div class="certificates-titles">
-          <h1 class="certificate-issuer">{{strings.certificateIssuer}}</h1>
-          <h1 class="certificate-title">{{strings.certificateTitle}}</h1>
-          <h1 class="certificate-view"></h1>
+          <h3 class="certificate-issuer">{{strings.certificateIssuer}}</h3>
+          <h3 class="certificate-title">{{strings.certificateTitle}}</h3>
+          <h3 class="certificate-view"></h3>
         </div>
         <div class="certificates-wrapper" *ngFor="let certificate of certificates">
           <div class="certificate-wrapper">
-            <h1 class="certificate-issuer">{{certificate.issuer}}</h1>
-            <h1 class="certificate-title">{{certificate.title}}</h1>
+            <h3 class="certificate-issuer">{{certificate.issuer}}</h3>
+            <h3 class="certificate-title">{{certificate.title}}</h3>
             <button type="button" class="certificate-view" (click)="viewCertificate(certificate)">{{strings.certificateView}}</button>
           </div>
         </div>

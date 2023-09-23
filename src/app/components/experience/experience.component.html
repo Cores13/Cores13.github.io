@@ -6,20 +6,20 @@
   <div class="section-right">
     <div class="experiences-section-wrapper">
       <div class="section-title">
-        <h1 [innerHTML]="strings.experienceSectionTitle"></h1>
+        <h2 [innerHTML]="strings.experienceSectionTitle"></h2>
       </div>
       <div class="experiences-section-content">
         <div class="experiences-titles">
-          <h1 class="experience-company">{{strings.experienceCompany}}</h1>
-          <h1 class="experience-title">{{strings.experienceTitle}}</h1>
-          <h1 class="experience-duration">{{strings.experienceDuration}}</h1>
-          <h1 class="experience-view"></h1>
+          <h3 class="experience-company">{{strings.experienceCompany}}</h3>
+          <h3 class="experience-title">{{strings.experienceTitle}}</h3>
+          <h3 class="experience-duration">{{strings.experienceDuration}}</h3>
+          <h3 class="experience-view"></h3>
         </div>
         <div class="experiences-wrapper" *ngFor="let experience of strings.language == 'en' ? experiences.en : experiences.ba; trackBy: trackByFn">
           <div class="experience-wrapper">
-            <h1 class="experience-company">{{experience.company}}</h1>
-            <h1 class="experience-title">{{experience.title}}</h1>
-            <h1 class="experience-duration">{{experience.from + " - " + experience.to}}</h1>
+            <h3 class="experience-company">{{experience.company}}</h3>
+            <h3 class="experience-title">{{experience.title}}</h3>
+            <h3 class="experience-duration">{{experience.from + " - " + experience.to}}</h3>
             <button type="button" class="experience-view" (click)="viewExperience(experience)">{{strings.experienceView}}</button>
           </div>
         </div>
