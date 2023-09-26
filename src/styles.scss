@@ -197,7 +197,7 @@ body {
   position: fixed;
   top: 0;
   right: -100vw;
-  width: auto;
+  width: 0;
   height: 100vh;
   background-color: $primary_color;
   transition: all 0.4s;
@@ -206,10 +206,20 @@ body {
   z-index: 10;
   display: flex;
 
+  &.active {
+    right: 0vw;
+    width: auto;
+  }
+
   &.experience {
-    width: 50vw;
+    width: 0;
     min-height: 100vh;
     padding: 0 25px;
+
+    &.active {
+      right: 0vw;
+      width: 50vw;
+    }
 
     .experience-content-wrapper {
       width: 100%;
@@ -277,10 +287,6 @@ body {
   .experience-content-wrapper {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
-  }
-
-  &.active {
-    right: 0vw;
   }
 
   .close-btn {
@@ -761,7 +767,9 @@ footer {
     display: flex;
 
     &.experience {
-      width: 100%;
+      &.active {
+        width: 100%;
+      }
       min-height: 100vh;
       padding: 0;
       .experience-content-wrapper {
@@ -995,7 +1003,9 @@ footer {
     display: flex;
 
     &.experience {
-      width: 100%;
+      &.active {
+        width: 100%;
+      }
       min-height: 100vh;
       padding: 0;
       .experience-content-wrapper {
