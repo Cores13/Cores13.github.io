@@ -41,9 +41,9 @@ export class WorkComponent {
       link: 'https://offroad.ba/'
     },
     {
-      title: 'Vox Magna',
-      image: 'assets/projects/vox_magna.webp',
-      link: 'https://github.com/Cores13/vox-magna'
+      title: 'R3F Website',
+      image: 'assets/projects/r3f.webp',
+      link: 'https://github.com/Cores13/react_three_fiber_website'
     },
     {
       title: 'Cup of Coffee',
