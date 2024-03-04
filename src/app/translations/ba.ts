@@ -38,7 +38,7 @@ export const strings = {
 
   // About section
   "aboutSectionTitle": "Oživljavanje <span>digitalnih</span> vizija ",
-  "aboutMeInfo": `Iskusni Full Stack Web Developer s više od 2 godine praktičnog iskustva. Moje stručnosti obuhvataju širok spektar tehnologija, uključujući <strong>ReactJS, .NET, Laravel, Angular, NodeJS, Blade and TypeScript</strong>.<br /><br />
+  "aboutMeInfo": `Iskusni Full Stack Web Developer s više od 3 godine praktičnog iskustva. Moje stručnosti obuhvataju širok spektar tehnologija, uključujući <strong>ReactJS, .NET, Laravel, Angular, NodeJS, Blade and TypeScript</strong>.<br /><br />
     U području frontend razvoja, odlično se snalazim u izradi dinamičnih i interaktivnih korisničkih sučelja koja unaprjeđuju ukupno korisničko iskustvo. Moja stručnost u Reactu, Angularu i TypeScriptu omogućava mi kreiranje besprijekornih i korisnički prijateljskih aplikacija.
     Na backendu, prosperiram u izgradnji robustnih i skalabilnih rješenja. Koristeći svoje vještine u Node.js-u, Laravelu i .NET-u, osiguravam da su performanse i sigurnost na prvom mjestu u svakom projektu.
     Ovo, zajedno s mojim snažnim rješavanjem problema i analitičkim razmišljanjem, omogućava mi učinkovito rješavanje tehničkih izazova.<br /><br />

@@ -38,7 +38,7 @@ export const strings = {
 
   // About section
   "aboutSectionTitle": "Bringing <span>digital</span> visions to <span>life</span>",
-  "aboutMeInfo": `I'm a seasoned Full Stack Web Developer with over 2 years of hands-on experience. My expertise spans a wide array of technologies, including <strong>ReactJS, .NET, Laravel, Angular, NodeJS, Blade and TypeScript</strong>.<br /><br />
+  "aboutMeInfo": `I'm a seasoned Full Stack Web Developer with over 3 years of hands-on experience. My expertise spans a wide array of technologies, including <strong>ReactJS, .NET, Laravel, Angular, NodeJS, Blade and TypeScript</strong>.<br /><br />
     In the realm of frontend development, I excel in crafting dynamic and interactive user interfaces that elevate the overall user experience. My proficiency in React, Angular, and TypeScript empowers me to create seamless, user-friendly applications.
     On the backend, I thrive in building robust and scalable solutions. Leveraging my skills in Node.js, Laravel, and .NET, I ensure that performance and security are at the forefront of every project.
     This, coupled with my strong problem-solving and analytical thinking, allows me to tackle technical challenges with efficiency.<br /><br />
